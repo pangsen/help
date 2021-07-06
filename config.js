@@ -1,7 +1,7 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/help/",
-		"siteUrl": "https://sbcloud.github.io/help",
+		"siteUrl": "https://sbcloud.github.io/help/",
 		"gaTrackingId": null,
 		"trailingSlash": false
 	},
@@ -60,6 +60,7 @@ const config = {
 		"forcedNavOrder": [
 			"/introduction",
       "/migration",
+      "/network-connect-case",
 			"/NYC-Taxi-tutorial",
       "/usecase-network",
       "/usecase-serverless",
@@ -70,6 +71,7 @@ const config = {
     	"collapsedNav": [
         "/introduction",
         "/migration",
+        "/network-connect-case",
         "/NYC-Taxi-tutorial",
         "/usecase-network",
         "/usecase-serverless",

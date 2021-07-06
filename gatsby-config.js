@@ -101,7 +101,21 @@ const plugins = [
       ],
       extensions: [".mdx", ".md"]
     }
-  }
+  } /*,
+  {
+    resolve: "gatsby-plugin-google-tagmanager",
+    options: {
+      id: "GTM-MQFZWG",
+      includeInDevelopment: false,
+      defaultDataLayer: { platform: "gatsby" },
+      gtmAuth: "dR9hRFwaZ6rvtEo-XzWGnw",
+      gtmPreview: "env-2",
+      dataLayerName: "",
+      routeChangeEventName: "",
+      enableWebVitalsTracking: true,
+    }
+  }*/
+
   /* ToDo: GoogleTagManagerどうするか方向性を決める必要がある
   {
     resolve: `gatsby-plugin-gtag`,
