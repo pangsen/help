@@ -84,10 +84,11 @@ const SidebarLayout = ({ location }) => (
           let innerItems;
 
           if (item !== undefined) {
-            if (
-              item.node.fields.slug === location.pathname ||
-              config.gatsby.pathPrefix + item.node.fields.slug === location.pathname
-            ) {
+            if ((item.node.fields.slug === location.pathname) ||
+                (item.node.fields.slug + '/' === location.pathname) ||
+                (config.gatsby.pathPrefix + item.node.fields.slug) === location.pathname ||
+                (config.gatsby.pathPrefix_remove_slash + item.node.fields.slug) === location.pathname
+                ) {
               if (item.node.tableOfContents.items) {
                 innerItems = item.node.tableOfContents.items.map((innerItem, index) => {
                   const itemId = innerItem.title

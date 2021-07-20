@@ -1,6 +1,7 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/help/",
+    "pathPrefix_remove_slash": "/help",
 		"siteUrl": "https://sbcloud.github.io/help/",
 		"gaTrackingId": null,
 		"trailingSlash": false

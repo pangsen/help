@@ -35,9 +35,15 @@ $ npm install -g gatsby-cli
 $ npm cache clean --force
 $ yarn install
 $ yarn add gatsby-plugin-feed
+$ yarn add gatsby-plugin-react-helmet react-helmet
 $ gatsby clean
 $ gatsby develop
 ```
+
+yarn add gatsby-remark-images-medium-zoom
+yarn add gatsby-remark-images gatsby-transformer-remark
+
+
 
 そのあと、URL `http://localhost:8000/` を開くとサイトが見れます。
 
@@ -59,6 +65,7 @@ $ gatsby develop
 折り返し、上記コマンドにも含まれていますが、このリソースを初めてビルドする場合は、初期設定として以下プラグインが必要です。
 ```
 yarn add gatsby-plugin-feed
+yarn add gatsby-plugin-react-helmet react-helmet
 ```
 
 ### 注意事項
