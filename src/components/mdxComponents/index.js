@@ -27,6 +27,12 @@ export default {
   pre: (props) => <pre className="pre" {...props} />,
   code: CodeBlock,
   a: AnchorTag,
+  img: (props) => (
+    <a href={props.src} target="_blank" rel="noopener noreferrer">
+      <img loading={'lazy'} {...props} />
+    </a>
+  ),
+
   // TODO add `img`
   // TODO add `blockquote`
   // TODO add `ul`

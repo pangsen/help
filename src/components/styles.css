@@ -45,6 +45,14 @@ a {
 body {
   font-family: 'Roboto';
 }
+
+.mainWrapper img {
+  background-color: #f5f7f9;
+  padding: 5px;
+  border-radius: 4px;
+ }
+
+
 .visibleMobile {
   display: none;
 }
