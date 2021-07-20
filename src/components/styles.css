@@ -48,8 +48,8 @@ body {
 
 .mainWrapper img {
   background-color: #f5f7f9;
-  padding: 5px;
-  border-radius: 4px;
+  padding: 1px;
+  border-radius: 1px;
  }
 
 
@@ -230,7 +230,7 @@ a:hover {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #542683;
+  background-color: #17a2b8;
 }
 
 .headerWrapper {
@@ -355,10 +355,10 @@ a:hover {
   border: 0;
   display: flex;
   align-items: center;
-  box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
-  -webkit-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
-  -moz-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.8);
-  -o-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
+  box-shadow: -1px 0px 4px 1px rgba(23, 162, 184, 0.4);
+  -webkit-box-shadow: -1px 0px 4px 1px rgba(23, 162, 184,.4);
+  -moz-box-shadow: -1px 0px 4px 1px rgba(23, 162, 184,.8);
+  -o-box-shadow: -1px 0px 4px 1px rgba(23, 162, 184,.4);
   z-index: 1;
   padding: 5px;
   position: relative;
@@ -511,14 +511,14 @@ blockquote {
 .headerNav {
   font-family: 'Roboto';
   padding: 0px 24px;
-  color: rgb(116, 76, 188);
+  color: #17a2b8;
   font-size: 16px;
   font-weight: 500;
   line-height: 1em;
 }
 
 .headerNav a {
-  color: rgb(116, 76, 188);
+  color: #17a2b8;
   text-decoration: none;
 }
 
@@ -651,7 +651,7 @@ blockquote {
   border-color: rgb(230,236,241) !important;
   border-style: solid none solid solid;
   border-width: 1px 0px 1px 1px;
-  background-color: #542683;
+  background-color: #17a2b8;
   color: #fff;
 }
 
@@ -667,7 +667,7 @@ blockquote {
   font-size: 32px;
   line-height: 1.5;
   font-weight: 500;
-  border-left: 2px solid rgb(116, 76, 188);
+  border-left: 4px solid #17a2b8;
   padding: 0 16px;
   flex: 1;
   margin-top: 0;
@@ -737,7 +737,7 @@ blockquote {
   display: block;
   margin: 0px;
   flex: 1 1 0%;
-  padding: 16px;
+  padding: 5px;
   text-align: right;
 }
 
@@ -807,13 +807,13 @@ blockquote {
 }
 
 .nextBtn:hover, .previousBtn:hover {
-  color: rgb(116, 76, 188);
+  color: #17a2b8;
   text-decoration: none;
-  border: 1px solid rgb(116, 76, 188);
+  border: 1px solid #17a2b8;
 }
 
 .nextBtn:hover .rightArrow, .previousBtn:hover .leftArrow {
-  color: rgb(116, 76, 188);
+  color: #17a2b8;
 }
 
 /* tables.css */
@@ -962,7 +962,7 @@ img {
 .pre {
   font-size: 14px;
   margin: 0px;
-  padding: 16px;
+  padding: 8px;
   overflow: auto;
 }
 
