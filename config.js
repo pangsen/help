@@ -60,6 +60,7 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction",
+      "/advisory",
       "/migration",
       "/network-connect-case",
 			"/NYC-Taxi-tutorial",
@@ -71,6 +72,7 @@ const config = {
 		],
     	"collapsedNav": [
         "/introduction",
+        "/advisory",
         "/migration",
         "/network-connect-case",
         "/NYC-Taxi-tutorial",

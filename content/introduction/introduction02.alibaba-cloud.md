@@ -97,4 +97,5 @@ Alibabaは技術で解決しながら未来を作ることを第一としてい�
 
 参考：
 [Alibaba Cloud Empowers China's Open Source Cloud Computing Communities](https://www.alibabacloud.com/blog/alibaba-cloud-empowers-chinas-open-source-cloud-computing-communities_594061)
-https://www.alibabacloud.com/blog/alibaba-cloud-empowers-chinas-open-source-cloud-computing-communities_594061
+
+

@@ -8,12 +8,9 @@ author: "Hironobu Ohara"
 
 
 ## 他社プロダクト比較
+これはAlibaba Cloud 中国サイト、国際サイト、AWS、GCP、Azureのプロダクトサービス比較表をまとめたものです。　　　
 
-参考：AWS to Azure services comparison
-https://docs.microsoft.com/ja-jp/azure/architecture/aws-professional/services
-
-参考：AWS プロフェッショナルのための Google Cloud Platform
-https://cloud.google.com/docs/compare/aws
+なお2021年6月3日時点での情報となります。
 
 ## コンピューティング（弹性计算）
 |icon|中国サイト|国際サイト|コメント|AWS|Azure|GCP|
