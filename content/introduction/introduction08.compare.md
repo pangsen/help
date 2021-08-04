@@ -197,7 +197,7 @@ author: "Hironobu Ohara"
 |icon|中国サイト|国際サイト|コメント|AWS|Azure|GCP|
 |---|---|---|---|---|---|---|
 |![bigdata_odps.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/355017/ba12e2fe-9d7d-283a-ec35-1029c04f7782.png)|[MaxCompute](https://www.aliyun.com/product/odps)|[MaxCompute](https://www.alibabacloud.com/product/maxcompute)|MaxCompute|Amazon Redshift|Azure SQL Data Warehouse|Google BigQuery|
-|![bigdata_emapreduce.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/355017/cb4082bb-23f6-fce9-60f9-543d078e23e7.png)|[E-MapReduce](https://www.aliyun.com/product/emapreduce)|[E-MapReduce](https://www.alibabacloud.com/products/emapreduce)|E-MapReduce、Hadoopクラスタの展開|Amazon EMR|HD Insight/Azure Databricks|CloudDataproc|
+|![bigdata_emapreduce.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/355017/cb4082bb-23f6-fce9-60f9-543d078e23e7.png)|[E-MapReduce](https://www.aliyun.com/product/emapreduce)|[E-MapReduce](https://www.alibabacloud.com/products/emapreduce)|E-MapReduce、オープンソースプロダクトサービスのマネージドサービス、クラスタの展開|Amazon EMR|HD Insight/Azure Databricks|CloudDataproc|
 |![bigdata_sc.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/355017/831998e0-45b7-4f19-7457-a0d641e6a12b.png)|[实时计算Fink版](https://data.aliyun.com/product/sc)|[Realtime Compute](https://www.alibabacloud.com/products/realtime-compute)|Realtime Compute（元はApache Flink）|Amazon Kinesis|Azure Event Hubs|Cloud Dataflow|
 |![bigdata_hologram.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/355017/89f11ea7-64a4-0ecf-74bb-e9ddd8991266.png)|[Hologres交互式分析](<https://www.aliyun.com/product/hologram>)|[Hologres Interactive Analytics](https://www.alibabacloud.com/product/hologres)||インタラクティブ分析||||
 

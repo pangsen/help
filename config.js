@@ -61,6 +61,7 @@ const config = {
 		"forcedNavOrder": [
 			"/introduction",
       "/advisory",
+      "/product_service",
       "/migration",
       "/network-connect-case",
 			"/NYC-Taxi-tutorial",
@@ -73,6 +74,7 @@ const config = {
     	"collapsedNav": [
         "/introduction",
         "/advisory",
+        "/product_service",
         "/migration",
         "/network-connect-case",
         "/NYC-Taxi-tutorial",
