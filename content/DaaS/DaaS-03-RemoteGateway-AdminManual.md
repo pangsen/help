@@ -1,7 +1,7 @@
 ---
 title: "Remote Gateway - 管理者マニュアル"
-metaTitle: "DaaS Web Document"
-metaDescription: "Remote Gateway - 管理者マニュアル"
+metaTitle: "Remote Gateway Web Document - 管理者マニュアル"
+metaDescription: "Remote Gateway の管理者ユーザー向けマニュアルです。ログイン方法や接続先の設定方法、ユーザーの作成方法などを記載しています。"
 date: "2021-09-02"
 author: "Yoshihiro Matsuda"
 ---
