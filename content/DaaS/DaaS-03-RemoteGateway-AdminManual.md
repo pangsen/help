@@ -192,7 +192,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 ## 4-7.キー設定の確定 
 
-「Shift+TAB」の一番左側が「IME-オン/オフ」になっていることを確認し、OKをクリックします。  
+「Shift + TAB」の一番左側が「IME-オン/オフ」になっていることを確認し、OKをクリックします。  
 
  ![ホーム](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/7.png "ホーム")
 
@@ -206,7 +206,7 @@ OKをクリックします。
 
 ## 5-1.「alt」「ctrl」「shift」によるパネルからの切断(1) 
 
-「alt」「ctrl」「shift」を押下します。  
+「alt」+「ctrl」+「shift」を押下します。  
 
  ![ホーム](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/1.png "ホーム")
 
@@ -239,7 +239,7 @@ OKをクリックします。
 
 ## 6-3.ログアウト画面 
 
-「ログアウト」をクリックすることでRemoteGatewayからログアウトします。  
+「ログアウト」をクリックすることで Remote Gateway からログアウトします。  
 「ホーム」をクリックすることでホーム画面に移動します。  
 
  ![ホーム](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/3.png "ホーム")
@@ -265,7 +265,7 @@ OKをクリックします。
 - 「入力オーディオ(マイク)の有効化」にチェック
 - 「ドライブの有効化」にチェック
 - ドライブ名に「RG」を入力
-- ドライブパスに「/opt/guac_drive」を入力
+- ドライブパスに「/opt/guac_drive/${GUAC_USERNAME}」を入力
 - 「ドライブの自動作成」にチェック
 
 「スクリーンレコーディング」までスクロールします。
@@ -277,7 +277,7 @@ OKをクリックします。
 「スクリーンレコーディング」にて以下を入力する。  
 
 - ログ保存ディレクトリに `/opt/guac_record/screenrecording/` を入力  
-- ログファイル名に `\${GUAC_DATE}-\${GUAC_TIME}\_DaaS接続の名前\_\${GUAC_USERNAME}.record` を入力  
+- ログファイル名に `${GUAC_DATE}-${GUAC_TIME}_${GUAC_USERNAME}.record` を入力  
 
 ページ下部までスクロールします。
 
