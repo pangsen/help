@@ -7,42 +7,42 @@ const config = {
 		"trailingSlash": false
 	},
 	"header": {
-		"title": "<a href='https://sbcloud.github.io/help/'><img class='img-responsive' src='https://raw.githubusercontent.com/ohiro18/ts.dev/master/src/components/images/TechnicalSite_4.png' alt='Learn logo' /></a>",
+		"title": "<a href='https://sbcloud.github.io/help/'><img class='img-responsive' src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/TechnicalSite_5.png' alt='Learn logo' /></a>",
 		"githubUrl": "https://sbcloud.github.io/help/",
 		"helpUrl": "",
 		"tweetText": "",
     "social": `<li>
     <a href="https://twitter.com/sbcloud_pr" target="_blank" rel="noopener">
       <div class="twitterBtn">
-        <img src='https://raw.githubusercontent.com/ohiro18/ts.dev/master/src/components/images/twitter-brands-block.svg' alt={'Twitter'}/>
+        <img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/twitter-brands-block.svg' alt={'Twitter'}/>
       </div>
     </a>
         </li>
         <li>
     <a href="https://www.facebook.com/SBCloud/" target="_blank" rel="noopener">
       <div class="twitterBtn">
-        <img src='https://raw.githubusercontent.com/ohiro18/ts.dev/master/src/components/images/facebook.svg' alt={'facebook'}/>
+        <img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/facebook.svg' alt={'facebook'}/>
       </div>
     </a>
   </li>
   <li>
     <a href="https://www.youtube.com/channel/UCLI7MTGFxKxjsEUH-oNvy8w" target="_blank" rel="noopener">
       <div class="twitterBtn">
-        <img src='https://raw.githubusercontent.com/ohiro18/ts.dev/master/src/components/images/youtube.svg' alt={'youtube'}/>
+        <img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/youtube.svg' alt={'youtube'}/>
       </div>
     </a>
   </li>
   <li>
     <a href="https://www.slideshare.net/sbcloud" target="_blank" rel="noopener">
       <div class="twitterBtn">
-        <img src='https://raw.githubusercontent.com/ohiro18/ts.dev/master/src/components/images/slideshare.svg' alt={'slideshare'}/>
+        <img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/slideshare.svg' alt={'slideshare'}/>
       </div>
     </a>
   </li>
   <li>
   <a href="https://sbcloud.github.io/help/rss.xml" target="_blank" rel="noopener">
     <div class="twitterBtn">
-      <img src='https://raw.githubusercontent.com/ohiro18/ts.dev/master/src/components/images/rss.svg' alt={'RSS'}/>
+      <img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/rss.svg' alt={'RSS'}/>
     </div>
   </a>
 </li>`,
