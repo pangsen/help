@@ -68,3 +68,171 @@ https://www.alibabacloud.com/help/doc-detail/102544.htm
 
 ⑦下記のような画面が表示されましたら、接続が成功になります。  
 ![15](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_015.jpg)
+
+## 2. 基本操作
+## 2.1. Alibaba Cloudコンソールにログイン
+## 2.1.1 
+下記urlへアクセスしてRAMユーザーのログインを行います。  
+ https://signin-intl.aliyun.com/login.htm  
+※ルートアカウントでログインする場合は、画面右上の「AlibabaCloudアカウントへログイン」をクリックしてログインします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-02-15-33-16.png)
+
+## 2.1.2  
+RAMアカウントのユーザー名を入力して、「次へ」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-02-15-34-00.png)
+
+## 2.1.3  
+パスワードを入力して、「ログインする」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-02-15-34-21.png)
+
+## 2.1.4  
+RAMアカウントのMFA認証が有効になっている場合、MFAセキュリティコードを入力して、「確認の送信」をクリックします。  
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-02-15-34-52.png)
+  
+## 2.1.5  
+Alibaba Cloudのコンソール画面が表示されます。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-02-15-35-34.png)
+
+## 2.2 ECSコンソールアクセス手順
+## 2.2.1
+画面左上のオレンジボタンをクリックして、「Elastic Clompute Service」を選択します。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-05-18-45-40.png)
+
+## 2.2.2
+ECSコンソール画面へアクセルできます。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-05-19-39-11.png)
+
+## 3. その他の手順
+## 3.1. マイク使用手順
+## 3.1.1
+リモートデスクトップ接続画面を開き、接続先IPアドレスを入力します。  
+「オプションの表示」をクリックします
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-13-54-16.png)
+
+## 3.1.2
+「ローカルリソース」タブを押下し、「リモートオーディオ」の「設定」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-17-13-38.png)
+
+## 3.1.3
+①「リモートオーディオ再生」にて、「このコンピュータで再生する」を選択します。  
+②「リモートオーディオ録音」にて、「このコンピュータから録音する」を選択します。  
+③「OK」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-17-15-05.png)
+
+## 3.1.4
+「ローカルデバイスとリソース」にて、「詳細」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-44-37.png)
+
+## 3.1.5
+「ビデオキャプチャデバイス」を展開して、「Integrated Camera」を選択します。  
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-49-00.png)
+
+## 3.1.6
+設定を確認して、「接続」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-52-01.png)
+
+## 3.1.7
+パスワードを入力し、次へ進めます。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-53-15.png)
+
+## 3.1.8
+証明書確認の画面にて、「はい」を選択します。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-54-42.png)
+
+## 3.1.9
+Windowsにログイン後、画面左下のWindowsボタンをクリックし、歯車の設定ボタンを開きます。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-55-26.png)
+
+## 3.1.10
+「プライバシー」を選択します。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-56-18.png)
+
+## 3.1.11
+左ペンにて「アプリのアクセス許可」→「カメラ」を選択し、  
+「アプリがカメラにアクセスできるようにする」をオンにします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-56-59.png)
+
+## 3.1.12
+左ペンにて「アプリのアクセス許可」→「マイク」を選択し、  
+「アプリがマイクにアクセスできるようにする」をオンにします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-07-18-58-55.png)
+
+## 3.2. WARP使用手順
+
+## 3.2.1
+タスクバーの虫眼鏡から「server」と検索し、表示される「サーバーマネージャー」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-23-11.png)
+
+## 3.2.2
+「管理」＞「役割と機能の追加」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-29-18.png)
+
+## 3.2.3
+「次へ」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-29-45.png)
+
+## 3.2.4
+そのまま「次へ」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-30-46.png)
+
+## 3.2.5
+対象サーバーを確認し、「次へ」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-33-00.png)
+
+## 3.2.6
+「サーバの役割と機能の選択」画面にて、そのまま「次へ」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-33-18.png)
+
+## 3.2.7
+機能をプルダウンして「ワイヤレスLANサービス」にチェックを入れて「次へ」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-33-49.png)
+
+## 3.2.8
+「インストール」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-35-57.png)
+
+## 3.2.9
+インストールが完了したら「閉じる」をクリックし、インスタンスを再起動します。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-36-26.png)
+
+## 3.2.10
+再起動後、OSにログインして、http://1.1.1.1 にアクセスし、Windows版のインストーラをダウンロードします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-37-30.png)
+
+## 3.2.11
+インストーラを起動します。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-37-42.png)
+
+## 3.2.12
+「Next」をクリックします。
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-38-12.png)
+
+## 3.2.13
+「Install」をクリックします。  
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_016.PNG)
+
+## 3.2.14
+インストールが完了したら「Finish」をクリックします。  
+![](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/2021-07-06-19-39-00.png)
+
+## 3.2.15
+タスクバー右下の矢印をクリックして、雲マークのアイコンをクリックします。  
+![17](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_017.PNG)
+
+## 3.2.16
+「次へ」をクリックします。  
+![18](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_018.PNG)
+
+## 3.2.17
+「同意する」をクリックします。  
+![19](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_019.PNG)
+
+## 3.2.18
+WARPのスイッチをクリックしてオンにします。  
+![20](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_020.PNG)
+
+## 3.2.19
+WARP接続の状態で、楽天市場等のサイトがアクセスできます。  
+![21](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-01-Manual/image_021.PNG)
+
+
