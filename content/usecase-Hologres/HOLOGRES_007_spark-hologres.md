@@ -273,7 +273,7 @@ Alibaba Cloudが提供するSpark SDK](https://www.alibabacloud.com/help/doc-det
 
 関連する紹介やデモコードは[Git aliyun-emapreduce-datasources](https://github.com/aliyun/aliyun-emapreduce-datasources/tree/master-2.x/emr-logservice)や[Git aliyun-emapreduce-demo](https://github.com/aliyun/aliyun-emapreduce-demo)で入手できます。     
 
-> https://github.com/aliyun/aliyun-emapreduce-dem
+> https://github.com/aliyun/aliyun-emapreduce-demo
 
 
 Apache Spark SDKにより、DataStreamReaderがログサービスを `loghub` というフォーマットで認識するようになりました。Pythonの使い方については<https://github.com/aliyun/aliyun-emapreduce-datasources/blob/main/docs/how_to_run_spark_with_python_sdk.md>を参照してください。     

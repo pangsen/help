@@ -549,7 +549,7 @@ SSLクライアント証明書が作成されたことを確認します。
 
 それでは接続元となるクライアントPC側の作業を行います。
 
-今回はMacをクライアントPCとして接続確認を行いたいと思います！
+今回はMacをクライアントPCとして接続確認を行いたいと思います。    
 
 
 
@@ -625,7 +625,7 @@ pingコマンドで通信可能なことを確認し、リモートデスクト�
 
 まずはpingコマンドによる疎通確認を行います。
 
-以下のコマンドを実行してみましょう！
+以下のコマンドを実行してみます。     
 
 ※$PRIVATE_IP_ADDRESS はECSインスタンス作成時に控えたプライベートIPアドレスです。
 
@@ -639,7 +639,7 @@ ping $PRIVATE_IP_ADDRESS
 
 
 
-通信可能なことが確認できました！
+通信可能なことが確認できました。     
 
 
 
@@ -651,9 +651,7 @@ ping $PRIVATE_IP_ADDRESS
 
 任意のRDPクライアントを起動してください。
 
-今回はMicrosoft Remote Desktopアプリを使用します。 
-
-※Microsoft Remote Desktopアプリは[こちら](https://apps.apple.com/jp/app/microsoft-remote-desktop/id715768417?ign-mpt=uo%3D4&mt=12)からダウンロード可能です。
+今回はMicrosoft Remote Desktopアプリを使用します。     
 
 アプリを起動し、画面左上の`+`をクリックします。
 
@@ -693,7 +691,7 @@ User nameは`administrator`を入力し、PasswordはECSインスタンス作成
 
 
 
-リモートデスクトップ接続が成功しました！
+リモートデスクトップ接続が成功しました。     
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613453327100/20191018155734.png "img")
 

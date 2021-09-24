@@ -97,7 +97,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="Fluentdでnginxログを連携"
     metaDescription="FluentdでnginxアクセスログをClickHouseへデータ連携する方法"
-    url="https://sbcloud.github.io/help/usecase-ClickHouse/ACH_007_nginx-fluentd-clickhous"
+    url="https://sbcloud.github.io/help/usecase-ClickHouse/ACH_007_nginx-fluentd-clickhouse"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613800266700/20210823154316.png"
     date="2021/08/10"
     author="Hironobu Ohara"

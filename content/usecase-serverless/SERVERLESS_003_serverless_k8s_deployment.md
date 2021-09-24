@@ -204,10 +204,9 @@ knativeがクラスタにデプロイされた後、それを使うことで、 
 <CommunityAuthor 
     author="Bob Bao"
     self_introduction = "2017年よりAlibaba Cloudサービスに携わる。ETL、ビッグデータ、サーバーレスが得意。PythonやJavaでのプログラミング経験豊富。AlibabaCloud Expert"
-    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/lADPDg7mPcYJwSfNA-jNA-g_1000_1000.jpg"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/bob_icon.jpg"
     githubUrl="https://github.com/bwbw723"
 />
-
 
 
 

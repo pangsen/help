@@ -608,7 +608,7 @@ Bastionhostを利用することでユーザやグループごとのアクセス
 
 ![20200828114739](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-security/Security_images_26006613606632100/20200828114739.png "20200828114739")
       
-ぜひBastionhostの導入をご検討ください！
+ぜひBastionhostの導入をご検討頂ければ幸いです。     
 
 
 

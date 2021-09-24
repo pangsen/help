@@ -48,7 +48,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="ElasticSearchでテキスト分類実践編"
     metaDescription="ElasticSearchのテキスト分類実装編"
-    url="https://sbcloud.github.io/help/usecase-Elasticsearch/ELASTICSEARCH_002_Text_Classification_Implementatio"
+    url="https://sbcloud.github.io/help/usecase-Elasticsearch/ELASTICSEARCH_002_Text_Classification_Implementation"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Elasticsearch/Elasticsearch_images_26006613646127600/20201028134827.png"
     date="2020/11/27"
     author="magic929"

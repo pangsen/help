@@ -12,10 +12,6 @@ import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 Alibaba Cloudで最初に把握したいことは、アカウント、AccessKey（AK）、課金について です。   
 
-* [アカウント](https://sbcloud.github.io/help/advisory/1.basic_concept#%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88)
-* [AccessKey（AK）](https://sbcloud.github.io/help/advisory/1.basic_concept#accesskey%EF%BC%88ak%EF%BC%89)
-* [課金について](https://sbcloud.github.io/help/advisory/1.basic_concept#%E8%AA%B2%E9%87%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
-
 
 ---
 ---

@@ -108,7 +108,7 @@ status = 0  | SELECT location as "場所", count(1) as "異常件数" GROUP BY l
 ### DataVと連携
 次に、DataVのデータソースとしてLogServiceを登録していきます。   
 データソースタイプでSLS(LogService)を選択し、必要な情報を入力します。   
-EndPointには、http://またはhttps://をつける必要があることにご注意ください！
+EndPointには、http://またはhttps://をつける必要があることにご注意ください。    
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-LogService/LogService_images_26006613546225700/20200409110118.jpg "img")
 

@@ -10,8 +10,9 @@ author: "Hironobu Ohara"
 
 &nbsp; 前章までは Terraformのインストール方法、Terraformの文法、実行方法を説明しました。しかしこれらは`Terraform v0.11.13`前提での話なので、Terraformのバージョンが違うことで挙動が異なってしまうこともあります。Terraformでよく使うメソッドが急に廃止、、というのもよくあります。それを防ぐためにdockerを使ったインストール、利用する方法があります。dockerはパッケージングを行うための技術です。
 
-**注：Terraformのバージョン食い違いは基本的に[tfenv](https://github.com/tfutils/tfenv)でカバーできます。詳しくは[インストール](docs/3/install.md)を参照してください*
+**注：Terraformのバージョン食い違いは基本的に[tfenv](https://github.com/tfutils/tfenv)でカバーできます。詳しくは[インストール](https://sbcloud.github.io/help/Terraform/Terraform01.install)を参照してください*
 
+> https://sbcloud.github.io/help/Terraform/Terraform01.install
 # 1. dockerについて
 &nbsp; dockerはOS・ミドルウェア・ファイルシステム全体をイメージという単位で取り扱い、まるごとやりとり出来るツールです。また、イメージの配布やバージョン管理も可能です。メリットとして、手軽に同じ環境を何人のユーザ・ユーザ・他のマシンでも手に入れることができ、即座に同環境を再現（ CI (Continuous Integration) 継続的インテグレーションと CD (Continuous Delivery) 継続的デリバリー ）することができます。
 また、dockerはTerraformで大きく３つの役割があり、Terraformのインストールや実行環境の再現、各種リソースの接続設定、docker Imageを使った既存のプロダクトリソースをそのまま導入することが可能です。（docker Imageとは、dockerコンテナを作成する際に必要となるファイルシステムです。）

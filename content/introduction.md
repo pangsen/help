@@ -31,8 +31,7 @@ Alibaba Cloudは AWS、GCP、Azureなどの大手クラウドサービスと比�
 Alibaba Cloudに触れたことのない方には、このサイトを参考にしつつ、まずは触ってみて体感することを踏まえ、多くのプロダクトサービスを活用できればと願っています。   
 
 2021年6月15日   
-SBクラウド株式会社   
-クラウドエンジニア Hironobu Ohara   
+大原 陽宣（Hironobu Ohara）    
 
 <CommunityAuthor 
     author="Hironobu Ohara"

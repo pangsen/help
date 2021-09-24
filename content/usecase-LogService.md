@@ -51,7 +51,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="SDKでTwitterデータを収集"
     metaDescription="SDKでTwitterデータを収集するLogService"
-    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_002_twitter-on-logservic"
+    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_002_twitter-on-logservice"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-LogService/LogService_images_26006613654233400/20201215140931.png"
     date="2020/12/29"
     author="Hironobu Ohara/大原 陽宣"
@@ -97,9 +97,9 @@ query MyQuery {
 
 
 <Titlelist 
-    metaTitle="実運用を想定した構成 Part1"
+    metaTitle="実運用を想定した構成 Part2"
     metaDescription="実運用を想定したAlibaba CloudのLogService構成を考えてみる～ログ検索編①～"
-    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_007_Actual_Operation_part1"
+    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_008_Actual_Operation_part2"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-LogService/LogService_images_26006613376466800/20190724155702.png"
     date="2019/07/26"
     author="SBC engineer blog"
@@ -107,9 +107,9 @@ query MyQuery {
 
 
 <Titlelist 
-    metaTitle="実運用を想定した構成 Part2"
+    metaTitle="実運用を想定した構成 Part3"
     metaDescription="実運用を想定したAlibaba CloudのLogService構成を考えてみる～ログ検索編②～"
-    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_008_Actual_Operation_part2"
+    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_009_Actual_Operation_part3"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-LogService/LogService_images_26006613403075200/20190823150645.png"
     date="2019/08/27"
     author="SBC engineer blog"

@@ -1,5 +1,5 @@
 ---
-title: "実運用を想定した構成 Part1"
+title: "実運用を想定した構成 Part2"
 metaTitle: "実運用を想定したAlibaba CloudのLogService構成を考えてみる～ログ検索編①～"
 metaDescription: "実運用を想定したAlibaba CloudのLogService構成を考えてみる～ログ検索編①～"
 date: "2019-07-26"

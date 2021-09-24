@@ -269,9 +269,10 @@ if __name__ == "__main__":
   app.run()
 
 ```
-LineBotの部分の説明は[こちらの記事](https://sbcloud.github.io/help/usecase-AI/Using_Alibaba_Cloud_Image_Search_Service_Easily_with_LineBot+ImageSearch) をご参照ください。     
 
-> https://sbcloud.github.io/help/usecase-AI/Using_Alibaba_Cloud_Image_Search_Service_Easily_with_LineBot+ImageSearch
+LineBotの部分の説明は[こちらの記事](https://sbcloud.github.io/help/usecase-AI/AI_004_LineBot_imagesearch_demo) をご参照ください。     
+
+> https://sbcloud.github.io/help/usecase-AI/AI_004_LineBot_imagesearch_demo
 
 
 具体的な説明を省いて、AlibabaIoTPlatformと通信の際の注意点のみ紹介させていただきます。    

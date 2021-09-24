@@ -193,7 +193,7 @@ if __name__ == "__main__":
 
 ## ⑤作成したプログラムをECSにデプロイし、実行します。
 
-## ⑥最後はLineDevelopersのWebHookURLに今回公開するサイトのURLを登録して構築完了です！
+## ⑥最後はLineDevelopersのWebHookURLに今回公開するサイトのURLを登録して構築完了です
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613527341000/20200228151239.png "参照")
 

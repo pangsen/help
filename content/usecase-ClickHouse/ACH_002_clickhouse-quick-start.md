@@ -177,8 +177,6 @@ CREATE TABLE sls_test_d ON CLUSTER default as sls_test_local ENGINE = Distribute
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160006.png "img")
 
-![Download Client](./08_Download_Client_01.png "Client 01")
-
 ②20.8.3.18のインストールファイルをダウンロードします。     
 
 ```

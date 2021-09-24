@@ -58,10 +58,10 @@ vvap-northeast-1|10.0.0.0/8|10.20.128.0/24|ap-northeast-1a|メール送受信元
 
             
 ## CEN設定  
-前回のCENを継続使用しています。  
+前回のCENを継続使用します。  
 詳細は以下をご確認ください。  
 
-> https://sbcloud.github.io/help/usecase-network/About_the_Japan-China_mail_proxy_using_CEN_1
+> https://sbcloud.github.io/help/usecase-network/NETWORK_003_cen-mail_part1
 
 
 

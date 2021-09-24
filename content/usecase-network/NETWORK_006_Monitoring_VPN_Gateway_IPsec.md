@@ -14,7 +14,7 @@ author: "SBC engineer blog"
 ## 構成概要 
 
 今回はVPN Gatewayと拠点ルータをIPsecで接続し、Cloud Monitorで監視と通知を実現します。  
-Cloud MonitorはAlibaba Cloud上で無料で利用できます！
+Cloud MonitorはAlibaba Cloud上で無料で利用できます。    
 
 
 ![基本構成](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613628628000/20200916165522.png "基本構成")

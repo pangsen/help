@@ -19,7 +19,7 @@ Alibaba Cloudが展開しているMLaaS（Machine Learning as a Service）であ
 そのため、未経験で機械学習を始めると形にするまでとても先が長いように感じます。  
 
 しかし、PAIを利用すれば機械学習専門のエンジニアでなくても比較的容易に製品の推奨、財務リスク管理、画像識別、音声認識などのサービスを迅速に構築し、人工知能を実装することが可能です。  
-なぜなら、PAIでは<b><span style="color: #ff0000">機械学習に必要なアルゴリズムがモジュール化されているのでコードを書く必要がなく、GUIによる直感的な設定が可能</span></b>だからです！
+なぜなら、PAIでは<b><span style="color: #ff0000">機械学習に必要なアルゴリズムがモジュール化されているのでコードを書く必要がなく、GUIによる直感的な設定が可能</span></b>です。     
 
 
 #### PAIの構成
@@ -203,7 +203,7 @@ MaxComputeの課金タイプが選択できない場合はMaxComputeを有効化
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613482349500/20191217140627.png "img")
 
 
-5分ほどですべて完了しました！！
+5分ほどですべて完了しました。    
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613482349500/20191217140801.png "img")
 
@@ -421,7 +421,7 @@ jaccardは、集合Aと集合Bの類似度を<b>集合ABどちらかもしくは
 
 
 `View Data`でコンポーネントの処理結果を参照します。  
-どのユーザにどの商品をレコメンドするのかを導き出すことができました！
+どのユーザにどの商品をレコメンドするのかを導き出すことができました。    
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613482349500/20191217183725.png "img")
 
@@ -503,7 +503,7 @@ jaccardは、集合Aと集合Bの類似度を<b>集合ABどちらかもしくは
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613482349500/20191218120009.png "img")
 
 `View Data`でコンポーネントの処理結果を参照します。  
-各ユーザがレコメンド対象商品を7月以降に購入したかどうかがわかりました！
+各ユーザがレコメンド対象商品を7月以降に購入したかどうかが判明しました。    
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613482349500/20191218120204.png "img")
 

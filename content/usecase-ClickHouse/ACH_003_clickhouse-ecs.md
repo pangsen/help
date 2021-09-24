@@ -29,9 +29,9 @@ ClickHouseは非集計データを含む大量のデータを安定的かつ継�
 
 # 1.ClickHouseを準備する
 ## 1-1.ClickHouseインスタンスを準備する
-この手法は[過去の記事](https://sbcloud.github.io/help/usecase-ClickHouse/How_to_connect_to_ApsaraDB_for_ClickHouse)でも記載していますが、再掲として記載します。
+この手法は[過去の記事](https://sbcloud.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start)でも記載していますが、再掲として記載します。
 
-> https://sbcloud.github.io/help/usecase-ClickHouse/How_to_connect_to_ApsaraDB_for_ClickHouse
+> https://sbcloud.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start
 
 
 1）まずはApsaraDB for ClickHouseインスタンスを作成します。     
@@ -96,7 +96,6 @@ Click House version :20.8.7.15
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160006.png "img")
 
-![Download Client](./08_Download_Client_01.png "Client 01")
 
 ②20.8.3.18のインストールファイルをダウンロードします。     
 ```

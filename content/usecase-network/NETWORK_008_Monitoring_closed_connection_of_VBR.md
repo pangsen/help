@@ -16,7 +16,7 @@ author: "SBC engineer blog"
 例ではソフトバンクが提供している「<a href="https://www.softbank.jp/biz/nw/nwp/cloud_access/direct_access_for_alibaba/" target="_blank" >ダイレクトアクセス for Alibaba Cloud</a>」を使って閉域網サービスである「SmartVPN」に接続し、拠点オフィスまでの通信を実現しています。
 
 VBRから閉域網まではMain/Backupの冗長構成です。ヘルスチェックパケットはCENか
-らVBRを通ってPEルータまで送信し、Cloud Monitorを使ってVBRの監視とアラート通知をさせます。Cloud Monitorは無料で利用可能です！
+らVBRを通ってPEルータまで送信し、Cloud Monitorを使ってVBRの監視とアラート通知をさせます。Cloud Monitorは無料で利用することができます。     
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613634958700/20201006112158.png "img")
 

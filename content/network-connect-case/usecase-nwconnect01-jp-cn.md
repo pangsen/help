@@ -58,7 +58,7 @@ https://www.alibabacloud.com/help/doc-detail/59870.htm
  - シンプルなインフラコードを実現したい
 
 ### 構成イメージ
-![CEN構成例](../imgs/img.png)
+![CEN構成例](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/img.png "CEN構成例")
 
 
 ### Alibaba Cloud以外のパブリッククラウドとの接続
