@@ -32,7 +32,7 @@ Relational Database Service（RDS）も同じく、AWSのRDSはCPUやRAMなど�
 
 Alibaba Cloudは、フルマネージド型サービスとしてシンプルに素早く展開できるよう、未来の新しいエンジニアやユーザーのために学習コストや労力を限りなくゼロにするように、技術だけで様々な施策が行われています。   
 
-![フルマネージド型サービス](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.1.1.png "フルマネージド")
+![フルマネージド型サービス](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.1.1.png "フルマネージド")
 
 
 
@@ -45,15 +45,15 @@ Alibaba Cloudによるクラウドサービスの初期構想を作り、立ち�
 
 実際、SBCがクラウドコンピューティングに対するベンチマークをとったところ、AWS、GCP、Azureクラウドサービス比較でNo.1のコストパフォーマンスを出しています。   
 
-![ECS](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.2.1.PNG "ECS")
+![ECS](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.2.1.PNG "ECS")
 
-![ECS](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.2.2.PNG "ECS")
+![ECS](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.2.2.PNG "ECS")
 
-![ECS](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.2.3.PNG "ECS")
+![ECS](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.2.3.PNG "ECS")
 
-![ECS](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.2.4.PNG "ECS")
+![ECS](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.2.4.PNG "ECS")
 
-![ECS](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.2.5.PNG "ECS")
+![ECS](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.2.5.PNG "ECS")
 
 
 他、PolarDB、Hologres、MaxCompute、Elasticsearch、Cloud Enterprise Networkなど、他プロダクトサービスも、最小限の構成で最大限のパフォーマンスを得るようになっていますので、他社プロダクトサービスと比較してかなり安いのが特徴です。   
@@ -83,14 +83,14 @@ Alibabaは最初はOracleやMySQLなどのベンダーシステムに依存し�
 しかし、データ量の増加に伴う処理遅延、ユーザーのワークロードに応じたスケーリングが出来ないこと、運用負荷、容量の上限とコスト問題といった課題に悩まされました。   
 そのため、Alibabaはクラウドをベースとした、ApsaraDB for PolarDBをはじめとするクラウドネイティブデータベースを次々とリリースしています。   
 
-![PolarDB](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.0.PNG "PolarDB")
+![PolarDB](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.0.PNG "PolarDB")
 
 クラウドネイティブデータベースは、クラウド環境をフルに生かしながら、ユーザーのワークロードに応じて自動スケーリングするなど、低コストで適切なアプリケーション・パフォーマンスを提供することです。   
 そのため、往来のようにデータベース選定時Spec調整や、運用中にSpec変更作業といったサイジングに悩まされることはありません。   
    
 実際に、Alibaba Cloud ApsaraDB for PolarDB へマイグレーションして70%もコストを削減した多くの事例があります。   
 
-![PolarDB](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.1.png "PolarDB")
+![PolarDB](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.1.png "PolarDB")
 
 
 
@@ -102,30 +102,30 @@ Alibaba Cloudが独自に開発したLogService、MaxCompute、Hologresと呼ぶ
 
 MaxComputeはコンピューティングとストレージを分離した構成でMapReduceアーキテクチャを持つため、ストレージ層はデータを高圧縮しながら保持、コンピューティング層はSQLクエリなどを投与時、処理リソースに応じてクラウドサービスとして瞬時スケーリングするため、低コストながら処理パフォーマンスが非常に高いです。   
 
-![MaxCompute](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.3.png "MaxCompute")
+![MaxCompute](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.3.png "MaxCompute")
 
 
 現に、MaxComputeは、[TPC-BBというビッグデータのベンチマークテスト](http://tpc.org/tpcx-bb/results/tpcxbb_perf_results5.asp) で圧倒的なコストパフォーマンスを記録しています。これはスペックやノード台数などを追及したらパフォーマンスが向上するが、トレードオフ問題としてコストが増加するという観点からみれば、本当にすごいことです。実際、AWS Redshift、GCP BigQuery、Azure Synapse Analyticsですら、低コストでこれだけのパフォーマンスを発揮することが出来ないので評価対象外になっています。例えば、GCP BigQueryでは10TBを超えるデータのスキャンやクエリ処理は制限事項となっています。   
 
 他社クラウドサービスのDWH基盤に対し毎月500万円、1000万円払っているものは、Alibaba Cloud MaxComputeに切り替えるだけでコストは半分以下に抑制できるのも不可能ではないです。実際MaxComputeへシフトすることで、DWH運用コストを70%削減したお客様の事例もあります。   
 
-![MaxCompute](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.2.png "MaxCompute")
+![MaxCompute](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.2.png "MaxCompute")
 
 
 続いて、MaxComputeが大規模データの加工処理を含めたDWHとしたら、リアルタイムDWHがHologresです。   
 Hologresはバッチ処理とリアルタイム処理の両方をサポートするDWHなので、MaxComputeのテーブルを対象にSQL分析することや、ストリーミングで入ってくるデータをそのままSQL分析することが出来ます。   
 
-![Hologres](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.5.png "Hologres")
+![Hologres](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.5.png "Hologres")
 
 これはデータ移動に伴うコストや時間を削減すると同時に、分析対象となる「母集団」からデータ容量制限を気にすることなく分析することができるので、非常に大きいです。   
 もちろん、SQL分析するだけでなく、Upsert（Update、Insert、Delete）処理することもできます。GCP BigQueryは削除処理に制限事項があり苦労しますが、Hologresだとスムーズに削除することができます。   
 
-![Hologres](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.6.png "Hologres")
+![Hologres](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.6.png "Hologres")
 
 
 また、HologresはApacheのコアコミッター数十名によって設計・開発されたもので、その処理パフォーマンス・コストは他DWHと比較してNo.1の実績を持ちます。Alibaba Cloudは「技術で解決する」ことをモットーとしているため、Azure Synapse Analyticsなど他社クラウドサービスに導入されてるApacheソフトウェアを一から設計・開発するほど超越した技術力を持つメンバーたちによって開発されたプロダクトサービスです。そのため、Hologresは他社クラウドサービスより速く、安いのが大きな特徴です。   
 
-![Hologres](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.5.4.png "Hologres")
+![Hologres](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.5.4.png "Hologres")
 
 
 
@@ -133,11 +133,11 @@ Hologresはバッチ処理とリアルタイム処理の両方をサポートす
 
 前章で紹介したように、Alibabaは、Alibaba.comや支付宝（Alipay）などの様々なサービスを全世界向けに提供するために、Alibaba Cloudは中国から日本を含めたアジアン全域、EU、アメリカなど世界規模のクローズドネットワークを持ちます。そのため、例えばCloud Enterprise Network (CEN) を使うことで、Alibaba Cloud 日本Regionから中国Regionへのネットワークアクセスはどの事業者よりも非常に高速で快適です。   
 
-![CEN](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.6.1.PNG "CEN")
+![CEN](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.6.1.PNG "CEN")
 
 同時に、CENを使うことで、日中ネットワーク品質として、低レイテンシ、パケットロスはゼロです。ユーザーは日本にいながら中国国内のネットワーク環境をストレスフリーに操作することができます。逆のパターン、中国ユーザーが日本国内のネットワーク環境を通じてyoutubeやskypeなど規制されているサイトを自由自在に閲覧することもできます。   
 
-![CEN](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.6.2.PNG "CEN")
+![CEN](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.6.2.PNG "CEN")
 
 
 
@@ -148,12 +148,12 @@ Hologresはバッチ処理とリアルタイム処理の両方をサポートす
 
 ImageSearch は 淘宝網（Taobao）などのECサイトで培ったノウハウを生かしつつ、商品に対する類似画像検索を提供します。予め商品となる画像データをObject Storage Service (OSS) に格納するだけで、ECサイト上でお客様が欲しい商品がすぐに見つかるような画像認識ソリューションを素早く展開することが出来ます。   
 
-![ImageSearch](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.7.1.PNG "ImageSearch")
+![ImageSearch](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.7.1.PNG "ImageSearch")
 
 
 AIRec は 商品名一覧と、ユーザーの行動情報（どの商品を閲覧したかetc）、ユーザーリストをMaxCompute、もしくはRDS、OSSに格納するだけで、深層学習ベースでリアルタイムレコメンデーションを提供します。AIRec は 淘宝網（Taobao）や天猫（Tモール）など多くのECサイトやシステムなどに導入され、ユーザー数が1000万人を超えて同時アクセス数が多い状況でも、低価格で秒速でレコメンデーションを実現します。   
 
-![AIRec](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/5.7.2.PNG "AIRec")
+![AIRec](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/5.7.2.PNG "AIRec")
 
 他に MLaaS（Machine Learning as a Service）として Machine Learning Platform For AI（PAI）などノーコードで機械学習システム開発ができるプラットフォームなどが多数あります。   
 

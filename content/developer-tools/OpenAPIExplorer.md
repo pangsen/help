@@ -12,7 +12,7 @@ author: "Nancy"
 本書は、OpenAPI Explorerの使用手順を記載します。
 
 構成図
- ![overview](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/00_overview.png "overview")
+ ![overview](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/00_overview.png "overview")
 
 
 
@@ -59,40 +59,40 @@ OpenAPI ExplorerでAPIリクエストパラメータを入力する際に​​�
 ## 2-1.WebページからRPC APIを呼び出す
 1）OpenAPI Explorerページを開き、ログインをクリックする
 [OpenAPI Explorer リンク](https://api.alibabacloud.com)
-![API Explorer](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01_API_Explorer_01.png "API Explorer 01")
+![API Explorer](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01_API_Explorer_01.png "API Explorer 01")
 
 
 2）RAMユーザーでOpenAPI Explorerをログインする
 ①Alibaba Cloudのログイン画面が開かれる
-![homepage login](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_API_Explorer_login_01.png "login 01")
+![homepage login](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_API_Explorer_login_01.png "login 01")
 
 ②RAMユーザーでログインする
-![homepage login](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_API_Explorer_login_02.png "login 02")
+![homepage login](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_API_Explorer_login_02.png "login 02")
 
 ③RAMユーザーのユーザー名を入力する
-![homepage login](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_API_Explorer_login_03.png "login 03")
+![homepage login](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_API_Explorer_login_03.png "login 03")
 
 ③RAMユーザーのパスワードを入力する
-![homepage login](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_API_Explorer_login_04.png "login 04")
+![homepage login](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_API_Explorer_login_04.png "login 04")
 
 ④penAPI Explorerページが登録される
-![homepage login](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_API_Explorer_login_05.png "login 05")
+![homepage login](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_API_Explorer_login_05.png "login 05")
 
 
 3）VPCを作成する
 ①Productをクリックし、VPCプロダクトを選択する
 
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_01.png "VPC create 01")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_01.png "VPC create 01")
 
 ②VPC API 画面が表示される
 
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_02.png "VPC create 02")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_02.png "VPC create 02")
 
 ③CreateVpc APIを検索する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_03.png "VPC create 03")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_03.png "VPC create 03")
 
 ④検索されたCreateVpcをクリックし、CreateVpc設定画面が表示される
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_04.png "VPC create 04")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_04.png "VPC create 04")
 
 ⑤CreateVpcのAPIパラメータを設定する
 パラメータ記入例：
@@ -110,13 +110,13 @@ OpenAPI ExplorerでAPIリクエストパラメータを入力する際に​​�
 |ClientToken|なし|N|
 |Ipv6Isp|なし|N|
 
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_05.png "VPC create 05")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_05.png "VPC create 05")
 
 ⑥APIリクエストをサブミットする
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_06.png "VPC create 06")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_06.png "VPC create 06")
 
 ⑦APIレスポンスが表示される
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_07.png "VPC create 07")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_07.png "VPC create 07")
 
 Debugging Result
 
@@ -131,25 +131,25 @@ Debugging Result
 ```
 
 ⑧VPCが作成される
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_08.png "VPC create 08")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_08.png "VPC create 08")
 
 ⑨VPCリソースを確認する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_API_Explorer_VPC_09.png "VPC create 09")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_API_Explorer_VPC_09.png "VPC create 09")
 
 4）VSwitchを作成する
 上記VPCにVSWを追加する
 
 ①CreateVSwitch APIを検索する
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_01.png "VSW create 01")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_01.png "VSW create 01")
 
 ②検索されたCreateVSwitchをクリックする
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_02.png "VSW create 02")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_02.png "VSW create 02")
 
 ③CreateVSwitchのAPI設定画面が表示される
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_03.png "VSW create 03")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_03.png "VSW create 03")
 
 ④コード例タブをクリックする
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_04.png "VSW create 04")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_04.png "VSW create 04")
 
 ⑤CreateVSwitchのAPIパラメータを設定する
 パラメータ記入例：
@@ -168,14 +168,14 @@ Debugging Result
 備考：
 CidrBlockはVPCのCidrBlockに含まれるCidrBlockに設定すること
 パラメータは右側のドキュメントタブをクリックし、参照することができます。
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_05.png "VSW create 05")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_05.png "VSW create 05")
 VPCのZoneIDはDescribeZones APIで確認できる
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_06.png "VSW create 06")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_06.png "VSW create 06")
 ZoneIDを確認する
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_07.png "VSW create 07")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_07.png "VSW create 07")
 
 ⑥APIリクエストをサブミットする
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_08.png "VSW create 08")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_08.png "VSW create 08")
 
 ⑦APIレスポンスが表示される
 
@@ -185,18 +185,18 @@ ZoneIDを確認する
 	"VSwitchId": "vsw-6wet64hexr53ndccadjoo"
 }
 ```
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_09.png "VSW create 09")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_09.png "VSW create 09")
 
 ⑧VSwitchが作成される
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_10.png "VSW create 10")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_10.png "VSW create 10")
 
 ⑨VSwitch詳細を確認する
 
-![API VSW create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_API_Explorer_VSW_11.png "VSW create 11")
+![API VSW create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_API_Explorer_VSW_11.png "VSW create 11")
 
 5）VSwitchをリリースする
 ①DeleteVSwitch APIを検索する
-![API VSW delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_API_Explorer_VSW_delete_01.png "VSW delete 01")
+![API VSW delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_API_Explorer_VSW_delete_01.png "VSW delete 01")
 
 ⑨DeleteVSwitch APIを設定する
 パラメータ記入例：
@@ -204,7 +204,7 @@ ZoneIDを確認する
 |--|--|--|
 |RegionId|Japan(Tokyo)|Y|
 |VSwitchId|vsw-6wet64hexr53ndccadjoo|Y|
-![API VSW delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_API_Explorer_VSW_delete_02.png "VSW delete 02")
+![API VSW delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_API_Explorer_VSW_delete_02.png "VSW delete 02")
 
 ③APIリクエストをサブミットし、APIレスポンスが表示される
 
@@ -213,15 +213,15 @@ ZoneIDを確認する
 	"RequestId": "98E077BC-8F2C-457C-9238-0F5D68136592"
 }
 ```
-![API VSW delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_API_Explorer_VSW_delete_03.png "VSW delete 03")
+![API VSW delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_API_Explorer_VSW_delete_03.png "VSW delete 03")
 
 ④Vswitchがリリースされたことを確認する
 
-![API VSW delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_API_Explorer_VSW_delete_04.png "VSW delete 04")
+![API VSW delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_API_Explorer_VSW_delete_04.png "VSW delete 04")
 
 6）VPCをリリースする
 ①VPCを確認する
-![API VPC delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_API_Explorer_VPC_delete_01.png "VPC delete 01")
+![API VPC delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_API_Explorer_VPC_delete_01.png "VPC delete 01")
 
 ⑨DeleteVpc APIを検索し、パラメータを設定する
 パラメータ記入例：
@@ -229,7 +229,7 @@ ZoneIDを確認する
 |--|--|--|
 |RegionId|Japan(Tokyo)|Y|
 |VpcId|vpc-6webjhersexrdnfsb3vm4|Y|
-![API VPC delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_API_Explorer_VPC_delete_02.png "VPC delete 02")
+![API VPC delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_API_Explorer_VPC_delete_02.png "VPC delete 02")
 
 ③APIリクエストをサブミットし、APIレスポンスが表示される
 
@@ -238,11 +238,11 @@ ZoneIDを確認する
 	"RequestId": "012BC26F-D204-47B2-8A0F-483B13EF1C87"
 }
 ```
-![API VPC delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_API_Explorer_VPC_delete_03.png "VPC delete 03")
+![API VPC delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_API_Explorer_VPC_delete_03.png "VPC delete 03")
 
 ④VPCがリリースされたことを確認する
 
-![API VPC delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_API_Explorer_VPC_delete_04.png "VPC delete 04")
+![API VPC delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_API_Explorer_VPC_delete_04.png "VPC delete 04")
 
 
 ## 2-2.WebページからRESTful APIを呼び出す
@@ -250,20 +250,20 @@ ElasticSearchのAPIはRestfulAPIであり、ElasticSearchを例として説明�
 
 1）前提条件：VPCとVSWが作成済みです。
 ①VPCを確認する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_API_Explorer_ES_01.png "ES 01")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_API_Explorer_ES_01.png "ES 01")
 
 ②VSwitchを確認する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_API_Explorer_ES_02.png "ES 02")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_API_Explorer_ES_02.png "ES 02")
 
 2）ElasticSearchを作成する
 ①ElasticSearchプロダクトを検索する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_01.png "ES 01")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_01.png "ES 01")
 
 ②ElasticSearchAPI画面が表示される
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_02.png "ES 02")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_02.png "ES 02")
 
 ③createInstanceを検索する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_03.png "ES 03")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_03.png "ES 03")
 
 ④createInstanceパラメータ設定
 パラメータ記入例：
@@ -274,14 +274,14 @@ ElasticSearchのAPIはRestfulAPIであり、ElasticSearchを例として説明�
 |RequestBody|{"paymentType": "postpaid", "nodeAmount": "2", "instanceCategory": "x-pack", "esAdminPassword": "es_password1", "esVersion": "6.7", "nodeSpec": { "spec": "elasticsearch.sn1ne.large", "disk": "20", "diskType": "cloud_ssd" }, "networkConfig": { "type": "vpc", "vpcId": "vpc-6we6gahp387ucs4cyi1mg", "vsArea": "ap-northeast-1a", "vswitchId": "vsw-6we2znwytf5fylhpe3z95" }} |Y|
 
 
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_04.png "ES 04")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_04.png "ES 04")
 
 ⑤リクエストデータを確認する
 リクエストデータ
 ```
 aliyun elasticsearch POST /openapi/instances --header "Content-Type=application/json;" --body "{\"paymentType\":\"postpaid\",\"nodeAmount\":\"2\",\"instanceCategory\":\"x-pack\",\"esAdminPassword\":\"es_password1\",\"esVersion\":\"6.7\",\"nodeSpec\":{\"spec\":\"elasticsearch.sn1ne.large\",\"disk\":\"20\",\"diskType\":\"cloud_ssd\"},\"networkConfig\":{\"type\":\"vpc\",\"vpcId\":\"vpc-6we6gahp387ucs4cyi1mg\",\"vsArea\":\"ap-northeast-1a\",\"vswitchId\":\"vsw-6we2znwytf5fylhpe3z95\"}}"
 ```
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_05.png "ES 05")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_05.png "ES 05")
 
 createInstance APIのRequestは[createInstance](https://www.alibabacloud.com/help/doc-detail/148782.htm?spm=a2c63.p38356.879954.4.4c255a4cHiNCpE#doc-api-elasticsearch-createInstance)をご参照ください
 ⑥リクエストをサブミットし、レスポンスを確認する
@@ -294,21 +294,21 @@ createInstance APIのRequestは[createInstance](https://www.alibabacloud.com/hel
 	"RequestId": "962EAAA7-2978-458A-91E6-35E520DD0652"
 }
 ```
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_06.png "ES 06")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_06.png "ES 06")
 
 ⑦ElasticSearchインスタンスを確認する（ステータスが初期化中です）
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_07.png "ES 07")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_07.png "ES 07")
 
 ⑧ElasticSearch詳細を確認する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_08.png "ES 08")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_08.png "ES 08")
 
 ⑨ElasticSearchステータスを確認する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_API_Explorer_ES_create_09.png "ES 09")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_API_Explorer_ES_create_09.png "ES 09")
 
 
 2）ElasticSearchを確認する
 ①DescribeInstanceを検索する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_API_Explorer_ES_Describe_01.png "ES 01")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_API_Explorer_ES_Describe_01.png "ES 01")
 
 ②DescribeInstanceパラメータを入力し、サブミットする
 パラメータ記入例：
@@ -321,7 +321,7 @@ createInstance APIのRequestは[createInstance](https://www.alibabacloud.com/hel
 ```
 aliyun elasticsearch GET /openapi/instances/es-sg-82jfhghx8ks1hx017 --header "Content-Type=application/json;" --body "{}"
 ```
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_API_Explorer_ES_Describe_02.png "ES 02")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_API_Explorer_ES_Describe_02.png "ES 02")
 
 ③APIレスポンスが表示される
 
@@ -459,11 +459,11 @@ aliyun elasticsearch GET /openapi/instances/es-sg-82jfhghx8ks1hx017 --header "Co
 }
 ```
 
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_API_Explorer_ES_Describe_03.png "ES 03")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_API_Explorer_ES_Describe_03.png "ES 03")
 
 3）ElasticSearchをリリースする
 ①DeleteInstanceを検索する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_API_Explorer_ES_Delete_01.png "ES 01")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_API_Explorer_ES_Delete_01.png "ES 01")
 
 ②DeleteInstanceパラメータを入力し、サブミットする
 パラメータ記入例：
@@ -480,7 +480,7 @@ aliyun elasticsearch GET /openapi/instances/es-sg-82jfhghx8ks1hx017 --header "Co
 aliyun elasticsearch DELETE /openapi/instances/es-sg-82jfhghx8ks1hx017 --header "Content-Type=application/json;" --body "{}"
 ```
 
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_API_Explorer_ES_Delete_02.png "ES 02")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_API_Explorer_ES_Delete_02.png "ES 02")
 ③APIレスポンスが表示される
 
 ```
@@ -616,12 +616,12 @@ aliyun elasticsearch DELETE /openapi/instances/es-sg-82jfhghx8ks1hx017 --header 
 	"RequestId": "A3B23316-0786-4B79-8B1B-0A83FC50C181"
 }
 ```
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_API_Explorer_ES_Delete_03.png "ES 03")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_API_Explorer_ES_Delete_03.png "ES 03")
 
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_API_Explorer_ES_Delete_04.png "ES 04")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_API_Explorer_ES_Delete_04.png "ES 04")
 
 ④ElasticSearchインスタンスがリリースされることを確認する
-![API ES](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_API_Explorer_ES_Delete_05.png "ES 05")
+![API ES](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_API_Explorer_ES_Delete_05.png "ES 05")
 
 # 3.コマンドラインからAPIを呼び出す
 
@@ -635,13 +635,13 @@ AlibabaCloudのプログラムのAPIはRPCとRESTful二つのタイプがあり�
 1）コマンドラインを起動する
 ①AlibabaCloudホームページにログインし、[OpenAPIExplorer](https://api.alibabacloud.com/#/)を開く。
 
-![API homepage](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_api_hp.png "API homepage ")
+![API homepage](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_api_hp.png "API homepage ")
 
 ②「Online Linux Shell」メニューをクリックする
-![CloudShell　CLI open](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_cli_open.png "CLI open ")
+![CloudShell　CLI open](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_cli_open.png "CLI open ")
 
 ③CloudShellのコマンドラインが接続される
-![CloudShell　CLI connection](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_cli_connection.png "CLI connection ")
+![CloudShell　CLI connection](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_cli_connection.png "CLI connection ")
 1）CloudShellでCLIを通してRPCAPIを呼び出す
 
 コマンドフォーマット：
@@ -649,7 +649,7 @@ AlibabaCloudのプログラムのAPIはRPCとRESTful二つのタイプがあり�
 aliyun <ProductCode> <ActionName> [--parameter1 value1 --paramter2 value2]
 ```
 ④CLIバージョンを確認する
-![CloudShell　CLI version](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_cli_version.png "CLI version ")
+![CloudShell　CLI version](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_cli_version.png "CLI version ")
 
 ⑤CLI構成を確認する
 CloudShellでCLIを使用する際に、新たな構成はいらず、CLIが使用できる
@@ -657,7 +657,7 @@ CloudShellでCLIを使用する際に、新たな構成はいらず、CLIが使�
 ```
 aliyun configure list
 ```
-![CloudShell　CLI config　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_config.png "CLI config ")
+![CloudShell　CLI config　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_config.png "CLI config ")
 ## 3-1.コマンドラインからRPC APIを呼び出す
 2）VPCを作成する
 ```
@@ -674,15 +674,15 @@ shell@Alicloud:~$ aliyun vpc CreateVpc --VpcName "cloudshell_cli-test"
 }
 shell@Alicloud:~$
 ```
- ![vpc create　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_vpc_create.png "vpc create 01")
+ ![vpc create　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_vpc_create.png "vpc create 01")
 
-![vpc create　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17_cli_vpc_create.png "vpc create 02")
+![vpc create　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17_cli_vpc_create.png "vpc create 02")
 
 3）VPCを確認する
 ```
 aliyun vpc DescribeVpcs --VpcId vpc-6weg263b43uhqoa2byoil
 ```
- ![vpc describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_vpc_describe.png "vpc describe")
+ ![vpc describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_vpc_describe.png "vpc describe")
 
 ## 3-2.コマンドラインからRESTful APIを呼び出す
 
@@ -708,24 +708,24 @@ shell@Alicloud:~$ aliyun elasticsearch POST /openapi/instances --header "Content
 shell@Alicloud:~$
 ```
 
-![es create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_create_01.png "es create 01")
+![es create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_create_01.png "es create 01")
 
-![es create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_create_02.png "es create 02")
+![es create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_create_02.png "es create 02")
 
-![es create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_create_03.png "es create 03")
+![es create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_create_03.png "es create 03")
 
-![es create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_create_04.png "es create 04")
+![es create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_create_04.png "es create 04")
 
 2）ElasticSearchのインスタンスを確認する
 
 ```
 aliyun elasticsearch GET /openapi/instances/es-sg-05svh743x0i5e83ug
 ```
-![es describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_get_01.png "es describe 01")
+![es describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_get_01.png "es describe 01")
 
-![es describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_get_02.png "es describe 02")
+![es describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_get_02.png "es describe 02")
 
-![es describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_get_03.png "es describe 03")
+![es describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_get_03.png "es describe 03")
 
 
 3）ElasticSearchインスタンスを削除する
@@ -733,14 +733,14 @@ aliyun elasticsearch GET /openapi/instances/es-sg-05svh743x0i5e83ug
 aliyun elasticsearch DELETE /openapi/instances/es-sg-05svh743x0i5e83ug
 ```
 上記のAPIを実行する
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_01.png "es delete 01")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_01.png "es delete 01")
 
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_02.png "es delete 02")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_02.png "es delete 02")
 
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_03.png "es delete 03")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_03.png "es delete 03")
 
 ESインスタンスが削除されました
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_04.png "es delete 04")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_04.png "es delete 04")
 
 
 # 4.APIを呼び出すSDKコードサンプル
@@ -778,7 +778,7 @@ CreateVpcのAPIパラメータ記入例：
 aliyun vpc CreateVpc --region ap-northeast-1 --RegionId ap-northeast-1 --CidrBlock 172.16.0.0 --VpcName sdk_vpc --Description from openAPI sdk
 ```
 2）VPCのCreateVpcのJava例：
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_Java_SDK_VPC.png "VPC create 01")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_Java_SDK_VPC.png "VPC create 01")
 
 ```JavaSDK-CreateVpc
 import com.aliyuncs.DefaultAcsClient;
@@ -819,7 +819,7 @@ public class CreateVpc {
 ```
 
 3）VPCのCreateVpcのNode.js例：
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_Node_SDK_VPC.png "VPC create Node.js SDK")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_Node_SDK_VPC.png "VPC create Node.js SDK")
 ```Node.jsSDK-CreateVpc
 const Core = require('@alicloud/pop-core');
 
@@ -850,7 +850,7 @@ client.request('CreateVpc', params, requestOption).then((result) => {
 ```
 
 4）VPCのCreateVpcのGo例：
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_Go_SDK_VPC.png "VPC create Go SDK")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_Go_SDK_VPC.png "VPC create Go SDK")
 ```GoSDK-CreateVpc
 package main
 
@@ -880,7 +880,7 @@ func main() {
 ```
 
 5）VPCのCreateVpcのPHP例：
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_PHP_SDK_VPC.png "VPC create PHP SDK")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_PHP_SDK_VPC.png "VPC create PHP SDK")
 
 ```PHPSDK-CreateVpc
 <?php
@@ -923,7 +923,7 @@ try {
 
 6）VPCのCreateVpcのPython例：
 ①PythonSDKを確認する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC.png "VPC create Python SDK")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC.png "VPC create Python SDK")
 
 ```PythonSDK-CreateVpc
 #!/usr/bin/env python
@@ -950,21 +950,21 @@ print(str(response, encoding='utf-8'))
 ```
 ②PythonSDKファイルを保存して実行検証
 ・CloudShellでPythonSDKのCreateVpcのSDKコード例をアップロードし、CreateVpcAPIのAK情報を設定する。
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_01.png "VPC create Python SDK 01")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_01.png "VPC create Python SDK 01")
 
 ・PythonSDKのCreateVpcのSDKコード例を実行する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_02.png "VPC create Python SDK 02")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_02.png "VPC create Python SDK 02")
 
 ・VPCを確認する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_03.png "VPC create Python SDK 03")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_03.png "VPC create Python SDK 03")
 
 ③「Debug in Linux Shell」からコードの実行（初回起動する際に、Python実行環境が準備される）
 （「Debug in Linux Shell」機能はJava、Node.js、Go、Pythonのみが対応している）
 ・パラメータを入力し、「Debug in Linux Shell」ボタンをクリックする
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_04.png "VPC create Python SDK 01")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_04.png "VPC create Python SDK 01")
 
 ・CloudShellでpythonコマンドが自動的に準備される
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_05.png "VPC create Python SDK 02")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_05.png "VPC create Python SDK 02")
 ```
 shell@Alicloud:~/alibabacloud_sdk_demo/vpc/Vc7ahEqrn/python$ python ./CreateVpc.py
 {"VRouterId":"vrt-6we1zqd8ub2fxhzgitkjh","RouteTableId":"vtb-6wec5t9o38jyvtu9jh5xa","RequestId":"14A8EB08-E0B1-4BB7-8AD1-8A5A438AB5A2","VpcId":"vpc-6wexjhrqkle1uow3ds1fg","ResourceGroupId":"rg-acfnu655g4vjkyi"}
@@ -972,13 +972,13 @@ shell@Alicloud:~/alibabacloud_sdk_demo/vpc/Vc7ahEqrn/python$
 ```
 
 ・「python ./CreateVpc.py」を実行する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_06.png "VPC create Python SDK 06")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_06.png "VPC create Python SDK 06")
 
 ・VPCを確認する
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_Python_SDK_VPC_07.png "VPC create Python SDK 07")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_Python_SDK_VPC_07.png "VPC create Python SDK 07")
 
 7）VPCのCreateVpcの.Net例：
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_Net_SDK_VPC.png "VPC create .Net SDK")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_Net_SDK_VPC.png "VPC create .Net SDK")
 ```.NetSDK-CreateVpc
 using System;
 using System.Collections.Generic;
@@ -1018,7 +1018,7 @@ namespace VpcDemo
 ```
 
 8）VPCのCreateVpcのRuby例：
-![API VPC create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/28_Ruby_SDK_VPC.png "VPC create Ruby SDK")
+![API VPC create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/28_Ruby_SDK_VPC.png "VPC create Ruby SDK")
 ```RubySDK-CreateVpc
 # gem install aliyunsdkcore
 
@@ -1065,7 +1065,7 @@ aliyun elasticsearch POST /openapi/instances --header "Content-Type=application/
 ```
 2）ESのcreateInstanceのJava例：
 
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/29_Java_SDK_ES.png "ES create 01")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/29_Java_SDK_ES.png "ES create 01")
 
 ```JavaSDK-createInstance
 import com.aliyuncs.CommonRequest;
@@ -1148,7 +1148,7 @@ public class createInstance {
 
 ```
 3）ESのcreateInstanceのNode.js例：
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/30_Node_SDK_ES.png "ES create Node.js SDK")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/30_Node_SDK_ES.png "ES create Node.js SDK")
 
 ```Node.jsSDK-createInstance
 var ROAClient = require('@alicloud/pop-core').ROAClient;
@@ -1195,7 +1195,7 @@ client.request(httpMethod, uriPath, queries, body, headers, requestOption).then(
 ```
 
 4）ESのcreateInstanceのGo例：
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/31_Go_SDK_ES.png "ES create Go SDK")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/31_Go_SDK_ES.png "ES create Go SDK")
 
 ```GoSDK-createInstance
 package main
@@ -1249,7 +1249,7 @@ func main() {
 
 ```
 5）VPCのcreateInstanceのPHP例：
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/32_PHP_SDK_ES.png "ES create PHP SDK")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/32_PHP_SDK_ES.png "ES create PHP SDK")
 
 ```PHPSDK-createInstance
 <?php
@@ -1304,7 +1304,7 @@ try {
 ```
 6）ESのcreateInstanceのPython例：
 ①PythonSDKを確認する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES.png "ES create Python SDK")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES.png "ES create Python SDK")
 
 ```PythonSDK-createInstance
 #!/usr/bin/env python
@@ -1350,28 +1350,28 @@ print(str(response, encoding = 'utf-8'))
 ```
 ②PythonSDKファイルを保存して実行検証
 ・CloudShellでPythonSDKのCreateInstanceのSDKコード例をアップロードし、CreateInstanceのAK情報を設定する。
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_01.png "ES create Python SDK 01")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_01.png "ES create Python SDK 01")
 
 ・PythonSDKのCreateInstanceのSDKコード例を実行する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_02.png "ES create Python SDK 02")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_02.png "ES create Python SDK 02")
 
 ・ElasticSearchインスタンスを確認する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_03.png "ES create Python SDK 03")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_03.png "ES create Python SDK 03")
 
 ・ElasticSearchのステータスを確認する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_04.png "ES create Python SDK 04")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_04.png "ES create Python SDK 04")
 
 ③「Debug in Linux Shell」からコードの実行（初回起動する際に、Python実行環境が準備される）
 （「Debug in Linux Shell」機能はJava、Node.js、Go、Pythonのみが対応している）
 ・パラメータを入力し、「Debug in Linux Shell」ボタンをクリックする
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_05.png "ES create Python SDK 05")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_05.png "ES create Python SDK 05")
 
 ・CloudShellでpythonコマンドが自動的に準備される
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_06.png "ES create Python SDK 06")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_06.png "ES create Python SDK 06")
 
 
 ・「python ./createInstance.py」を実行する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_07.png "ES create Python SDK 07")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_07.png "ES create Python SDK 07")
 
 ```
 shell@Alicloud:~/alibabacloud_sdk_demo/elasticsearch/FnctqZMHX/python$ python ./createInstance.py
@@ -1379,14 +1379,14 @@ shell@Alicloud:~/alibabacloud_sdk_demo/elasticsearch/FnctqZMHX/python$ python ./
 shell@Alicloud:~/alibabacloud_sdk_demo/elasticsearch/FnctqZMHX/python$
 ```
 ・ElasticSearchのインスタンスを確認する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_08.png "ES create Python SDK 08")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_08.png "ES create Python SDK 08")
 
 ・ElasticSearchのステータスを確認する
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/33_Python_SDK_ES_09.png "ES create Python SDK 09")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/33_Python_SDK_ES_09.png "ES create Python SDK 09")
 
 7）ESのcreateInstanceの.Net例：
 
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/34_Net_SDK_ES.png "ES create .Net SDK")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/34_Net_SDK_ES.png "ES create .Net SDK")
 
 ```.NetSDK-createInstance
 using System;
@@ -1470,7 +1470,7 @@ namespace CommonRequestDemo
 
 8）ESのcreateInstanceのRuby例：
 
-![API ES create](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/35_Ruby_SDK_ES.png "ES create Ruby SDK")
+![API ES create](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/35_Ruby_SDK_ES.png "ES create Ruby SDK")
 
 ```RubySDK-createInstance
 # gem install aliyunsdkcore
@@ -1533,7 +1533,7 @@ print response
 |ClientToken|なし|N|
 |Ipv6Isp|なし|N|
 
-![Python VPC mock](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/36_Python_SDK_VPC_01.png "VPC Python mock 01 ")
+![Python VPC mock](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/36_Python_SDK_VPC_01.png "VPC Python mock 01 ")
 
 Request:
 ```
@@ -1551,7 +1551,7 @@ aliyun vpc CreateVpc --region ap-northeast-1 --RegionId ap-northeast-1 --CidrBlo
 }
 ```
 
-![Python VPC mock](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/36_Python_SDK_VPC_02.png "VPC Python mock 02 ")
+![Python VPC mock](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/36_Python_SDK_VPC_02.png "VPC Python mock 02 ")
 
 ## 5-2.RESTful APIのMockデータ
 
@@ -1563,7 +1563,7 @@ aliyun vpc CreateVpc --region ap-northeast-1 --RegionId ap-northeast-1 --CidrBlo
 |clientToken|なし|Y|
 |RequestBody|{"paymentType": "postpaid", "nodeAmount": "2", "instanceCategory": "x-pack", "esAdminPassword": "es_password1", "esVersion": "6.7", "nodeSpec": { "spec": "elasticsearch.sn1ne.large", "disk": "20", "diskType": "cloud_ssd" }, "networkConfig": { "type": "vpc", "vpcId": "vpc-6we6gahp387ucs4cyi1mg", "vsArea": "ap-northeast-1a", "vswitchId": "vsw-6we2znwytf5fylhpe3z95" }} |Y|
 
-![Python ES mock](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/37_Python_SDK_ES_01.png "ES Python mock 01 ")
+![Python ES mock](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/37_Python_SDK_ES_01.png "ES Python mock 01 ")
 
 Request:
 ```
@@ -1614,7 +1614,7 @@ aliyun elasticsearch POST /openapi/instances --header "Content-Type=application/
 }
 ```
 
-![Python ES mock](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/37_Python_SDK_ES_02.png "ES Python mock 02 ")
+![Python ES mock](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/37_Python_SDK_ES_02.png "ES Python mock 02 ")
 
 ここまでOpenAPIExplorerの手順です。
 

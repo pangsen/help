@@ -17,7 +17,7 @@ Alibaba Cloudは様々なストレージタイプを提供しています。
 * OSS は Object Storage Service の略称、 99.9999999999％（9が12個） の SLA を持つ大容量のオブジェクトストレージサービスです。
 * 高可用性・信頼性・拡張性を備えるほか、豊富な付加機能とレプリケーション機能、複数のストレージオプションが用意されています。
 
-![Storage](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/3.1.PNG "Storage")
+![Storage](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/3.1.PNG "Storage")
 
 
 # OSSの特徴について
@@ -118,7 +118,7 @@ Alibaba Cloudは様々なストレージタイプを提供しています。
 * 異なるラックの異なるサーバーにまたがって複数のデータコピーを保存するため、障害自動検出時はバックアップからすぐ復元するといった高可用性を持ちます。
 
 
-![Storage](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/3.2.PNG "Storage")
+![Storage](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/3.2.PNG "Storage")
 
 
 # File Storage NAS
@@ -128,7 +128,7 @@ Alibaba Cloudは様々なストレージタイプを提供しています。
 * NFSプロトコルとSMBプロトコルの両方をサポートし、分散ファイルシステムとして共有アクセス、スケーラビリティ、高い信頼性を持ちます。
 * NASは複数のコンピューティングノードにマウントしエータを共有することができるため、コスト節約ができます。
 
-![Storage](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/3.3.PNG "Storage")
+![Storage](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/3.3.PNG "Storage")
 
 
 # Data Transport
@@ -138,7 +138,7 @@ Alibaba Cloudは様々なストレージタイプを提供しています。
 * ローカルファイルシステム、NAS、HDFS などに対応しています。(HDFS などは NAS に変換が必要)
 * AlibabaCloudカスタマーよりDataTransportらハードディスクを借りて、オンプレミスのデータをOSSへアップロードします。
 
-![Storage](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/3.4.PNG "Storage")
+![Storage](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/3.4.PNG "Storage")
 
 
 

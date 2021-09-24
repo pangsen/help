@@ -87,22 +87,22 @@ Windows/Linux/macOS環境、x86（32bit、64bit）、ARM（32bit、64bit）ア�
 ①下記リンクでossutilをダウンロードする
 [Windows x86 64bit](https://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64.zip?spm=a2c63.p38356.879954.8.5c453782aj8tRN&file=ossutil64.zip)
 
- ![win download ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01_win_download_01.png "win download 01")
+ ![win download ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01_win_download_01.png "win download 01")
 
 ②Zipファイルを解凍する
- ![win download ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01_win_download_02.png "win download 02")
+ ![win download ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01_win_download_02.png "win download 02")
 
 2）ossutilを設定する
 ①ossutil.batをダブルクリックして実行する
- ![win ossutil ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_win_ossutil_run_01.png "win ossutil 01")
+ ![win ossutil ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_win_ossutil_run_01.png "win ossutil 01")
 
- ![win ossutil ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_win_ossutil_run_02.png "win ossutil 02")
+ ![win ossutil ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_win_ossutil_run_02.png "win ossutil 02")
 
 ②下記コマンドを実行し、configファイルを設定する
 ```
 #ossutil64.exe config
 ```
- ![win ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_win_ossutil_config_01.png "win ossutil config 01")
+ ![win ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_win_ossutil_config_01.png "win ossutil config 01")
 
 
 |Config設定|値|備考|
@@ -115,13 +115,13 @@ Windows/Linux/macOS環境、x86（32bit、64bit）、ARM（32bit、64bit）ア�
 |stsToken|なし|[stsToken方法](https://www.alibabacloud.com/help/doc-detail/100624.htm?spm=a2c63.p38356.879954.15.65d33782KrI9A4#concept-xzh-nzk-2gb)|
 [Config設定方法](https://www.alibabacloud.com/help/zh/doc-detail/120072.htm?spm=a2c63.p38356.879954.17.65d33782KrI9A4#concept-303826)をご参照ください
 
- ![win ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_win_ossutil_config_02.png "win ossutil config 02")
+ ![win ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_win_ossutil_config_02.png "win ossutil config 02")
 
 ③configファイルがデフォルトのパス「C:\\Users\Nancy\.ossutilconfig」に作成される
- ![win ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_win_ossutil_config_03.png "win ossutil config 03")
+ ![win ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_win_ossutil_config_03.png "win ossutil config 03")
 
 ④configファイルを確認する
- ![win ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_win_ossutil_config_04.png "win ossutil config 04")
+ ![win ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_win_ossutil_config_04.png "win ossutil config 04")
 
 ##　2-2.Windowsでossutilのコマンドを実行する
 ##　2-2-1.mb―バケットを作成する
@@ -134,7 +134,7 @@ Windows/Linux/macOS環境、x86（32bit、64bit）、ARM（32bit、64bit）ア�
 ```
 ossutil64 mb oss://winbucket202106
 ```
- ![win create bucket ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_win_create_bucket_01.png "win create bucket 01")
+ ![win create bucket ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_win_create_bucket_01.png "win create bucket 01")
 
 レスポンス：
 ```
@@ -142,7 +142,7 @@ ossutil64 mb oss://winbucket202106
 ```
 
 ③コンソール画面にバケットを確認する
- ![win create bucket ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_win_create_bucket_02.png "win create bucket 02")
+ ![win create bucket ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_win_create_bucket_02.png "win create bucket 02")
 
 ##　2-2-2.mkdir―ディレクトリを作成する
 
@@ -157,16 +157,16 @@ ossutil64 mb oss://winbucket202106
 ```
 ossutil64 mkdir oss://winbucket202106/winfolder
 ```
- ![win create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_win_create_folder_01.png "win create folder 01")
+ ![win create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_win_create_folder_01.png "win create folder 01")
 レスポンス：
 ```
 0.416390(s) elapsed
 ```
 
 ②コンソール画面にディレクトリを確認する
- ![win create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_win_create_folder_02.png "win create folder 02")
+ ![win create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_win_create_folder_02.png "win create folder 02")
 
- ![win create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_win_create_folder_03.png "win create folder 03")
+ ![win create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_win_create_folder_03.png "win create folder 03")
 
 2）マルチレベルディレクトリを作成する
 
@@ -175,17 +175,17 @@ ossutil64 mkdir oss://winbucket202106/winfolder
 ```
 ossutil64 mkdir oss://winbucket202106/winmultifolder/2021/06
 ```
- ![win create multi-folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_win_create_folder_01.png "win create multi-folder 01")
+ ![win create multi-folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_win_create_folder_01.png "win create multi-folder 01")
 
 レスポンス：
 ```
 0.369116(s) elapsed
 ```
 ②コンソール画面にバディレクトリを確認する
- ![win create folder  ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_win_create_folder_02.png "win create multi-folder  02")
- ![win create folder  ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_win_create_folder_03.png "win create multi-folder  03")
- ![win create folder  ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_win_create_folder_04.png "win create multi-folder  04")
- ![win create folder  ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_win_create_folder_05.png "win create multi-folder  05")
+ ![win create folder  ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_win_create_folder_02.png "win create multi-folder  02")
+ ![win create folder  ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_win_create_folder_03.png "win create multi-folder  03")
+ ![win create folder  ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_win_create_folder_04.png "win create multi-folder  04")
+ ![win create folder  ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_win_create_folder_05.png "win create multi-folder  05")
 
 
 ##　2-2-3.cp―ファイルをアップロードする
@@ -207,18 +207,18 @@ cloud_url：OSSのファイルパス，フォーマットはoss://bucketname/obj
 ```
 F:\ossutil64\example.txt
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_win_upload_file_01.png "win upload file  01")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_win_upload_file_01.png "win upload file  01")
 ②ターゲットOSSパス
 ```
 oss://winbucket202106/winfolder/
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_win_upload_file_02.png "win upload file  02")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_win_upload_file_02.png "win upload file  02")
 ③下記のコマンドを実行する
 
 ```
 ossutil64 cp F:\ossutil64\example.txt oss://winbucket202106/winfolder/
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_win_upload_file_03.png "win upload file  03")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_win_upload_file_03.png "win upload file  03")
 
 レスポンス：
 ```
@@ -230,7 +230,7 @@ average speed 0(byte/s)
 0.442846(s) elapsed
 ```
 ④ファイルを確認する
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_win_upload_file_04.png "win upload file 04")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_win_upload_file_04.png "win upload file 04")
 
 
 3）フォルダ内のファイルのみをアップロードする
@@ -238,12 +238,12 @@ average speed 0(byte/s)
 ```
 F:\ossutil64\folder2\example.txt
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_win_upload_file_01.png "win upload file 01")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_win_upload_file_01.png "win upload file 01")
 ②ターゲットOSSパス
 ```
 oss://winbucket202106/winmultifolder/
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_win_upload_file_02.png "win upload file 02")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_win_upload_file_02.png "win upload file 02")
 
 ③下記のコマンドを実行する
 
@@ -251,7 +251,7 @@ oss://winbucket202106/winmultifolder/
 ossutil64 cp folder2/ -r oss://winbucket202106/winmultifolder/
 ```
 
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_win_upload_file_03.png "win upload file 03")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_win_upload_file_03.png "win upload file 03")
 
 レスポンス：
 ```
@@ -264,7 +264,7 @@ average speed 0(byte/s)
 ```
 
 ④ファイルを確認する
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_win_upload_file_04.png "win upload file 04")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_win_upload_file_04.png "win upload file 04")
 
 
 4）フォルダおよびフォルダ内のファイルをアップロードする
@@ -275,19 +275,19 @@ F:\ossutil64\uploadtest\folder2\example.txt
 F:\ossutil64\uploadtest\folder2\example1.txt
 F:\ossutil64\uploadtest\folder2\ossutil64.exe
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_win_upload_file_01.png "win upload file 01")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_win_upload_file_01.png "win upload file 01")
 ②ターゲットOSSパス
 ```
 oss://winbucket202106/winmultifolder/2021/
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_win_upload_file_02.png "win upload file 02")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_win_upload_file_02.png "win upload file 02")
 
 ③下記のコマンドを実行する
 
 ```
 ossutil64 cp uploadtest/folder2/ -r oss://winbucket202106/winmultifolder/2021/folder2/
 ```
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_win_upload_file_03.png "win upload file 03")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_win_upload_file_03.png "win upload file 03")
 
 レスポンス：
 ```
@@ -302,9 +302,9 @@ F:\ossutil64>
 ```
 
 ④ファイルを確認する
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_win_upload_file_04.png "win upload file 04")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_win_upload_file_04.png "win upload file 04")
 
- ![win upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_win_upload_file_05.png "win upload file 05")
+ ![win upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_win_upload_file_05.png "win upload file 05")
 
 
 ##　2-2-4.cp―ファイルをダウンロードする
@@ -314,13 +314,13 @@ F:\ossutil64>
 ```
 2）
 ①OSSファイル
- ![win download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_win_download_file_01.png "win download file 01")
+ ![win download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_win_download_file_01.png "win download file 01")
 
 ②下記のコマンドを実行する
 ```
 ossutil64 cp  -r oss://winbucket202106/winmultifolder/2021/folder2/ download/
 ```
- ![win download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_win_download_file_02.png "win download file 02")
+ ![win download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_win_download_file_02.png "win download file 02")
 レスポンス
 ```
 F:\ossutil64>ossutil64 cp  -r oss://winbucket202106/winmultifolder/2021/folder2/  /download/
@@ -339,7 +339,7 @@ average speed 116000(byte/s)
 ```
 
 ③ファイルを確認する
- ![win download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_win_download_file_03.png "win download file 03")
+ ![win download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_win_download_file_03.png "win download file 03")
 
 ##　2-2-5.cp―ファイルをコピーする
 1）コマンドフォーマット
@@ -348,16 +348,16 @@ average speed 116000(byte/s)
 ```
 2）ファイルをコピーする
 ①コピー元ファイルを確認する
- ![win copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_win_copy_file_01.png "win copy file 01")
+ ![win copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_win_copy_file_01.png "win copy file 01")
 
 ②コピー先を確認する
- ![win copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_win_copy_file_02.png "win copy file 02")
+ ![win copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_win_copy_file_02.png "win copy file 02")
 
 ③下記のコマンドを実行する
 ```
 ossutil64 cp oss://winbucket202106/winmultifolder/2021/folder2/  oss://winbucket202106/winmultifolder/2021/06/ -r
 ```
- ![win copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_win_copy_file_03.png "win copy file 03")
+ ![win copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_win_copy_file_03.png "win copy file 03")
 レスポンス
 ```
 F:\ossutil64>ossutil64 cp oss://winbucket202106/winmultifolder/2021/folder2/  oss://winbucket202106/winmultifolder/2021/06/ -r
@@ -371,7 +371,7 @@ F:\ossutil64>
 
 ```
 ④ファイルを確認する
- ![win copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_win_copy_file_04.png "win copy file 04")
+ ![win copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_win_copy_file_04.png "win copy file 04")
 
 ##　2-2-6.rm-ファイルを削除する
 
@@ -392,13 +392,13 @@ F:\ossutil64>
 ```
 2）ファイルを削除する
 ①ファイルを確認する
- ![win rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_win_rm_file_01.png "win rm file 01")
+ ![win rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_win_rm_file_01.png "win rm file 01")
 
 ②rmコマンドを実行する
 ```
 ossutil64 rm oss://winbucket202106/winmultifolder/2021/06/ -r
 ```
- ![win rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_win_rm_file_02.png "win rm file 02")
+ ![win rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_win_rm_file_02.png "win rm file 02")
 
 レスポンス
 ```
@@ -411,19 +411,19 @@ Succeed: Total 4 objects. Removed 4 objects.
 F:\ossutil64>
 ```
 ③ファイルが削除されました
- ![win rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_win_rm_file_03.png "win rm file 03")
+ ![win rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_win_rm_file_03.png "win rm file 03")
 
 ④フォルダも削除されました
- ![win rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_win_rm_file_04.png "win rm file 04")
+ ![win rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_win_rm_file_04.png "win rm file 04")
 
 # 3.Linuxで64bitのossutilを紹介する
 ##　3-1.Linuxで64bitのossutilをインストールする
 1）Linux環境を用意する
 ①CentOS ECSを用意する
 
- ![linux ecs ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_linux_ecs_01.png "linux ecs 01")
+ ![linux ecs ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_linux_ecs_01.png "linux ecs 01")
 
- ![linux ecs ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_linux_ecs_02.png "linux ecs 02")
+ ![linux ecs ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_linux_ecs_02.png "linux ecs 02")
 
 2）ossutilをダウンロードする
 ①下記リンクからLinuxのOSSutilをダウンロードする
@@ -435,20 +435,20 @@ F:\ossutil64>
 ```
 #wget http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64
 ```
- ![Linux download ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_Linux_download_01.png "Linux download 01")
+ ![Linux download ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_Linux_download_01.png "Linux download 01")
 
 ②ossutil64の755権限を与える
 ```
 #chmod 755 ossutil64
 ```
- ![Linux download ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_Linux_download_02.png "Linux download 02")
+ ![Linux download ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_Linux_download_02.png "Linux download 02")
 
 3）ossutilを設定する
 ①下記コマンドを実行し、configファイルを設定する
 ```
 #./ossutil64 config
 ```
- ![Linux ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_Linux_ossutil_config_01.png "Linux ossutil config 01")
+ ![Linux ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_Linux_ossutil_config_01.png "Linux ossutil config 01")
 
 |Config設定|値|備考|
 |--|--|
@@ -460,13 +460,13 @@ F:\ossutil64>
 |stsToken|なし|[stsToken方法](https://www.alibabacloud.com/help/doc-detail/100624.htm?spm=a2c63.p38356.879954.15.65d33782KrI9A4#concept-xzh-nzk-2gb)|
 [Config設定方法](https://www.alibabacloud.com/help/zh/doc-detail/120072.htm?spm=a2c63.p38356.879954.17.65d33782KrI9A4#concept-303826)をご参照ください
 
- ![Linux ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_Linux_ossutil_config_01.png "Linux ossutil config 02")
+ ![Linux ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_Linux_ossutil_config_01.png "Linux ossutil config 02")
 
 ②configファイルがデフォルトのパス「C:\\Users\Nancy\.ossutilconfig」に作成される
- ![Linux ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_Linux_ossutil_config_02.png "Linux ossutil config 02")
+ ![Linux ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_Linux_ossutil_config_02.png "Linux ossutil config 02")
 
 ③configファイルを確認する
- ![Linux ossutil config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_Linux_ossutil_config_03.png "Linux ossutil config 03")
+ ![Linux ossutil config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_Linux_ossutil_config_03.png "Linux ossutil config 03")
 
 ##　3-2.Linuxでossutilのコマンドを実行する
 ##　3-2-1.mb―バケットを作成する
@@ -479,7 +479,7 @@ F:\ossutil64>
 ```
 ./ossutil64 mb oss://linuxbucket202106
 ```
- ![Linux create bucket ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17_Linux_create_bucket_01.png "Linux create bucket 01")
+ ![Linux create bucket ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17_Linux_create_bucket_01.png "Linux create bucket 01")
 
 レスポンス：
 ```
@@ -489,7 +489,7 @@ F:\ossutil64>
 ```
 
 ③コンソール画面にバケットを確認する
- ![Linux create bucket ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17_Linux_create_bucket_02.png "Linux create bucket 02")
+ ![Linux create bucket ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17_Linux_create_bucket_02.png "Linux create bucket 02")
 
 ##　3-2-2.mkdir―ディレクトリを作成する
 
@@ -504,7 +504,7 @@ F:\ossutil64>
 ```
 ./ossutil64 mkdir oss://linuxbucket202106/linuxfolder
 ```
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_Linux_create_folder_01.png "Linux create folder 01")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_Linux_create_folder_01.png "Linux create folder 01")
 レスポンス：
 ```
 # ./ossutil64 mkdir oss://linuxbucket202106/linuxfolder
@@ -514,9 +514,9 @@ F:\ossutil64>
 ```
 
 ②コンソール画面にディレクトリを確認する
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_Linux_create_folder_02.png "Linux create folder 02")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_Linux_create_folder_02.png "Linux create folder 02")
 
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_Linux_create_folder_03.png "Linux create folder 03")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_Linux_create_folder_03.png "Linux create folder 03")
 
 2）マルチレベルディレクトリを作成する
 
@@ -525,7 +525,7 @@ F:\ossutil64>
 ```
 ./ossutil64 mkdir oss://linuxbucket202106/linuxmultifolder/2021/06
 ```
- ![Linux create multi-folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_Linux_create_folder_01.png "Linux create multi-folder 01")
+ ![Linux create multi-folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_Linux_create_folder_01.png "Linux create multi-folder 01")
 
 レスポンス：
 ```
@@ -535,10 +535,10 @@ F:\ossutil64>
 
 ```
 ②コンソール画面にディレクトリを確認する
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_Linux_create_folder_02.png "Linux create multi-folder 02")
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_Linux_create_folder_03.png "Linux create multi-folder 03")
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_Linux_create_folder_04.png "Linux create multi-folder 04")
- ![Linux create folder ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_Linux_create_folder_05.png "Linux create multi-folder 05")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_Linux_create_folder_02.png "Linux create multi-folder 02")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_Linux_create_folder_03.png "Linux create multi-folder 03")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_Linux_create_folder_04.png "Linux create multi-folder 04")
+ ![Linux create folder ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_Linux_create_folder_05.png "Linux create multi-folder 05")
 
 
 ##　3-2-3.cp―ファイルをアップロードする
@@ -560,21 +560,21 @@ cloud_url：OSSのファイルパス，フォーマットはoss://bucketname/obj
 ```
 root/example.txt
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_Linux_upload_file_01.png "Linux upload file 01")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_Linux_upload_file_01.png "Linux upload file 01")
 
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_Linux_upload_file_02.png "Linux upload file 02")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_Linux_upload_file_02.png "Linux upload file 02")
 ②ターゲットOSSパス
 ```
 oss://linuxbucket202106/linuxfolder/
 ```
-![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_Linux_upload_file_03.png "Linux upload file 03")
+![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_Linux_upload_file_03.png "Linux upload file 03")
 
 ③下記のコマンドを実行する
 
 ```
 ./ossutil64 cp example.txt oss://linuxbucket202106/linuxfolder/
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_Linux_upload_file_04.png "Linux upload file 04")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_Linux_upload_file_04.png "Linux upload file 04")
 
 レスポンス：
 ```
@@ -587,7 +587,7 @@ average speed 0(byte/s)
 
 ```
 ④ファイルを確認する
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_Linux_upload_file_05.png "Linux upload file 05")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_Linux_upload_file_05.png "Linux upload file 05")
 
 
 3）フォルダ内のファイルのみをアップロードする
@@ -595,14 +595,14 @@ average speed 0(byte/s)
 ```
 root/folder2/example2.txt
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_Linux_upload_file_01.png "Linux upload file 01")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_Linux_upload_file_01.png "Linux upload file 01")
 
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_Linux_upload_file_02.png "Linux upload file 02")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_Linux_upload_file_02.png "Linux upload file 02")
 ②ターゲットOSSパス
 ```
 oss://linuxbucket202106/linuxmultifolder/
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_Linux_upload_file_03.png "Linux upload file 03")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_Linux_upload_file_03.png "Linux upload file 03")
 
 ③下記のコマンドを実行する
 
@@ -610,7 +610,7 @@ oss://linuxbucket202106/linuxmultifolder/
 ./ossutil64 cp folder2/ -r oss://linuxbucket202106/linuxmultifolder/
 ```
 
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_Linux_upload_file_04.png "Linux upload file 04")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_Linux_upload_file_04.png "Linux upload file 04")
 
 レスポンス：
 ```
@@ -624,7 +624,7 @@ average speed 0(byte/s)
 ```
 
 ④ファイルを確認する
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_Linux_upload_file_05.png "Linux upload file 05")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_Linux_upload_file_05.png "Linux upload file 05")
 
 
 4）フォルダおよびフォルダ内のファイルをアップロードする
@@ -635,21 +635,21 @@ root/folder2/example1.txt
 root/folder2/example2.txt
 root/folder2/ossutil64.exe
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_Linux_upload_file_01.png "Linux upload file 01")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_Linux_upload_file_01.png "Linux upload file 01")
 
 
 ②ターゲットOSSパス
 ```
 oss://linuxbucket202106/linuxmultifolder/2021/
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_Linux_upload_file_02.png "Linux upload file 02")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_Linux_upload_file_02.png "Linux upload file 02")
 
 ③下記のコマンドを実行する
 
 ```
 #./ossutil64 cp folder2/ -r oss://linuxbucket202106/linuxmultifolder/2021/folder2/
 ```
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_Linux_upload_file_03.png "Linux upload file 03")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_Linux_upload_file_03.png "Linux upload file 03")
 
 レスポンス：
 ```
@@ -663,9 +663,9 @@ average speed 705000(byte/s)
 ```
 
 ④ファイルを確認する
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_Linux_upload_file_04.png "Linux upload file 04")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_Linux_upload_file_04.png "Linux upload file 04")
 
- ![Linux upload file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_Linux_upload_file_05.png "Linux upload file 05")
+ ![Linux upload file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_Linux_upload_file_05.png "Linux upload file 05")
 
 
 ##　3-2-4.cp―ファイルをダウンロードする
@@ -675,15 +675,15 @@ average speed 705000(byte/s)
 ```
 2）ファイルをダウンロードする
 ①OSSファイル
- ![Linux download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_Linux_download_file_01.png "Linux download file 01")
+ ![Linux download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_Linux_download_file_01.png "Linux download file 01")
 
 ②Localフォルダ確認
- ![Linux download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_Linux_download_file_02.png "Linux download file 02")
+ ![Linux download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_Linux_download_file_02.png "Linux download file 02")
 ③下記のコマンドを実行する
 ```
 ./ossutil64 cp  -r oss://linuxbucket202106/linuxmultifolder/2021/folder2/ download/
 ```
- ![Linux download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_Linux_download_file_03.png "Linux download file 03")
+ ![Linux download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_Linux_download_file_03.png "Linux download file 03")
 レスポンス
 ```
 # ./ossutil64 cp  -r oss://linuxbucket202106/linuxmultifolder/2021/folder2/ download/
@@ -696,7 +696,7 @@ average speed 63949000(byte/s)
 ```
 
 ④ファイルを確認する
- ![Linux download file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_Linux_download_file_04.png "Linux download file 04")
+ ![Linux download file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_Linux_download_file_04.png "Linux download file 04")
 
 
 ##　3-2-5.cp―ファイルをコピーする
@@ -706,16 +706,16 @@ average speed 63949000(byte/s)
 ```
 2）ファイルをコピーする
 ①コピー元ファイルを確認する
- ![Linux copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_Linux_copy_file_01.png "Linux copy file 01")
+ ![Linux copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_Linux_copy_file_01.png "Linux copy file 01")
 
 ②コピー先を確認する
- ![Linux copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_Linux_copy_file_02.png "Linux copy file 02")
+ ![Linux copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_Linux_copy_file_02.png "Linux copy file 02")
 
 ③下記のコマンドを実行する
 ```
 ./ossutil64 cp oss://linuxbucket202106/linuxmultifolder/2021/folder2/  oss://linuxbucket202106/linuxmultifolder/2021/06/ -r
 ```
- ![Linux copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_Linux_copy_file_03.png "Linux copy file 03")
+ ![Linux copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_Linux_copy_file_03.png "Linux copy file 03")
 
 レスポンス
 ```
@@ -728,7 +728,7 @@ average speed 48565000(byte/s)
 
 ```
 ④ファイルを確認する
- ![Linux copy file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_Linux_copy_file_04.png "Linux copy file 04")
+ ![Linux copy file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_Linux_copy_file_04.png "Linux copy file 04")
 
 ##　3-2-6.rm-ファイルを削除する
 
@@ -749,13 +749,13 @@ average speed 48565000(byte/s)
 ```
 2）ファイルを削除する
 ①ファイルを確認する
- ![Linux rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_Linux_rm_file_01.png "Linux rm file 01")
+ ![Linux rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_Linux_rm_file_01.png "Linux rm file 01")
 
 ②rmコマンドを実行する
 ```
 ./ossutil64 rm oss://linuxbucket202106/linuxmultifolder/2021/06/ -r
 ```
- ![Linux rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_Linux_rm_file_02.png "Linux rm file 02")
+ ![Linux rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_Linux_rm_file_02.png "Linux rm file 02")
 レスポンス
 ```
 # ./ossutil64 rm oss://linuxbucket202106/linuxmultifolder/2021/06/ -r
@@ -766,10 +766,10 @@ Succeed: Total 4 objects. Removed 4 objects.
 
 ```
 ③ファイルが削除されました
- ![Linux rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_Linux_rm_file_03.png "Linux rm file 03")
+ ![Linux rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_Linux_rm_file_03.png "Linux rm file 03")
 
 ④フォルダも削除されました
- ![Linux rm file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_Linux_rm_file_04.png "Linux rm file 04")
+ ![Linux rm file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_Linux_rm_file_04.png "Linux rm file 04")
 
 macOSとARMの環境での使用手順はmacosとARMのossutilバージョンをダウンロードし、使用手順はLinuxのと同じです。
 

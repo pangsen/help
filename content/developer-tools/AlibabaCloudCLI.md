@@ -42,52 +42,52 @@ Windows、MacOS、Linux/UNIXなどのシステムを対応しています。
 1）Windows用パッケージをダウンロードする
 下記のリンクからWindows用インストールパッケージをダウンロードする
 ①[aliyuncli 公式サイト](https://aliyuncli.alicdn.com/aliyun-cli-windows-latest-amd64.zip?spm=a2c4g.11186623.2.3.328338daKOVIQs&file=aliyun-cli-windows-latest-amd64.zip):このリンクからAlibabaCloudCLIの最新バージョンが直接ダウンロードできます
-![windows version download](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01_win_cli_download_01.png "cli download 01")
+![windows version download](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01_win_cli_download_01.png "cli download 01")
 ②[github](https://github.com/aliyun/aliyun-cli/releases?spm=a2c4g.11186623.2.4.328338daKOVIQs):git hub から必要なバージョンをダウンロードする
-![windows version download](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01_win_cli_download_02.png "cli download 02")
+![windows version download](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01_win_cli_download_02.png "cli download 02")
 
 2）zipファイルを解凍し、aliyun.exeを確認する
- ![unzip cli](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_unzip_cli_01.png "unzip cli 01")
+ ![unzip cli](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_unzip_cli_01.png "unzip cli 01")
 
- ![unzip cli](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_unzip_cli_02.png "unzip cli 02")
+ ![unzip cli](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_unzip_cli_02.png "unzip cli 02")
 
 3）環境変数を設定する
 aliyun.exeファイルのディレクトリパスをPath環境変数に追加します
 ①my computerから右クリックメニューのプロパティを開く
 
- ![set path](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_set_path_01.png "set path 01")
+ ![set path](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_set_path_01.png "set path 01")
 
 ②環境変数設定画面のユーザー変数に編集をクリックする
- ![set path](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_set_path_02.png "set path 02")
+ ![set path](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_set_path_02.png "set path 02")
 
 ③aliyun.exeファイルのディレクトリパスを追加し、確認ボタンを二回クリックして設定を完了する
- ![set path](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_set_path_03.png "set path 03")
+ ![set path](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_set_path_03.png "set path 03")
 
 ④CMDウィンドを開き、set pathコマンドを実行して、環境変数が正常に構成されていることを確認する
 
- ![set path](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_set_path_04.png "set path 04")
+ ![set path](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_set_path_04.png "set path 04")
 
 ⑤CLIバージョンを確認する
- ![CLI vesrion](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_cli_version.png "CLI vesrion")
+ ![CLI vesrion](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_cli_version.png "CLI vesrion")
 
 
 # 2-2.LinuxにAlibaba Cloud CLIをインストールする
 1）LinuxのECSを準備する
 ①LinuxのECSを作成する
-![Linux ecs](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_linux_ecs_01.png "Linux ecs 01")
+![Linux ecs](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_linux_ecs_01.png "Linux ecs 01")
 
 ②LinuxのECSを確認する
-![Linux ecs](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_linux_ecs_02.png "Linux ecs 02")
+![Linux ecs](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_linux_ecs_02.png "Linux ecs 02")
 
 ③LinuxのECSに登録する
-![Linux ecs](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_linux_ecs_03.png "Linux ecs 03")
+![Linux ecs](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_linux_ecs_03.png "Linux ecs 03")
 
 2）Linux用パッケージをダウンロードする
 下記のリンクからLinux用インストールパッケージをダウンロードする
 ①[aliyuncli 公式サイト](https://aliyuncli.alicdn.com/aliyun-cli-linux-latest-amd64.tgz?spm=a2c4g.11186623.2.3.5c0c5d40x2AvAO&file=aliyun-cli-linux-latest-amd64.tgz):このリンクからAlibabaCloudCLIの最新バージョンが直接ダウンロードできます
 
 ②[github](https://github.com/aliyun/aliyun-cli/releases?spm=a2c4g.11186623.2.4.5c0c5d40x2AvAO):git hub から必要なバージョンをダウンロードする
-![Linux version download](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_linux_cli_download_link.png "cli download　")
+![Linux version download](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_linux_cli_download_link.png "cli download　")
 
 ③Linux用パッケージをダウンロードする
 ```
@@ -97,24 +97,24 @@ aliyun.exeファイルのディレクトリパスをPath環境変数に追加し
 # wget https://github.com/aliyun/aliyun-cli/releases/download/v3.0.80/aliyun-cli-linux-3.0.80-amd64.tgz
 # ll
 ```
-![Linux version download](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_linux_cli_download.png "cli download　")
+![Linux version download](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_linux_cli_download.png "cli download　")
 
 3）zipファイルを解凍し、aliyun.exeを確認する
 ```
 # tar xzvf aliyun-cli-linux-3.0.80-amd64.tgz
 ```
- ![Linux version tar](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_linux_cli_tar.png "cli tar")
+ ![Linux version tar](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_linux_cli_tar.png "cli tar")
 4）下記コマンドで環境変数設定、aliyunプログラムを/usr/local/binフォルダにコピーペーストする
 ```
 # sudo cp aliyun /usr/local/bin
 ```
- ![set path](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_linux_set_path.png "set path")
+ ![set path](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_linux_set_path.png "set path")
 
 5）CLIバージョンを確認する
 ```
 # aliyun
 ```
- ![Linux version check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_linux_cli_check.png "cli check")
+ ![Linux version check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_linux_cli_check.png "cli check")
 
 
 ## 2-3.macOSにAlibaba Cloud CLIをインストールする
@@ -122,7 +122,7 @@ aliyun.exeファイルのディレクトリパスをPath環境変数に追加し
 ①[aliyuncli 公式サイト](https://aliyuncli.alicdn.com/aliyun-cli-macosx-latest-amd64.tgz?spm=a2c4g.11186623.2.3.32292c6bXvGyxu&file=aliyun-cli-macosx-latest-amd64.tgz):このリンクからAlibabaCloudCLIの最新バージョンが直接ダウンロードできます
 
 ②[github](https://github.com/aliyun/aliyun-cli/releases?spm=a2c4g.11186623.2.4.32292c6bXvGyxu):git hub から必要なバージョンをダウンロードする
-![macOS version download](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_macOS_cli_download_link.png "cli download　")
+![macOS version download](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_macOS_cli_download_link.png "cli download　")
 
 ③macOS用パッケージをダウンロードする
 ・aliyun フォルダを作成する
@@ -174,30 +174,30 @@ aliyun configure --mode <AuthenticateMode> --profile <profileName>
 aliyun configure --mode AK --profile profilewin
 ```
 ②AKを設定する
-![CLI config](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_windows_cli_config_01.png "CLI config 01")
+![CLI config](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_windows_cli_config_01.png "CLI config 01")
 
 ③リージョンを設定する(output フォーマットと言語を設定する)
 [リージョンID](https://help.aliyun.com/document_detail/40654.html?spm=a2c63.p38356.879954.4.6eb1f86bcXCKCG):リージョンIDはこのリンクをご参照ください
-![CLI config](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_windows_cli_config_02.png "CLI config 02")
+![CLI config](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_windows_cli_config_02.png "CLI config 02")
 
 ④構成リストを確認する
 ```
 aliyun configure list
 ```
-![CLI config list](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_cli_config_list.png "CLI config list ")
+![CLI config list](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_cli_config_list.png "CLI config list ")
 
 ⑤構成情報を確認する
 ・構成名を指定しないコマンド
 ```
 aliyun configure get
 ```
- ![CLI config view](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_cli_config_view_01.png "CLI config view 01 ")
+ ![CLI config view](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_cli_config_view_01.png "CLI config view 01 ")
 
 ・構成名を指定するコマンド
 ```
 aliyun configure get --profile profilewin
 ```
- ![CLI config view](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_cli_config_view_02.png "CLI config view 02 ")
+ ![CLI config view](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_cli_config_view_02.png "CLI config view 02 ")
 
 ⑥profilewin構成を削除するコマンド
 
@@ -249,52 +249,52 @@ aliyun <product> <ApiName> [--parameter1 value1 --parameter2 value2 ...]
 ```
 aliyun vpc CreateVpc --VpcName "cli-test"
 ```
- ![Create VPC API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_cli_vpc_01.png "VPC API 01")
+ ![Create VPC API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_cli_vpc_01.png "VPC API 01")
 
-![Create VPC API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_cli_vpc_02.png "VPC API 02")
+![Create VPC API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_cli_vpc_02.png "VPC API 02")
 
 ②VPCを確認する
 ```
 aliyun vpc DescribeVpcs --VpcId vpc-6we0mr2eume1vjwn7w0s1
 ```
- ![Create VPC API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_cli_vpc_03.png "VPC API 03")
+ ![Create VPC API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_cli_vpc_03.png "VPC API 03")
 
 ③VPCのVSwitchを作成する
 aliyun Vpc CreateVSwitch --VpcId vpc-6we0mr2eume1vjwn7w0s1 --CidrBlock 172.16.1.0/24 --ZoneId ap-northeast-1b --VSwitchName vsw-1
 
- ![Create vsw API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_cli_vsw_01.png "vsw API 01")
+ ![Create vsw API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_cli_vsw_01.png "vsw API 01")
 
 ④VPCのVSwitchを確認する
 ```
 aliyun Vpc DescribeVSwitches --VpcId vpc-6we0mr2eume1vjwn7w0s1
 ```
- ![Create vsw API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_cli_vsw_02.png "vsw API 02")
+ ![Create vsw API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_cli_vsw_02.png "vsw API 02")
 
-![Create vsw API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_cli_vsw_03.png "vsw API 03")
+![Create vsw API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_cli_vsw_03.png "vsw API 03")
 
 ⑤ECSインスタンスを作成する
 ```
 aliyun ecs CreateInstance --ImageId centos_7_06_64_20G_alibase_20190711.vhd --InstanceType ecs.t5-lc2m1.nano --Description TestFromCLI --InstanceName ECSTestFromCLI --VSwitchId vsw-6wenz4urbcb2jlyjajrea
 ```
- ![Create ECS API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_ecs_01.png "ECS 01")
+ ![Create ECS API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_ecs_01.png "ECS 01")
 
- ![Create ECS API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_ecs_02.png "ECS 02")
+ ![Create ECS API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_ecs_02.png "ECS 02")
 
 ⑥ECSインスタンスを確認する
 ```
 aliyun ecs DescribeInstanceAttribute --InstanceId i-6webnglrnf4gkg7ml4b0
 ```
- ![Create ECS API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_ecs_03.png "ECS 03")
+ ![Create ECS API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_ecs_03.png "ECS 03")
 
 ⑦ECSインスタンスを削除する
 ```
 aliyun ecs DeleteInstance --InstanceId i-6webnglrnf4gkg7ml4b0
 ```
- ![Create ECS API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_ecs_04.png "ECS 04")
+ ![Create ECS API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_ecs_04.png "ECS 04")
 
- ![Create ECS API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_ecs_05.png "ECS 05")
+ ![Create ECS API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_ecs_05.png "ECS 05")
 
- ![Create ECS API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_ecs_06.png "ECS 06")
+ ![Create ECS API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_ecs_06.png "ECS 06")
 
 2）RESTful APIを呼び出す
 
@@ -308,51 +308,51 @@ ElasticSearch RESTful APIを呼び出す
 ```
 aliyun elasticsearch GET /openapi/instances/es-sg-v3ip8up8spx83982m
 ```
- ![get es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_es_01.png "es 01")
+ ![get es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_es_01.png "es 01")
 
- ![get es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_es_02.png "es 02")
+ ![get es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_es_02.png "es 02")
 
- ![get es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_es_03.png "es 03")
+ ![get es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_es_03.png "es 03")
 
- ![get es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_es_04.png "es 04")
+ ![get es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_es_04.png "es 04")
 
- ![get es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_es_05.png "es 05")
+ ![get es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_es_05.png "es 05")
 
- ![get es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_es_06.png "es 06")
+ ![get es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_es_06.png "es 06")
 
 ②ElasticSearchを設定する
 ```
 aliyun elasticsearch POST /openapi/instances/es-sg-v3ip8up8spx83982m/actions/close-https
 ```
- ![POST es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17_cli_es_01.png "es 01")
+ ![POST es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17_cli_es_01.png "es 01")
 
 ③ElasticSearchインスタンスを削除する
 ```
 aliyun elasticsearch DELETE /openapi/instances/es-sg-v3ip8up8spx83982m
 ```
 削除する前のインスタンス：
- ![DELETE es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_es_01.png "es 01")
+ ![DELETE es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_es_01.png "es 01")
 
 削除する
- ![DELETE es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_es_02.png "es 02")
+ ![DELETE es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_es_02.png "es 02")
 
- ![DELETE es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_es_03.png "es 03")
+ ![DELETE es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_es_03.png "es 03")
 
- ![DELETE es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_es_04.png "es 04")
+ ![DELETE es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_es_04.png "es 04")
 
- ![DELETE es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_es_05.png "es 05")
+ ![DELETE es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_es_05.png "es 05")
 
 削除後：
- ![DELETE es API　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_es_06.png "es 06")
+ ![DELETE es API　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_es_06.png "es 06")
 
 # 5.DockerでAlibaba Cloud CLIを構成する
 ## 5-1.ECS環境を準備する
 
 1）ECSを用意する
-![Linux ecs](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_linux_ecs_01.png "Linux ecs 01")
+![Linux ecs](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_linux_ecs_01.png "Linux ecs 01")
 
 2）LinuxのECSに登録する
- ![Linux ecs](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_linux_ecs_02.png "Linux ecs 02")
+ ![Linux ecs](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_linux_ecs_02.png "Linux ecs 02")
 
 
 ## 5-2.Docker環境を構成する
@@ -361,37 +361,37 @@ aliyun elasticsearch DELETE /openapi/instances/es-sg-v3ip8up8spx83982m
 ```
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 ```
-![docker package](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_package_install_01.png "docker package 01")
+![docker package](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_package_install_01.png "docker package 01")
 
-![docker package](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_package_install_02.png "docker package 02")
+![docker package](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_package_install_02.png "docker package 02")
 
 2）リポジトリを設定する
 ```
 sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ```
- ![set docker repository](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_docker_repository.png "docker repository")
+ ![set docker repository](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_docker_repository.png "docker repository")
 
 3）Docker Engine-Communityをインストールする
 ```
 sudo yum install docker-ce docker-ce-cli containerd.io
 ```
- ![docker install](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_docker_install_01.png "docker install 01")
+ ![docker install](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_docker_install_01.png "docker install 01")
 
-![docker install](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_docker_install_02.png "docker install 02")
+![docker install](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_docker_install_02.png "docker install 02")
 4）Docker を起動する
 ```
 sudo systemctl start docker
 ```
- ![docker start](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_docker_start_01.png "docker start 01")
+ ![docker start](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_docker_start_01.png "docker start 01")
 
 5）Docker を確認する
 ```
 docker version
 sudo systemctl status docker
 ```
- ![docker check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_docker_check_01.png "docker check 01")
+ ![docker check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_docker_check_01.png "docker check 01")
 
- ![docker check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_docker_check_02.png "docker check 02")
+ ![docker check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_docker_check_02.png "docker check 02")
 
 ## 5-3.DockerでAlibaba Cloud CLIを構成する
 1）Dockerfileを用意する
@@ -399,7 +399,7 @@ sudo systemctl status docker
 ```
 vim Dockerfile
 ```
- ![docker file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_docker_file_01.png "docker file 01")
+ ![docker file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_docker_file_01.png "docker file 01")
 ```
 FROM alpine:latest
 
@@ -412,7 +412,7 @@ RUN tar -xvzf aliyun-cli-linux-3.0.2-amd64.tgz
 RUN rm aliyun-cli-linux-3.0.2-amd64.tgz
 RUN mv aliyun /usr/local/bin/
 ```
- ![docker file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_docker_file_02.png "docker file 02")
+ ![docker file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_docker_file_02.png "docker file 02")
 
 2）Dockerfileを使って、docker buildコマンドでCLIイメージを作成する
 ```
@@ -420,26 +420,26 @@ docker build -t test/aliyuncli:v1 .
 ```
 備考：コマンドの最後にある「.」は、現在のディレクトリにDockerイメージをビルドするようにDockerに指示します。省略するとエラーが発生します。
 
- ![docker image](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_docker_image_01.png "docker image 01")
+ ![docker image](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_docker_image_01.png "docker image 01")
 
- ![docker image](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_docker_image_02.png "docker image 02")
+ ![docker image](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_docker_image_02.png "docker image 02")
 
 3）CLI docker image を起動する
 
 ```
 docker run -it -d --name dockercli test/aliyuncli:v1
 ```
- ![docker run](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_docker_run_01.png "docker run 01")
+ ![docker run](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_docker_run_01.png "docker run 01")
 
 CLI dockerを確認する
- ![docker run](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_docker_run_02.png "docker run 02")
+ ![docker run](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_docker_run_02.png "docker run 02")
 
 4）CLI dockerを接続する
 
 ```
 docker exec -it dockercli /bin/sh
 ```
- ![docker connect](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/28_docker_connect_01.png "docker connect 01")
+ ![docker connect](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/28_docker_connect_01.png "docker connect 01")
 
 ## 5-4.DockerでAlibaba Cloud CLIを使用する
 
@@ -450,13 +450,13 @@ docker exec -it dockercli /bin/sh
 aliyun configure --mode AK --profile profiledocker
 ```
 リージョンとAKを設定する[リージョンID](https://help.aliyun.com/document_detail/40654.html?spm=a2c63.p38356.879954.4.6eb1f86bcXCKCG):リージョンIDはこのリンクをご参照ください
-![CLI config](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/29_docker_cli_config_01.png "CLI config 01")
+![CLI config](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/29_docker_cli_config_01.png "CLI config 01")
 
 ②構成リストを確認する
 ```
 aliyun configure list
 ```
-![CLI config list](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/30_cli_config_list.png "CLI config list ")
+![CLI config list](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/30_cli_config_list.png "CLI config list ")
 
 2）RPC APIを呼び出す
 
@@ -465,9 +465,9 @@ aliyun configure list
 aliyun vpc CreateVpc --VpcName "cli-test-docker"
 ```
 {"VRouterId":"vrt-6weaytpdc2rr22b9lgdpw","RouteTableId":"vtb-6webmz6mk266r3e6hot4l","RequestId":"8D31603B-5F6F-4FB6-919F-22CC0D031BD9","VpcId":"vpc-6wegrzq26hyl0snlfbxpv","ResourceGroupId":"rg-acfnu655g4vjkyi"}
-![Create VPC ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/31_Create_VPC_01.png "Create VPC 01 ")
+![Create VPC ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/31_Create_VPC_01.png "Create VPC 01 ")
 
-![Create VPC ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/31_Create_VPC_02.png "Create VPC 02 ")
+![Create VPC ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/31_Create_VPC_02.png "Create VPC 02 ")
 
 ここまではCLIの手順です
 

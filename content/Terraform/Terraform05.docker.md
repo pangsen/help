@@ -26,18 +26,18 @@ author: "Hironobu Ohara"
 * 3.docker-imageを使った、CI/CD:継続的インテグレーションと継続的デリバリーをする場合
 
 ざっくりですがこんなイメージです。
-![図 0](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_7.0.0.png)
+![図 0](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_7.0.0.png)
 
 
 &nbsp; 1はバージョン固定や実行環境を汚さずに使用するメリットがあります。様々な環境でterraformを使用したい場合は直接terraformコマンドをインストールせず、バージョン管理が可能なツール(`tfenv`)を使用してインストールすルことを勧めます。
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_7.0.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_7.0.png)
 
 &nbsp; 2はTerraformで新規作成したリソースに対し、docker-compose.yml ファイルを使ってアプリケーションの環境を設定します。こちらは[公式サイト](http://docs.docker.jp/compose/overview.html)にて説明がありますので参考にしてください。
 http://docs.docker.jp/compose/overview.html
 
 &nbsp; 3は、dockerのImageファイルをdocker hub（リポジトリ）へ保存することで、新規ECSや各種アプリケーション、Webサイトを立ち上げる時、docker hub（リポジトリ）から対象のDocker ImageファイルをPullしそのまま実行することで、どの環境でも継続CI/CDを実現することができます。
 
-![図 2](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/7.1.png)
+![図 2](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/7.1.png)
 本章はTerraformをメインとしてるため、ここにCI/CDや方法は載せませんが、やり方は以下サイトを参照してみてください。（近日中にCI/CD手法を載せる予定です）
 
 [Dockerize App and Push to Container Registry: CI/CD Automation on Container Service (1)](https://www.alibabacloud.com/blog/dockerize-app-and-push-to-container-registry-cicd-automation-on-container-service-1_594539)

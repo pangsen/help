@@ -16,19 +16,19 @@ author: "Hironobu Ohara"
 * 踏み台サーバから実行用など本番に使う各サーバへのログを残せるため、不正操作を防げれる。
 
 
-![イメージ図](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_17.0.0.png)
+![イメージ図](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_17.0.0.png)
 
 
 # 構成図
 
 構成としては以下の図通りになります。
 
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_17.1.1.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_17.1.1.png)
 
 
 &nbsp; Terraformで踏み台サーバ、本番サーバを作ってみます。ゴールの構成図は以下の通りです。
 
-![図 2](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_17.1.2.png)
+![図 2](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_17.1.2.png)
 
 
 

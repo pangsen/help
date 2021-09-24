@@ -66,13 +66,13 @@ AlibabaCloudコンソールにあるResource Access Management (RAM) でAccessKe
 AdministratorAccessポリシー以外では、権限不足でTerraform実行が失敗する場合が゙あります。
 その場合は、エラーメッセージを参考に必要な権限を付与します。
 
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_3.1.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_3.1.png)
 ▲ AlibabaCloudコンソールのRAMページにて、左側タブの「ユーザー」を選択します。
 
-![図 2](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_3.2.png)
+![図 2](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_3.2.png)
 ▲ Terraformを実行したいユーザーを選択して、、（もちろんAlibabaCloudのリソースが実行できる権限がついてることが望ましい）
 
-![図 3](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_3.3.png)
+![図 3](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_3.3.png)
 ▲ ユーザのAccessKey/SecretKeyを発行します。これは重要な情報なので無くさないようメモなどに残してください。
 
 &nbsp; 上記作業によって取得したAccessKeysとSecretKeyは、`confing.tfvars`などに入れます。

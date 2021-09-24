@@ -91,7 +91,7 @@ https://www.alibabacloud.com/help/doc-detail/65072.htm
    e.g. 日本リージョンのAWSからコンテンツ配信して、中国リージョンのAlibaba CloudのCDNを利用して低遅延配信する
 
 ### 構成イメージ
-![構成イメージ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/img_02.png)
+![構成イメージ](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/img_02.png)
 
 
 

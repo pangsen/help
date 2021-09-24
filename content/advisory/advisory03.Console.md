@@ -18,15 +18,15 @@ Alibaba Cloudには、Webベースの管理コンソールがあります。ア�
 Alibaba Cloudは、中国内のみ利用が出来る中国サイトと、日本を含めた世界各地が利用出来る国際サイトの2つがあります。私たちは基本的に国際サイトを利用します。
 
 > 国際サイト
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.1.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.1.PNG "Console")
 
 > 中国サイト
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.1.1.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.1.1.PNG "Console")
 
 
 これらは URLで国際サイト、中国サイトへ切り替えすることができますが、メニューバーにある言語設定で、中国サイト（中国站）、国際サイト（International）への切り替えもできます。
 
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.1.2.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.1.2.PNG "Console")
 
 
 ---
@@ -35,29 +35,29 @@ Alibaba Cloudは、中国内のみ利用が出来る中国サイトと、日本�
 # 基本的なメニュー画面（ホーム）
 Alibaba CloudへアカウントあるいはRAMユーザーとしてログイン後、基本的なメニュー画面が表示されます。
 Alibaba Cloudのコンソール管理画面はマテリアルデザインなので、スマートフォンやタブレットからも同様の操作をすることができます。
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.2.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.2.PNG "Console")
 
 
 ここで注目したいのは、画面上のナビゲーションバーです。例えば、左側の「Producet and Services」を選定すると、操作・処理したいプロダクトサービスを選定することができます。
 基本的には、左側の「Producet and Services」から操作したいプロダクトサービスを選定、そこからプロダクトサービス内で詳細管理、といった一連の流れで操作を行います。
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.4.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.4.PNG "Console")
 
 
 プロダクトサービスメニューからは様々なプロダクトサービスがありますが、以下はホーム画面から直接操作することができます。
 CloudShellを使うことで、ユーザーはECSやローカルのターミナルからでなく、直接APIやShellによるプロダクトサービスを操作することが出来ます。
 
 * CloudShell
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.3.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.3.PNG "Console")
 
 
 
 その他、画面右上のメニューバーから、様々な機能へのリンクがついています。
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.5.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.5.PNG "Console")
 
 
 # 料金 & クレジット残高
 
-![Console](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.6.PNG "Console")
+![Console](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.6.PNG "Console")
 
 # アカウント情報
 Alibaba Cloud のアカウントは基本的に2種類あります。１つはアカウント（Administrator、サービス管理者）、もう１つはRAM ユーザー（子アカウント）です。
@@ -65,17 +65,17 @@ Alibaba Cloud のアカウントは基本的に2種類あります。１つは�
 
 
 > 1. アカウント（Administrator、サービス管理者）
-![account](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.7.PNG "account")
+![account](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.7.PNG "account")
 
 
 > 2. RAM ユーザー
-![RAMユーザー](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.8.PNG "RAMユーザー")
+![RAMユーザー](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.8.PNG "RAMユーザー")
 
 # Helpドキュメント
 Alibaba Cloud のhelpドキュメントは英語、中国語、日本語あるいは中国語、英語、日本語の優先順位で翻訳しながら展開されます。そのため、helpページのURLで英語/中国語/日本語をスイッチングしながら切り替えて確認することができます。
 
 また、日本語によるhelpページがない場合は英語、あるいは中国語で確認が望ましいです。Google Chromeを使っている場合はGoogle翻訳を使って好きな言語に翻訳しながら確認すると良いと思います。
 
-![help doc](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/3.12.PNG "help doc")
+![help doc](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.12.PNG "help doc")
 
 

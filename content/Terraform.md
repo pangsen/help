@@ -15,26 +15,26 @@ author: "Hironobu Ohara"
 
 &nbsp; Terraformは構築したいインフラの構成をテキスト形式のテンプレートファイルに定義します（Infrastructure as Code）。「どこのリージョン」「どのスペックのECS、どのリソースを使うか」「支払い方法」「展開方法」といったインフラの状態をコードとして記述し、ターミナルからコマンドを実行するだけでクラウド上に適用 (構築) が出来ます。逆に既存のリソースをTerraformでImportすることでコード化、同じ構成のコードを他リージョンで同様展開することも可能です。
 他にIaCとしてPackerやVagrantがありますが、本ガイドラインとしてはTerraformを中心とした説明で進めます。
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_2.1.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.1.png)
 
 
 &nbsp; 構成変更や他クラウドプロパイダからのマイグレーション、同じリソースで別リージョン、別アカウントにて展開するときにIaCがあることでエラーなくシームレスに移管ができます（リソースをGUIベースでコピーすることは不可能です。）
 また障害や高負荷など問題発生時でも環境を復元することができるメリットもあります。
 
 
-![図 2](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_2.2.png)
+![図 2](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.2.png)
 
 
 &nbsp; 加えて、コードからリソースを作成することで学習コスト・運用コストを削減することができます。例えば先ほどの例、AlibabaCloud未経験者がECS 100台を手動でなくIaC、Terraformで起動すると、ミスをゼロへ抑制はもちろん、学習工数・運用保守コスト・全てが大幅に節約できます。
 
-![図 3](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_2.3.png)
+![図 3](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.3.png)
 
 
 # Immutable Infrastructure（使い捨て構成）
 &nbsp; クラウド環境（仮想環境）が登場したことで、サーバらHW、物理的リソース制約がなくなりました。これにより、サーバやネットワークを簡単に構築したり、一旦構築したものをすぐに破棄することが出来るようになったので、一度構築したインフラやリソースは変更を加えることなく破棄して、新しいものを構築する考えが可能になりました。
 →このような流れは「Immutable Infrastructure（不変のインフラ）」と呼ばれ、インフラ変更履歴を管理するのではなく、動作している「インフラの状態」を管理（=必要に応じて使い捨て）からクラウド環境ではコードによるインフラ構成・構築・管理・運用を行う必要があります。IaCとしてTerraformを上手く使うことで、ユーザーのワークロードに応じた使い捨て構成でのサーバー増設を素早く構築することができます。
 
-![図 4](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_2.4.png)
+![図 4](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.4.png)
 
 
 # 最後に

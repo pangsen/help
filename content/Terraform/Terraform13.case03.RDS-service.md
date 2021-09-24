@@ -14,7 +14,7 @@ author: "Hironobu Ohara"
 
 &nbsp; TerraformでデータベースサービスであるRDSを作ってみます。ゴールの構成図は以下の通りです。
 
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_19.1.1.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_19.1.1.png)
 
 
 またECSからRDS for MySQLへ接続するためにdocker-composeを使います。docker-composeはコンテナオーケストレーションの一つで、環境構築を再現するのが楽になる手法です。docker-compose.ymlファイルは以下の通りです。

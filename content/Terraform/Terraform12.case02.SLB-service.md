@@ -16,7 +16,7 @@ author: "Hironobu Ohara"
 * セキュリティ・・・SLBはトラフィックを分散するだけでなくHTTP Flood攻撃やSYN Flood攻撃など、最大5GbitsのDDoS攻撃から防御できます。
 
 
-SLBのより詳しい詳細は[こちらを参照](https://jp.alibabacloud.com../doc-detail/27539.htm)ください。
+SLBのより詳しい詳細は[こちらを参照](https://www.alibabacloud.com../doc-detail/27539.htm)ください。
 
 
 
@@ -24,7 +24,7 @@ SLBのより詳しい詳細は[こちらを参照](https://jp.alibabacloud.com..
 
 &nbsp; TerraformでSLBを使ったECSインスタンスを作成してみます。ゴールの構成図は以下の通りです。
 
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_18.1.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_18.1.png)
 
 
 # パラメータ構成

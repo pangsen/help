@@ -11,7 +11,7 @@ author: "Nancy"
 本書は、Alibaba Cloud Shellの使用手順を記載します。
 
 構成図
- ![overview](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/00_overview.png "overview")
+ ![overview](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/00_overview.png "overview")
 
 
 
@@ -27,13 +27,13 @@ Cloud Shellを起動すると、専用のLinux仮想マシンが自動的に作�
 ②永続ディスクストレージスペース
 Cloud Shellは、ストレージスペースをバインドして、永続的なストレージを提供します。CloudShellインスタンスの$ HOMEディレクトリとして。 ホームディレクトリに保存されているすべてのファイル（スクリプトおよび.bashrcや.vimrcなどのユーザー構成ファイルを含む）は、異なるセッションやインスタンス間で変更されません。
 ツールバーのストレージアイコンを使用して、ストレージスペースをバインドまたはバインド解除ができます。
- ![storage icon](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01_storage_icon.png "storage icon")
+ ![storage icon](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01_storage_icon.png "storage icon")
 
 ③コードエディタ
 ・Cloud Shellには、組み込みのコードエディターがあります。 ツールバーのコードアイコンをクリックすると、コードエディタを開くことができます。
- ![Edit icon](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_Edit_icon_01.png "Edit icon 01")
+ ![Edit icon](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_Edit_icon_01.png "Edit icon 01")
 ・$ HOMEファイルディレクトリを参照したり、コードエディタでファイルを編集したりしながら、引き続きCloudShellを使用できます。 CloudShellに組み込まれているWebIDEを使用すると、開発環境の構成やさまざまな依存ツールのインストールを気にせず。オンラインで直接開発し、コマンドラインから実行またはデプロイできます。同時に、ストレージスペースはCloud Shellを介してバインドされ、編集したファイルは永続的に保存できます。
- ![Edit icon](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02_Edit_icon_02.png "Edit icon 02")
+ ![Edit icon](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02_Edit_icon_02.png "Edit icon 02")
 
 ④チュートリアルモード
 Cloud Shellは、チュートリアルの構築と起動をサポートしています。 チュートリアルは、Markdownで記述された一連の命令ドキュメントです。
@@ -66,29 +66,29 @@ Cloud Shell仮想マシンには、次の言語を実装しています。
 ## 2-1.Alibaba Cloud Shellの起動方法
 1）コンソールで起動
 ①Alibaba Cloud公式サイトでログインをクリックし、RAMユーザーを入力する
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_run_cloud_shell_000.png "run cloud shell 000")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_run_cloud_shell_000.png "run cloud shell 000")
 
 ②パスワードを入力する
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_run_cloud_shell_001.png "run cloud shell 001")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_run_cloud_shell_001.png "run cloud shell 001")
 
 ③コンソールメニュをクリックする
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_run_cloud_shell_01.png "run cloud shell 01")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_run_cloud_shell_01.png "run cloud shell 01")
 
 ④コンソール画面でCloud Shellアイコンをクリックする
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_run_cloud_shell_02.png "run cloud shell 02")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_run_cloud_shell_02.png "run cloud shell 02")
 
 ⑤Cloud Shellを起動する
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_run_cloud_shell_03.png "run cloud shell 03")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_run_cloud_shell_03.png "run cloud shell 03")
 
 ⑥helpを確認する
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03_run_cloud_shell_04.png "run cloud shell 04")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03_run_cloud_shell_04.png "run cloud shell 04")
 2）単独で起動
 ①ブラウザでリンクを開く[リンク](https://shell.aliyun.com)
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_run_cloud_shell_01.png "run cloud shell 01")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_run_cloud_shell_01.png "run cloud shell 01")
 
 ②OpenAPI ExplorerでCloud Shellを起動する
 OpenAPI Explorerで起動[OpenAPI Explorer](https://api.alibabacloud.com/new?spm=a2c4g.11186623.2.7.24624ebbsIHCoM#/cli)
-![run cloud shell](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04_run_cloud_shell_02.png "run cloud shell 02")
+![run cloud shell](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04_run_cloud_shell_02.png "run cloud shell 02")
 
 ## 2-2.Cloud ShellにCLIコマンドでクラウドリソースの管理
 Cloud ShellでCLIコマンドでAlibabaCloud APIを直接呼び出して、クラウドリソースを管理することができます
@@ -112,9 +112,9 @@ aliyun <ProductCode> --help
 aliyun ecs --help
 ```
 ECSのAPIがリストされる
-![cloud shell help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_cloud_shell_help_01.png "cloud shell help 01")
+![cloud shell help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_cloud_shell_help_01.png "cloud shell help 01")
 
- ![cloud shell help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_cloud_shell_help_02.png "cloud shell help 02")
+ ![cloud shell help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_cloud_shell_help_02.png "cloud shell help 02")
 
 ③詳細APIのHelpを確認する
 フォーマット
@@ -125,7 +125,7 @@ aliyun <ProductCode> <ApiName> --help
 ```
 aliyun ecs DescribeInstanceAttribute --help
 ```
- ![cloud shell help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05_cloud_shell_help_03.png "cloud shell help 03")
+ ![cloud shell help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05_cloud_shell_help_03.png "cloud shell help 03")
 
 
 ④VPCを作成する
@@ -143,14 +143,14 @@ shell@Alicloud:~$ aliyun vpc CreateVpc --VpcName "cloudshell_cli-test"
 }
 ```
 
- ![create vpc](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06_create_vpc.png "create vpc")
+ ![create vpc](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06_create_vpc.png "create vpc")
 
 ⑤VPCを確認する
 
 ```
 aliyun vpc DescribeVpcs --VpcId vpc-t4nhmjhg898hsqv63qibx
 ```
- ![check vpc](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07_check_vpc.png "check vpc")
+ ![check vpc](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07_check_vpc.png "check vpc")
 
 
 ## 2-3.コードエディターの可視化
@@ -158,15 +158,15 @@ CloudShellはビジュアルコードエディターが組み込まれている�
 CloudShellはJava、Python、Go、Nodejs、PHP、Rubyの言語を対応している。またコードエディターでMDファイルも作成できる。
 Pythonを例として説明します。
 1）CloudShellでコードエディター画面を開く
- ![edit code](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_edit_code_01.png "edit code 01")
+ ![edit code](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_edit_code_01.png "edit code 01")
 
- ![edit code](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08_edit_code_02.png "edit code 02")
+ ![edit code](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08_edit_code_02.png "edit code 02")
 
 2）hellowworld.pyを追加する
 
- ![add python file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_add_python_file_01.png "python file 01")
+ ![add python file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_add_python_file_01.png "python file 01")
 
- ![add python file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09_add_python_file_02.png "python file 02")
+ ![add python file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09_add_python_file_02.png "python file 02")
 
 3）Pythonコードを編集する
 ①コードを編集する
@@ -174,34 +174,34 @@ Pythonを例として説明します。
 #test for code edit helloworld.py
 print('hello world !')
 ```
- ![edit code](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_edit_python_code_01.png "edit code 01")
+ ![edit code](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_edit_python_code_01.png "edit code 01")
 ②コードを保存する
- ![edit code](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10_edit_python_code_02.png "edit code 02")
+ ![edit code](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10_edit_python_code_02.png "edit code 02")
 
 4）Pythonコードを実行する
 ```
 python helloworld.py
 ```
- ![run code](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11_run_python_code.png "run code ")
+ ![run code](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11_run_python_code.png "run code ")
 
 ## 2-4.ファイルのアップロードとダウンロード
 
 1）ファイルをアップロードする
 
 ①helloworld.javaファイルを用意する
- ![upload file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_upload_file_01.png "upload file 01")
+ ![upload file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_upload_file_01.png "upload file 01")
 
 ②アップロード＆ダウンロードアイコンをクリッし、アップロードメニューをクリックする
-![upload file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_upload_file_02.png "upload file 02")
+![upload file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_upload_file_02.png "upload file 02")
 
 ③helloworld.javaファイルを選択する
-![upload file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_upload_file_03.png "upload file 03")
+![upload file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_upload_file_03.png "upload file 03")
 
 ④helloworld.javaファイルがアップロード完了しました
-![upload file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_upload_file_04.png "upload file 04")
+![upload file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_upload_file_04.png "upload file 04")
 
 ⑤helloworld.javaファイルを確認する
-![upload file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_upload_file_05.png "upload file 05")
+![upload file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_upload_file_05.png "upload file 05")
 
 ⑥helloworld.javaファイルを実行する
 ```
@@ -214,27 +214,27 @@ java helloworld
 ```
 helloworldがプリントされる
 
-![upload file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12_upload_file_06.png "upload file 06")
+![upload file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12_upload_file_06.png "upload file 06")
 
 2）ファイルをダウンロードする
 helloworld.pyをダウンロードする
 ①アップロード＆ダウンロードアイコンをクリッし、ダウンロードメニューをクリックする
-![download file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_download_file_01.png "download file 01")
+![download file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_download_file_01.png "download file 01")
 
 ②ダウンロードウィンドを開く
-![download file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_download_file_02.png "download file 02")
+![download file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_download_file_02.png "download file 02")
 
 ③ファイルパスを入力する
-![download file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_download_file_03.png "download file 03")
+![download file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_download_file_03.png "download file 03")
 
 ④ダウンロード完成する
-![download file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_download_file_04.png "download file 04")
+![download file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_download_file_04.png "download file 04")
 
 ⑤ファイルを確認する
-![download file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_download_file_05.png "download file 05")
+![download file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_download_file_05.png "download file 05")
 
 ⑥helloworld.py内容を確認する
-![download file](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13_download_file_06.png "download file 06")
+![download file](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13_download_file_06.png "download file 06")
 
 ## 2-5.チュートリアルの作成
 CloudShellでチュートリアルが作成できる
@@ -243,14 +243,14 @@ CloudShellでチュートリアルが作成できる
 mkdir tutorials
 ```
 上記のコマンドを実行し、リフレッシュボタンをクリックしてフォルダが確認する
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_01.png "create tutorials 01")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_01.png "create tutorials 01")
 
 2）tutorialsフォルダに移動し、tutorial.mdファイルを作成する
 ```bash
 cd tutorials
 touch tutorial.md
 ```
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_02.png "create tutorials 02")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_02.png "create tutorials 02")
 
 3）Markdownチュートリアルを作成する
 Markdown構文を使用してチュートリアルドキュメントが作成できます。下記のルールに従ってください
@@ -286,25 +286,25 @@ aliyun help
     ## ここまで完成です
 ```
 
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_02.png "create tutorials 02")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_02.png "create tutorials 02")
 
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_03.png "create tutorials 03")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_03.png "create tutorials 03")
 
 ⑦下記コマンドを実行し、チュートリアルをレビューする
 ```
 teachme tutorial.md
 ```
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_04.png "create tutorials 04")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_04.png "create tutorials 04")
 
 ⑧チュートリアルレビュー画面にCopyToTerminalボタンをクリックし、コマンドがCloudShellのターミナルへコピーペーストする
 
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_05.png "create tutorials 05")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_05.png "create tutorials 05")
 
 ⑧CloudShellのターミナルにコマンドが表示される
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_06.png "create tutorials 06")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_06.png "create tutorials 06")
 
 ⑩CloudShellのターミナルでコマンドが実行できる
-![create tutorials](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14_create_tutorials_07.png "create tutorials 07")
+![create tutorials](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14_create_tutorials_07.png "create tutorials 07")
 
 チュートリアルが作成後、Cloud Shellで実装されたGitコマンドを使用して、チュートリアルをGitリポジトリとしてGitにプッシュできます。Gitリポジトリはインタネットアクセス許可の必要がある
 
@@ -321,14 +321,14 @@ Alibaba CloudCLIを起動する際に、初めてCLIを接続するときに、�
 aliyun <ProductCode> <ActionName> [--parameter1 value1 --paramter2 value2]
 ```
 ①CLIバージョンを確認する
-![CloudShell　CLI version](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15_cli_version.png "CLI version ")
+![CloudShell　CLI version](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15_cli_version.png "CLI version ")
 ②CLI構成を確認する
 CloudShellでCLIを使用する際に、新たな構成はいらず、CLIが使用できる
 デフォルトは一時的なAKで、デフォルトリージョンはap-southeast-1シンガポールリージョンです
 ```
 aliyun configure get
 ```
-![CloudShell　CLI config　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16_cli_config.png "CLI config ")
+![CloudShell　CLI config　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16_cli_config.png "CLI config ")
 
 ③VPCを作成する
 ```
@@ -344,15 +344,15 @@ shell@Alicloud:~$ aliyun vpc CreateVpc --VpcName "cloudshell_cli-test"
         "VpcId": "vpc-t4nie19p50f4ajqltxop9"
 }
 ```
- ![vpc create　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17_cli_vpc_create_01.png "vpc create 01")
+ ![vpc create　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17_cli_vpc_create_01.png "vpc create 01")
 
-![vpc create　](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17_cli_vpc_create_02.png "vpc create 02")
+![vpc create　](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17_cli_vpc_create_02.png "vpc create 02")
 
 ④VPCを確認する
 ```
 aliyun vpc DescribeVpcs --VpcId vpc-t4nie19p50f4ajqltxop9
 ```
- ![vpc describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18_cli_vpc_describe.png "vpc describe")
+ ![vpc describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18_cli_vpc_describe.png "vpc describe")
 
 2）CloudShellでCLIを通してRESTful APIを呼び出す
 
@@ -367,32 +367,32 @@ aliyun configure get
 aliyun configure --mode AK --profile profileshell
 aliyun configure get
 ```
-![profile change](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_cli_profile_change_01.png "profile change 01")
+![profile change](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_cli_profile_change_01.png "profile change 01")
 
-![profile change](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19_cli_profile_change_02.png "profile change 02")
+![profile change](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19_cli_profile_change_02.png "profile change 02")
 
 ①ElasticSearchのインスタンスを確認する
 
 ```
 aliyun elasticsearch GET /openapi/instances/es-sg-mjc28e06a000118oi
 ```
-![es describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_get_01.png "es describe 01")
+![es describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_get_01.png "es describe 01")
 
-![es describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_get_02.png "es describe 02")
+![es describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_get_02.png "es describe 02")
 
-![es describe](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20_cli_es_get_03.png "es describe 03")
+![es describe](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20_cli_es_get_03.png "es describe 03")
 
 ②ElasticSearchインスタンスを削除する
 ```
 aliyun elasticsearch DELETE /openapi/instances/es-sg-mjc28e06a000118oi
 ```
 上記のAPIを実行する
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_01.png "es delete 01")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_01.png "es delete 01")
 
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_02.png "es delete 02")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_02.png "es delete 02")
 
 ESインスタンスが削除されました
-![es delete](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_es_delete_03.png "es delete 03")
+![es delete](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_es_delete_03.png "es delete 03")
 
 
 ## 3-2.CLIでOSSにあるデータを管理する
@@ -407,20 +407,20 @@ aliyun oss [command] [options and parameters]
 ```
 aliyun oss mb oss://shellbucket2106
 ```
-![oss bucket](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_oss_bucket_01.png "oss bucket 01")
+![oss bucket](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_oss_bucket_01.png "oss bucket 01")
 
 ②バケットを確認する
-![oss bucket](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21_cli_oss_bucket_02.png "oss bucket 02")
+![oss bucket](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21_cli_oss_bucket_02.png "oss bucket 02")
 
 3）ossバケットにフォルダを作成する
 ①フォルダを作成する
 ```
 aliyun oss mkdir oss://shellbucket2106/shellfolder/
 ```
-![oss bucket](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_cli_oss_folder_01.png "oss bucket 01")
+![oss bucket](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_cli_oss_folder_01.png "oss bucket 01")
 
 ②フォルダを確認する
-![oss bucket](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_cli_oss_folder_02.png "oss bucket 02")
+![oss bucket](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_cli_oss_folder_02.png "oss bucket 02")
 
 ③Helpコマンドを確認する
 ```
@@ -475,9 +475,9 @@ Commands:
 Use `oss --help` for more information.
 shell@Alicloud:~$
 ```
-![oss help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_cli_oss_help_01.png "oss help 01")
+![oss help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_cli_oss_help_01.png "oss help 01")
 
-![oss help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_cli_oss_help_02.png "oss help 02")
+![oss help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_cli_oss_help_02.png "oss help 02")
 
 ④詳細APIヘルプコマンドを確認する
 コマンドフォーマット
@@ -487,9 +487,9 @@ aliyun oss [command] help
 ```
 aliyun oss hash help
 ```
-![oss help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_cli_oss_help_detail_01.png "oss detail help 01")
+![oss help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_cli_oss_help_detail_01.png "oss detail help 01")
 
-![oss help](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_cli_oss_help_detail_02.png "oss detail help 02")
+![oss help](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_cli_oss_help_detail_02.png "oss detail help 02")
 
 ## 3-3.TerraformでAlibabaCloudリソースを管理する
 Alibaba Cloud Cloud Shellは、運用と保守に役立つ無料のツールです。Terraformコンポーネントが実装されており、クレデンシャルで構成されています。 したがって、TerraformコマンドをCloudShellで直接実行できます。
@@ -502,22 +502,22 @@ Alibaba Cloud Cloud Shellは、運用と保守に役立つ無料のツールで�
 ```
 mkdir terraform-project
 ```
-![Terraform](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_cli_terraform_01.png "Terraform 01")
+![Terraform](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_cli_terraform_01.png "Terraform 01")
 
 ②リフレッシュボタンをクリック後、フォルダを確認する
-![Terraform](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_cli_terraform_02.png "Terraform 02")
+![Terraform](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_cli_terraform_02.png "Terraform 02")
 
 ③Shellパスをterraform-projectに切り替わる
 ```
 cd terraform-project
 ```
-![Terraform](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_cli_terraform_03.png "Terraform 03")
+![Terraform](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_cli_terraform_03.png "Terraform 03")
 
 4）main.tfファイルを作成する
 ```
 touch main.tf
 ```
-![Terraform](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22_cli_terraform_04.png "Terraform 04")
+![Terraform](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22_cli_terraform_04.png "Terraform 04")
 
 ⑤main.tfを編集する
 （tfファイルの作成方はTerraformの記事もご参照ください。）
@@ -560,9 +560,9 @@ resource "alicloud_security_group_rule" "cloud_shell_tf_all_sgr1" {
 
 ```
 
- ![Terraform edit](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_cli_terraform_edit_01.png "Terraform edit 01")
+ ![Terraform edit](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_cli_terraform_edit_01.png "Terraform edit 01")
 
-![Terraform edit](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23_cli_terraform_edit_02.png "Terraform edit 02")
+![Terraform edit](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23_cli_terraform_edit_02.png "Terraform edit 02")
 
 5）Terraformを初期化する
 ①下記コマンドを実行する
@@ -570,10 +570,10 @@ resource "alicloud_security_group_rule" "cloud_shell_tf_all_sgr1" {
 terraform init
 ```
 
-![Terraform init](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_cli_terraform_init_01.png "Terraform init 01")
+![Terraform init](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_cli_terraform_init_01.png "Terraform init 01")
 
 ②初期化が完成される
-![Terraform init](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24_cli_terraform_init_02.png "Terraform init 02")
+![Terraform init](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24_cli_terraform_init_02.png "Terraform init 02")
 
 6）terraform planを実行する
 ①下記コマンドを実行する
@@ -581,10 +581,10 @@ terraform init
 terraform plan
 ```
 
-![Terraform plan](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_cli_terraform_plan_01.png "Terraform plan 01")
+![Terraform plan](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_cli_terraform_plan_01.png "Terraform plan 01")
 
 ②terraform plan実行が完成される
-![Terraform plan](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25_cli_terraform_plan_02.png "Terraform plan 02")
+![Terraform plan](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25_cli_terraform_plan_02.png "Terraform plan 02")
 
 7）terraform applyを実行する
 ①下記コマンドを実行する
@@ -592,14 +592,14 @@ terraform plan
 terraform apply
 ```
 
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_01.png "Terraform apply 01")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_01.png "Terraform apply 01")
 
 ②Enter a value: が表示されたら、yesをインプットする
 
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_02.png "Terraform apply 02")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_02.png "Terraform apply 02")
 
 ③terraform applyが完成される
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_03.png "Terraform apply 03")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_03.png "Terraform apply 03")
 
 ```
 shell@Alicloud:~/terraform-project$ terraform apply
@@ -638,34 +638,34 @@ Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
 shell@Alicloud:~/terraform-project$
 ```
 ④AlibabaCloudコンソール画面にVPCインスタンスを確認する
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_04.png "Terraform apply 04")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_04.png "Terraform apply 04")
 
 ⑤VPC詳細画面にリソースを確認する
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_05.png "Terraform apply 05")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_05.png "Terraform apply 05")
 
 ⑥VSwitchを確認する
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_06.png "Terraform apply 06")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_06.png "Terraform apply 06")
 
 ⑦Route Tableを確認する
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_07.png "Terraform apply 07")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_07.png "Terraform apply 07")
 
 ⑧Security Groupsを確認する
-![Terraform apply](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/26_cli_terraform_apply_08.png "Terraform apply 08")
+![Terraform apply](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/26_cli_terraform_apply_08.png "Terraform apply 08")
 
 
 # 4.AK情報を取得する方法
 ①メインアカウントで公式サイトをログインし、コンソールメニューをクリックする
-![ak check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_ak_check_01.png "ak check 01")
+![ak check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_ak_check_01.png "ak check 01")
 
 ②アカウントアイコンをクリックする
-![ak check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_ak_check_02.png "ak check 02")
+![ak check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_ak_check_02.png "ak check 02")
 
 ③AccessKey Managementメニューをクリックし、AK管理画面に遷移する
-![ak check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_ak_check_03.png "ak check 03")
+![ak check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_ak_check_03.png "ak check 03")
 
 ④メインアカウントで登録する場合、AK作成メニューが有効であり、AccessKeyが作成できる。作成したAccessKeyIDとsecretkeyをダウンロードまたはメモします。
 本書はサブアカウントでログインするため、AKを作成するメニューがグレーになっている
-![ak check](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/27_ak_check_04.png "ak check 04")
+![ak check](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/27_ak_check_04.png "ak check 04")
 
 ここまでCloudShellの手順をご紹介しました。
 

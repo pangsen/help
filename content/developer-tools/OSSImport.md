@@ -69,7 +69,7 @@ ossimport
 ├── logs                # ログディレクトリ
 └── README.md           # ドキュメント、使用前に注意深く読むことをお勧めします
 ```
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/01-win_ossimport_01.png "Win ossimport 01")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/01-win_ossimport_01.png "Win ossimport 01")
 
 3）必要に応じて、conf/sys.propertiesファイルとconf/local_job.cfgファイルを編集します
 以下を変更しないように注意してください。
@@ -251,15 +251,15 @@ javaHeapMaxSize=1024m
 ### 2-1-2.ossimportでLocalファイルをOSSにマイグレーション
 2）マイグレーションの準備
 ①Localファイルを用意する
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02-win_ossimport_local_01.png "local file 01")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02-win_ossimport_local_01.png "local file 01")
 
- ![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02-win_ossimport_local_02.png "local file 02")
+ ![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02-win_ossimport_local_02.png "local file 02")
 
- ![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/02-win_ossimport_local_03.png "local file 03")
+ ![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/02-win_ossimport_local_03.png "local file 03")
 
 ②ターゲットOSSバケットを用意する
 
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/03-oss_bucket.png "oss bucket")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/03-oss_bucket.png "oss bucket")
 
 ③configファイルを設定する
 記入例：
@@ -296,33 +296,33 @@ destPrefix=test/
 
 3）マイグレーションを実行する
 ①import.batをダブルクリックする
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04-ossimport_run_01.png "ossimport run 01")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04-ossimport_run_01.png "ossimport run 01")
 
 ②マイグレーションを実行する
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04-ossimport_run_02.png "ossimport run 02")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04-ossimport_run_02.png "ossimport run 02")
 
- ![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04-ossimport_run_03.png "ossimport run 03")
+ ![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04-ossimport_run_03.png "ossimport run 03")
 
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04-ossimport_run_04.png "ossimport run 04")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04-ossimport_run_04.png "ossimport run 04")
 
 ③マイグレーションを実行完了する
-![Win ossimport](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/04-ossimport_run_05.png "ossimport run 05")
+![Win ossimport](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/04-ossimport_run_05.png "ossimport run 05")
 
 ④OSSファイルを確認する
 
-![ossimport file check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05-ossimport_file_check_01.png "file check 01")
+![ossimport file check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05-ossimport_file_check_01.png "file check 01")
 
-![ossimport file check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05-ossimport_file_check_02.png "file check 02")
+![ossimport file check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05-ossimport_file_check_02.png "file check 02")
 
-![ossimport file check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/05-ossimport_file_check_03.png "file check 03")
+![ossimport file check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/05-ossimport_file_check_03.png "file check 03")
 
 ## 2-2.Linuxでスタンドアロンデプロイ
 ### 2-2-1.ossimportの準備
 1）ECSを用意する
-![create ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/06-Create_ECS.png "Create ECS ")
+![create ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/06-Create_ECS.png "Create ECS ")
 
 2）ECSをログインする
-![Install OSSImport ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07-Install_OSSImport_01.png "OSSImport 01")
+![Install OSSImport ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07-Install_OSSImport_01.png "OSSImport 01")
 ```
 # yum install -y unzip
 # wget http://gosspublic.alicdn.com/ossimport/standalone/ossimport-2.3.1.zip
@@ -332,10 +332,10 @@ destPrefix=test/
 # unzip ossimport-2.3.1.zip
 ```
 ②unzipをインストールする
-![Install OSSImport ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07-Install_OSSImport_02.png "OSSImport 02")
+![Install OSSImport ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07-Install_OSSImport_02.png "OSSImport 02")
 
 ③OSSImportファイルをダウンロードする、zipファイルが正常に解凍されたことを確認する。
-![Install OSSImport ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/07-Install_OSSImport_03.png "OSSImport 03")
+![Install OSSImport ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/07-Install_OSSImport_03.png "OSSImport 03")
 
 3）同期用コンフィグファイルの作成
 ①OSSImportコンフィグファイルを設定する
@@ -343,9 +343,9 @@ destPrefix=test/
 # cp -p conf/local_job.cfg conf/local_job.cfg.bak
 # vim conf/local_job.cfg
 ```
- ![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08-OSSImport_config_01.png "OSSImport config 01")
+ ![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08-OSSImport_config_01.png "OSSImport config 01")
 
-![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/08-OSSImport_config_02.png "OSSImport config 02")
+![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/08-OSSImport_config_02.png "OSSImport config 02")
 ②記入例
 srcType ：ソース元を指定します。今回はS3を指定します
 ```
@@ -401,28 +401,28 @@ destPrefix=
 # yum install -y java
 # java -version
 ```
-![Java config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-Java_config_01.png "Java config 01")
+![Java config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-Java_config_01.png "Java config 01")
 
 5）S3のファイルを確認する
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_01.png "S3 file 01")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_01.png "S3 file 01")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_02.png "S3 file 02")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_02.png "S3 file 02")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_03.png "S3 file 03")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_03.png "S3 file 03")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_04.png "S3 file 04")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_04.png "S3 file 04")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_05.png "S3 file 05")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_05.png "S3 file 05")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_06.png "S3 file 06")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_06.png "S3 file 06")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_07.png "S3 file 07")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_07.png "S3 file 07")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_08.png "S3 file 08")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_08.png "S3 file 08")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_09.png "S3 file 09")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_09.png "S3 file 09")
 
-![ S3 file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/09-S3_file_10.png "S3 file 10")
+![ S3 file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/09-S3_file_10.png "S3 file 10")
 
 ### 2-2-2.ossimportでAWS S3からOSSにマイグレーション
 
@@ -432,41 +432,41 @@ destPrefix=
 # bash import.sh stat
 ```
 
-![ Run OSSImport ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10-Run_OSSImport_01.png "OSSImport 01")
+![ Run OSSImport ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10-Run_OSSImport_01.png "OSSImport 01")
 
-![ Run OSSImport ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10-Run_OSSImport_02.png "OSSImport 02")
+![ Run OSSImport ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10-Run_OSSImport_02.png "OSSImport 02")
 「Clean the previous job, Yes or No:」が表示された場合は「Yes」を入力して、エンターキーを押します。
 インポートが終了すると「Stop import service, Yes or No:」が表示されるので「Yes」を入力して、エンターキーを押します。
 
-![ Run OSSImport ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/10-Run_OSSImport_03.png "OSSImport 03")
+![ Run OSSImport ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/10-Run_OSSImport_03.png "OSSImport 03")
 
 2）OSSのファイルを確認する
 ①移行先のOSSにログインして、移行が正常に行われたかを確認します。
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_01.png "Migration check 01")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_01.png "Migration check 01")
 
 ②フォルダおよびファイルを確認する
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_02.png "Migration check 02")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_02.png "Migration check 02")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_03.png "Migration check 03")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_03.png "Migration check 03")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_04.png "Migration check 04")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_04.png "Migration check 04")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_05.png "Migration check 05")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_05.png "Migration check 05")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_06.png "Migration check 06")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_06.png "Migration check 06")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_07.png "Migration check 07")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_07.png "Migration check 07")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_08.png "Migration check 08")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_08.png "Migration check 08")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_09.png "Migration check 09")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_09.png "Migration check 09")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_10.png "Migration check 10")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_10.png "Migration check 10")
 
 ③OSSImport実行ログを確認する
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_11.png "Migration check 11")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_11.png "Migration check 11")
 
-![ Migration check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/11-Check_Migration_12.png "Migration check 12")
+![ Migration check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/11-Check_Migration_12.png "Migration check 12")
 
 # 3.分散デプロイモード
 分散デプロイモードは、Linuxのみをサポートします。
@@ -476,14 +476,14 @@ destPrefix=
 1）CentOS ECS三つを用意する
 ECS1はMasterで、ECS2とECS3はworkerにする
 
-![create ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/12-Create_ECS.png "Create ECS")
+![create ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/12-Create_ECS.png "Create ECS")
 
 2）ECSをログインする
-![create ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13-Login_ECS_01.png "Login ECS 01")
+![create ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13-Login_ECS_01.png "Login ECS 01")
 
- ![create ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13-Login_ECS_02.png "Login ECS 02")
+ ![create ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13-Login_ECS_02.png "Login ECS 02")
 
- ![create ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/13-Login_ECS_03.png "Login ECS 03")
+ ![create ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/13-Login_ECS_03.png "Login ECS 03")
 備考：MasterのECS1とWorkerのECS2とECS3のユーザー名とパスワードは同じに設定する。
 
 3）
@@ -499,9 +499,9 @@ ECS1はMasterで、ECS2とECS3はworkerにする
 # ll
 ```
 Master　ECS1：
-![OSSImport download ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14-Install_OSSImport_01.png "OSSImport download 01")
+![OSSImport download ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14-Install_OSSImport_01.png "OSSImport download 01")
 
-![OSSImport download ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/14-Install_OSSImport_02.png "OSSImport download 02")
+![OSSImport download ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/14-Install_OSSImport_02.png "OSSImport download 02")
 
 4）Java環境の確認とインストール
 MasterのECS1とWorkerのECS2とECS3もJavaをインストールする
@@ -511,38 +511,38 @@ MasterのECS1とWorkerのECS2とECS3もJavaをインストールする
 # java -version
 ```
 ECS1：
-![java install ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15-Install_java_01.png "java install 01")
+![java install ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15-Install_java_01.png "java install 01")
 
 ECS2：
-![java install](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15-Install_java_02.png "java install 02")
+![java install](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15-Install_java_02.png "java install 02")
 
 ECS3：
-![java install](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/15-Install_java_03.png "java install 03")
+![java install](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/15-Install_java_03.png "java install 03")
 
 4）マイグレーション元のファイルを確認する
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_01.png "OSS file 01")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_01.png "OSS file 01")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_02.png "OSS file 02")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_02.png "OSS file 02")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_03.png "OSS file 03")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_03.png "OSS file 03")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_04.png "OSS file 04")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_04.png "OSS file 04")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_05.png "OSS file 05")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_05.png "OSS file 05")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_06.png "OSS file 06")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_06.png "OSS file 06")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_07.png "OSS file 07")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_07.png "OSS file 07")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_08.png "OSS file 08")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_08.png "OSS file 08")
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/16-OSS_file_09.png "OSS file 09")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/16-OSS_file_09.png "OSS file 09")
 
 
 5）マイグレーション先のフォルダを確認する
 
-![ OSS file ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/17-OSS_file.png "OSS file ")
+![ OSS file ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/17-OSS_file.png "OSS file ")
 
 
 ### 3-1-2.ossimportのコンフィグファイルを設定
@@ -642,9 +642,9 @@ destPrefix=
 ```
 
 MasterのECS1：
- ![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18-Config_job_01.png "Job config 01")
+ ![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18-Config_job_01.png "Job config 01")
 
- ![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/18-Config_job_02.png "Job config 02")
+ ![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/18-Config_job_02.png "Job config 02")
 
 
 ②MasterのECS1でsys.propertiesを設定する
@@ -661,7 +661,7 @@ workerUserName=root
 workerPassword=*********
 ```
 ECS1：
- ![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/19-Config_sys_01.png "sys config 01")
+ ![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/19-Config_sys_01.png "sys config 01")
 
 
 ③MasterのECS1でworkersを設定する
@@ -681,9 +681,9 @@ MasterとWorkerの通信はイントラネットで接続する
 
 ```
 ECS1：
- ![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20-Config_worker_01.png "worker config 01")
+ ![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20-Config_worker_01.png "worker config 01")
 
- ![OSSImport config ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20-Config_worker_02.png "worker config 02")
+ ![OSSImport config ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20-Config_worker_02.png "worker config 02")
 
 ### 3-1-2.ossimportでOSSの間にマイグレーション
 １）分散デプロイモード手順紹介
@@ -782,13 +782,13 @@ workdir
 ①実行前、各ECSを確認する
 
 MasterのECS1：
-![ Check ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20-Check_ECS_01.png "ECS 01")
+![ Check ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20-Check_ECS_01.png "ECS 01")
 
 WorkerのECS2：
-![ Check ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20-Check_ECS_02.png "ECS 02")
+![ Check ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20-Check_ECS_02.png "ECS 02")
 
 WorkerのECS3：
-![ Check ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/20-Check_ECS_03.png "ECS 03")
+![ Check ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/20-Check_ECS_03.png "ECS 03")
 
 ②MasterのECS1でossimportディレクトリに下記コマンドでデプロイする
 
@@ -796,55 +796,55 @@ WorkerのECS3：
 # bash console.sh deploy
 ```
 MasterのECS1：
-![ Check Deploy ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21-Deploy_task_01.png "Deploy task 01")
-![ Check ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21-Deploy_task_02.png "Deploy task 02")
+![ Check Deploy ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21-Deploy_task_01.png "Deploy task 01")
+![ Check ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21-Deploy_task_02.png "Deploy task 02")
 
 WorkerのECS2：
-![ Check ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21-Deploy_task_03.png "Deploy task 03")
+![ Check ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21-Deploy_task_03.png "Deploy task 03")
 
 WorkerのECS3：
 
- ![ Check ECS ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/21-Deploy_task_04.png "Deploy task 04")
+ ![ Check ECS ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/21-Deploy_task_04.png "Deploy task 04")
 
 
 ③MasterのECS1でossimportディレクトリに下記コマンドでタスクをサブミットする
 ```
 # bash console.sh submit conf/job1.cfg
 ```
- ![ Check Submit ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/22-Submit_task_03.png "Submit task 03")
+ ![ Check Submit ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/22-Submit_task_03.png "Submit task 03")
 
 ④MasterのECS1でossimportディレクトリに下記コマンドでマイグレーションを起動する
 ```
 # bash console.sh start
 ```
- ![ Check Start ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/23-Start_task_01.png "Start task 01")
+ ![ Check Start ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/23-Start_task_01.png "Start task 01")
 
 ④MasterのECS1でossimportディレクトリに下記コマンドでマイグレーションステータスを確認する
 ```
 # bash console.sh stat
 ```
- ![ Check status ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24-Check_status_01.png "Check status 01")
+ ![ Check status ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24-Check_status_01.png "Check status 01")
 
- ![ Check status ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/24-Check_status_02.png "Check status 02")
+ ![ Check status ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/24-Check_status_02.png "Check status 02")
 
 3）マイグレーションを確認する
 ①OSSコンソール画面にファイルを確認する
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_01.png "Check oss 01")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_01.png "Check oss 01")
 備考：コンソール画面にストーレジサイズの表示は一時間ほどの遅延があります
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_02.png "Check oss 02")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_02.png "Check oss 02")
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_03.png "Check oss 03")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_03.png "Check oss 03")
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_04.png "Check oss 04")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_04.png "Check oss 04")
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_05.png "Check oss 05")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_05.png "Check oss 05")
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_06.png "Check oss 06")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_06.png "Check oss 06")
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_07.png "Check oss 07")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_07.png "Check oss 07")
 
- ![ oss check ](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/developer-tools/images/25-Check_oss_08.png "Check oss 08")
+ ![ oss check ](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/images/25-Check_oss_08.png "Check oss 08")
 
 約388GBのデータ、同じアカウントの日本リージョンのOSS①から日本リージョンのOSS②に３台のECS分散デプロイモードでマイグレーションする
 移行時間：約15分

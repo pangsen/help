@@ -34,7 +34,7 @@ Alibaba Cloudは、WebコンソールからのGUI操作の他に、プロダク�
 * RAMロールは仮想ID であり、固定のIDは持っていますが、ID認証情報アクセスキーを持ちません。
 * RAMユーザは、固定のIDとID認証アクセスキーを持つ実際のIDであり、一般的には、特定のユーザーまたはアプリケーションに対応します。
 
-![RAM](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/4.1.PNG "RAM")
+![RAM](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/4.1.PNG "RAM")
 
 RAMロールは権限が付与された実際のユーザーが引き受ける必要があります。ロールを引き受けると実際のユーザーはこのRAMロールの一時セキュリティトークンを受け取ります。これにより、この一時セキュリティトークンを使用して、ロールに許可されているリソースにアクセスできます。
 
@@ -92,9 +92,9 @@ RAMロールは権限が付与された実際のユーザーが引き受ける�
 
 RAMの操作方法は非常に簡単です。RAM（Resource Access Management）のコンソール画面から数点操作するだけです。
 
-![RAM](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/4.2.PNG "RAM")
+![RAM](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/4.2.PNG "RAM")
 
-![RAM](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/4.3.PNG "RAM")
+![RAM](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/4.3.PNG "RAM")
 
 # まとめ
 RAM（Resource Access Management）は無料で利用ユーザーを増やすだけでなく、Alibaba Cloudのリソースを制御しつつ効率よく扱うことができます。

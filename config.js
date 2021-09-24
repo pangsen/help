@@ -7,7 +7,7 @@ const config = {
 		"trailingSlash": false
 	},
 	"header": {
-		"title": "<a href='https://sbcloud.github.io/help/'><img class='img-responsive' src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/TechnicalSite_5.png' alt='Learn logo' /></a>",
+		"title": "<a href='https://sbcloud.github.io/help/'><img class='img-responsive' src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/TechnicalSite_4.png' alt='Learn logo' /></a>",
 		"githubUrl": "https://sbcloud.github.io/help/",
 		"helpUrl": "",
 		"tweetText": "",
@@ -69,7 +69,8 @@ const config = {
       "/usecase-serverless",
       "/usecase-datav",
       "/developer-tools",
-      "/Terraform"
+      "/Terraform",
+      "/ICP"
 		],
     	"collapsedNav": [
         "/introduction",
@@ -82,7 +83,8 @@ const config = {
         "/usecase-serverless",
         "/usecase-datav",
         "/developer-tools",
-        "/Terraform"
+        "/Terraform",
+        "/ICP"
     	],
       "links":[{ text: 'お問い合わせ', link: 'https://www.sbcloud.co.jp/contact_jp/' },{ text: 'よくある質問はTSSへ', link: 'https://www.sbcloud.co.jp/service/about/ts/' }],
       "frontline": true,

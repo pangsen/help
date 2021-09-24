@@ -1,25 +1,17 @@
 import React from 'react';
 import './components/styles.css';
 
-const CommunityAuthor = ({ name, imageUrl, twitterUrl, githubUrl, description }) => {
+const CommunityAuthor = ({ author, self_introduction, imageUrl, githubUrl }) => {
   return (
     <>
       <div className="authorSection">
         <div className="authorImg">
-          <img loading="lazy" src={imageUrl} alt={name} />
+          <img loading="lazy" src={imageUrl} alt={author} />
         </div>
         <div className="authorDetails">
+        <strong>この記事を書いた人</strong>
           <div className="authorName">
-            <strong>{name}</strong>
-            {twitterUrl ? (
-              <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://storage.googleapis.com/graphql-engine-cdn.hasura.io/learn-hasura/assets/social-media/twitter-icon.svg"
-                  alt="Twitter Icon"
-                  aria-label="Twitter"
-                />
-              </a>
-            ) : null}
+          <div className="author">{author}</div>
             {githubUrl ? (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <img
@@ -30,7 +22,7 @@ const CommunityAuthor = ({ name, imageUrl, twitterUrl, githubUrl, description })
               </a>
             ) : null}
           </div>
-          <div className="authorDesc">{description}</div>
+          <div className="authorDesc">{self_introduction}</div>
         </div>
       </div>
     </>

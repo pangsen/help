@@ -10,7 +10,7 @@ author: "Hironobu Ohara"
 # はじめに
 Alibaba Cloudは国際サイトだけでも100を超える様々なプロダクトサービスを提供しています。   
 
-![Producet Service portfolio](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/6.1.PNG "Producet Service portfolio")
+![Producet Service portfolio](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/6.1.PNG "Producet Service portfolio")
 
 こちらは[プロダクトサービス一覧のページ](https://ohiro18.github.io/technical.site/product_service)にて詳しく説明します。   
 > https://ohiro18.github.io/technical.site/product_service
@@ -96,6 +96,6 @@ Alibaba Cloudは国際サイトだけでも100を超える様々なプロダク�
 # まとめ
 ここには紹介していないプロダクトサービスがかなりあるもの、ひとまずはこのプロダクトサービスを抑えておけば、大抵のサービス基盤開発には困らないと思います。   
 また、それぞれのプロダクトサービスは、様々なビジネスシーンに応じて利用することができます。   
-![Digital Transfrmation](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/introduction/images/6.2.PNG "Digital Transfrmation")
+![Digital Transfrmation](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/6.2.PNG "Digital Transfrmation")
 
 

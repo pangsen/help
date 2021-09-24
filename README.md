@@ -60,6 +60,7 @@ $ gatsby develop
 折り返し、上記コマンドにも含まれていますが、このリソースを初めてビルドする場合は、初期設定として以下プラグインが必要です。
 ```
 yarn add gatsby-plugin-feed
+yarn add gatsby-plugin-google-gtag
 ```
 
 ### 注意事項

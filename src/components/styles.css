@@ -880,13 +880,19 @@ img {
 }
 .authorImg img
 {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  min-width: 75px;
-  max-width: 75px;
-  min-height: 75px;
-  max-height: 75px;
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 150px;
+  max-height: 150px;
+}
+.author
+{
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .authorDetails
 {
@@ -895,7 +901,7 @@ img {
 .authorDesc
 {
   padding-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .authorName img {
   margin-left: 10px;
@@ -903,6 +909,57 @@ img {
   width: 20px;
 }
 .authorName img:hover {
+  opacity: 0.7;
+}
+
+
+.titlelistSection {
+  padding: 10px 0;
+}
+.titlelistSection, .titlelistName {
+  display: flex;
+  align-items: center;
+}
+.titlelistImg img
+{
+  width: 200px;
+  height: 120px;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 120px;
+  max-height: 120px;
+}
+.titlelist
+{
+  padding-top: 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.titlelistDetails
+{
+  padding-left: 10px;
+}
+.titlelistDesc
+{
+  padding-top: 5px;
+  font-size: 18px;
+}
+.titlelistAuthor
+{
+  padding-top: 5px;
+  font-size: 16px;
+}
+.titlelistDate
+{
+  padding-top: 5px;
+  font-size: 16px;
+}
+.titlelistName img {
+  margin-left: 10px;
+  display: inline-block;
+  width: 20px;
+}
+.titlelistName img:hover {
   opacity: 0.7;
 }
 

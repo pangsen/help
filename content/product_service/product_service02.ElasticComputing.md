@@ -21,7 +21,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * 仮想サーバの1つ1つの実体は「インスタンス」と呼ばれ、ECSインスタンスはサーバとは異なります。
 * クライアントからのリクエスト数やビジネス要件に応じてインスタンス台数を増やす（スケールアウト）、インスタンスの性能を上げる（スケールアップ）が簡単なので、サーバ調達のための時間やコストを削減できます。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.1.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.1.PNG "ElasticComputing")
 
 
 ## ECS導入への流れについて
@@ -40,7 +40,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 
 > https://www.alibabacloud.com/help/doc-detail/25378.htm
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.2.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.2.PNG "ElasticComputing")
 
 
 
@@ -73,7 +73,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * 異なるセキュリティグループを持つECSインスタンス間で、内部ネットワークを通じて相互に通信することはできません。ただし、セキュリティグループを通じて相互通信をすることは可能です。
 * このセキュリティグループを通じて、HTTP portの80、HTTPS portの443、SSH portの22、RDP portの3389、など許容Portを設定することができます。
 
-![Networks](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/2.4.PNG "Networks")
+![Networks](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/2.4.PNG "Networks")
 
 
 ### SSHキーペアの設定（Linuxのみ）
@@ -103,7 +103,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * SLBはアタッチしたECSらバックエンドサーバのヘルスチェックを行い、異常状態あれば自動に分離するといったSPOF (単一障害点) 問題を回避します。
 * ユーザーからのトラフィックを分散するだけでなく、DDoS攻撃からの負荷を分散する効能もあります。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.3.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.3.PNG "ElasticComputing")
 
 
 
@@ -116,7 +116,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * 時刻指定、動的、カスタム、固定、スケジュール設定、ヘルシーモードなど、複数のスケーリングモードを同時に設定できます。
 * API 経由で外部のモニタリングシステムにアクセスすることもできます。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.4.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.4.PNG "ElasticComputing")
 
 
 
@@ -129,7 +129,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * コンテナ管理クラスターのセットアップを簡易化し、仮想化やストレージ、ネットワーク、セキュリティなどAlibabaCloud機能とインテグレートすることで、コンテナーの実行に理想なクラウド環境を構築します。
 
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.5.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.5.PNG "ElasticComputing")
 
 
 # Function Compute
@@ -141,7 +141,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * 様々なSDKや開発言語にも対応しており、また様々なAlibaba Cloudサービスと連携することが可能です。そのため、例えばOSSにファイルアップロードされたことをトリガーとしてkafkaがそのデータを送信といった、イベント駆動型アプリケーションを構築、運用することができます。
 * コードを実行する回数・かかった時間だけ料金が発生するだけなので、ECSを運用するより低コストで済みます。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.6.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.6.PNG "ElasticComputing")
 
 
 # Elastic GPU Service
@@ -159,7 +159,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * 高パフォーマンスが必要なら物理マシンを利用し、分散（HA 可用性）が必要なら仮想マシンを利用するといった使い分けが可能です。
 * ※Bare（むき出しの）Metal（金属）、OSが入ってない物理サーバで稼働する仮想サーバサービス。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.7.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.7.PNG "ElasticComputing")
 
 
 # E-HPC
@@ -169,7 +169,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * E-HPCはGPUインスタンスを備えたIaaS、高性能コンピューティングソフトウェアスタックを備えたPaaS、アプリケーションテンプレートのカスタマイズを備えたSaaSをサポートします。
 * 1つのHPCにつき、通常PCの1,000〜10,000台分の計算能力を持ち、これらはMPIやGPGPUなど分散処理では追いつかない高性能計算処理を目的としたものです。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.8.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.8.PNG "ElasticComputing")
 
 
 
@@ -180,7 +180,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * DDHを使うことで、ECSにはないハイスペック環境を構築、運用することができます。またWindows Server やWindows SQL Server といった既存のソフトウェアライセンスを包括で使用することができます。
 * ソケット単位、コア単位、VM 単位でソフトウェアライセンスを所有してる場合、DDHを利用することでクラウドへ移行した時のコスト削減が可能になります。加えて、CPUとI/Oの安定性を保証するため、ゲーム案件などで高パフォーマンスを確実にします。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.9.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.9.PNG "ElasticComputing")
 
 
 
@@ -191,7 +191,7 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 * ROS自体は利用無料で、利用したインスタンス等のみ料金がかかります。
 * テンプレート化することにより、 AlibabaCloudリソース構成の見える化、バージョン管理、同じ構成を何度も構築することができます。
 
-![ElasticComputing](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/product_service/images/1.10.PNG "ElasticComputing")
+![ElasticComputing](https://raw.githubusercontent.com/sbcloud/help/master/content/product_service/images/1.10.PNG "ElasticComputing")
 
 
 

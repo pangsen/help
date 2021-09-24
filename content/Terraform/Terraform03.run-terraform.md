@@ -12,7 +12,7 @@ author: "Hironobu Ohara"
 
 Terraformの実行は非常にシンプルです。以下図のように`terraform init`から始まり、`terraform play`、`terraform apply`でリソース作成を実行します。
 
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_5.0.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_5.0.png)
 
 
 
@@ -141,7 +141,7 @@ alicloud_instance.ECS_instance: Creation complete after 56s (ID: i-6weea1q1tr8gd
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
 これでAlibabaCloud ECSコンソールでも、ECSが作成されたことを確認できます。
-![図 2](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_5.1.png)
+![図 2](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_5.1.png)
 ▲ AlibabaCloud ECSコンソールでもECS作成を確認
 
 
@@ -196,7 +196,7 @@ Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
 
 AWS マネジメントコンソールでも、Name タグの追加が確認できます。
-![図 3](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_5.2.png)
+![図 3](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_5.2.png)
 ▲ ECSタグの付与を確認
 
 
@@ -298,7 +298,7 @@ alicloud_instance.ECS_instance: Creation complete after 56s (ID: i-6weegevun3jit
 Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
 ```
 再びコンソールで確認すると、最初起動したインスタンスが破棄（リリース）され、新しいインスタンスが立ち上がっています。
-![図 4](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_5.3.png)
+![図 4](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_5.3.png)
 ▲ ECSインスタンス名が変わっており、それまで起動したECSがリリース（破棄）されたのがわかります。
 
 

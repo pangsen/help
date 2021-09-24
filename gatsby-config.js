@@ -103,33 +103,16 @@ const plugins = [
       ],
       extensions: [".mdx", ".md"]
     }
-  } /*,
+  },
   {
-    resolve: "gatsby-plugin-google-tagmanager",
+    resolve: `gatsby-plugin-google-gtag`,
     options: {
-      id: "GTM-MQFZWG",
-      includeInDevelopment: false,
-      defaultDataLayer: { platform: "gatsby" },
-      gtmAuth: "dR9hRFwaZ6rvtEo-XzWGnw",
-      gtmPreview: "env-2",
-      dataLayerName: "",
-      routeChangeEventName: "",
-      enableWebVitalsTracking: true,
-    }
-  }*/
-
-  /* ToDo: GoogleTagManagerどうするか方向性を決める必要がある
-  {
-    resolve: `gatsby-plugin-gtag`,
-    options: {
-      // your google analytics tracking id
-      trackingId: config.gatsby.gaTrackingId,
-      // Puts tracking script in the head instead of the body
-      head: true,
-      // enable ip anonymization
-      anonymize: false,
+      trackingIds: ["UA-85904527-10"],
+      pluginConfig: {
+        head: true,
+      },
     },
-  },*/
+  }
 ];
 
 // check and add algolia

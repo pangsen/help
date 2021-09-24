@@ -21,7 +21,7 @@ author: "Hironobu Ohara"
 
 &nbsp; TerraformでWebアプリケーションを作ってみます。ゴールの構成図は以下の通りです。
 
-![図 1](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/Terraform/images/terraform_21.1.png)
+![図 1](https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_21.1.png)
 
 
 # パラメータ構成

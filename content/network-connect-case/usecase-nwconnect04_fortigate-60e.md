@@ -69,25 +69,25 @@ FortiGateに関する情報および設定方法については、FortiGateご�
 3. ルートの追加をします。
 
 - *上記完了後、下記のポップアップが表示されるので、OKボタンを押します。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-001.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-001.png)
 
 - *下記、VPN-GWのルートテーブル画面へ遷移しますので、宛先ベースルーティングのタブを選択し、ルートエントリの追加を行います。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-002.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-002.png)
 
 - *ルートエントリの追加は下記の様に行います。*
 
   *「宛先CIDRブロック」お客様拠点側セグメントを設定します。*
 
   *「VPCに公開」“はい”を選択します。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-003.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-003.png)
 
   *「OK」ボタンを押します。*
 
 - *VPN-GW**のルートテーブルにてルートエントリの追加が行われ、ステータスが公開済みとなっていることを確認します。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-004.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-004.png)
 
 4. IPsec Connectionsの画面より、VPN 接続が追加されることを確認します。
-    ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-005.png)
+    ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-005.png)
 
 ## ステップ 2：FortiGateの設定
 
@@ -99,37 +99,37 @@ VPN > IPsec Tunnels を選択し、Create New　>　名前を入力し、Custom�
 - Network設定
 IP Address：VPN GatewayのIPアドレスを入力します
 Interface：Alibaba Cloudへ向かうInterfaceを指定します。
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/ft-001.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/ft-001.png)
 Pre-shared Key：Alibaba Cloud VPN Gatewayと同一の任意の共有鍵を入力します。
 IKE Version：2を選択します。
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/ft-002.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/ft-002.png)
 
 - Phase1 Proposal設定
 Encryption：AES128を追加します。
 Authentication：SHA1を追加します。
 Diffie-Hellman Groups：２を選択します。
 Key Lifetime(seconds)：86400 を入力します。
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/ft-003.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/ft-003.png)
 
 - Phase2 Selectors設定：
 Local Address：FortiGate側ネットワークアドレスを入力します。
 Remote Address：クラウド側ネットワークアドレスを入力します。
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/ft-004.png)
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/ft-005.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/ft-004.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/ft-005.png)
 
 - Advancedにて
 Encryption：AES128を追加します
 Authentication：SHA1を追加します
 Diffie-Hellman Groups：２を選択します
 Seconds：86400 を入力します
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/ft-005.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/ft-005.png)
 
   ***注意:*** *ルーティング、ポリシー等の項目についても運用方針に沿ってFortiGate側を設定する必要があります。ステップ１でVPN Gatewayのヘルスチェックを利用する場合は送信元IPからのICMPパケットをFortiGate側で許可する必要があります。*
 
 ## ステップ 3：ステータス確認
 
 FortiGateの設定が完了し、接続が成功すれば、接続ステータスが「成功」、ヘルスチェックステータスが「正常」に変わります。
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-006.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-006.png)
 
 ## ステップ4：接続のテスト
 

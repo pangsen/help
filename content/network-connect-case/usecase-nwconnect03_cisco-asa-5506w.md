@@ -70,25 +70,25 @@ Cisco ASAに関する情報および設定方法については、Ciscoテクニ
 3. ルートの追加をします。
 
 - *上記完了後、下記のポップアップが表示されるので、OKボタンを押します。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-001.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-001.png)
 
 - *下記、VPN-GWのルートテーブル画面へ遷移しますので、宛先ベースルーティングのタブを選択し、ルートエントリの追加を行います。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-002.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-002.png)
 
 - *ルートエントリの追加は下記の様に行います。*
 
   *「宛先CIDRブロック」お客様拠点側セグメントを設定します。*
 
   *「VPCに公開」“はい”を選択します。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-003.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-003.png)
 
   *「OK」ボタンを押します。*
 
 - *VPN-GW**のルートテーブルにてルートエントリの追加が行われ、ステータスが公開済みとなっていることを確認します。*
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-004.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-004.png)
 
 4. IPsec Connectionsの画面より、VPN 接続が追加されることを確認します。
-    ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-005.png)
+    ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-005.png)
 
 ## ステップ 2：Cisco ASAの設定
 
@@ -151,7 +151,7 @@ Cisco ASAにアクセスし以下の項目を設定します。
 ## ステップ 3：ステータス確認
 
 Cisco ASA側設定を完了し、接続が成功すれば、接続ステータスが次の通り、「成功」に変わります。
-  ![img](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/network-connect-case/images/cm-006.png)
+  ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/images/cm-006.png)
 
 ## ステップ4：接続のテスト
 

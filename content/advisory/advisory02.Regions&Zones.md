@@ -21,7 +21,7 @@ Alibaba Cloudは、世界各地のデータセンターで運用されていま�
 
 
 Region（リージョン）とZone（ゾーン）の関係図を示すと、このような構成になります。
-![RegionとZone](https://raw.githubusercontent.com/ohiro18/ts.dev/master/content/advisory/images/2.1.PNG "RegionとZone")
+![RegionとZone](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/2.1.PNG "RegionとZone")
 
 
 各リージョン、ゾーンの詳細については、以下を参照してください。
