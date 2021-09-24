@@ -39,7 +39,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="KNativeによるサーバーレスK8S"
     metaDescription="Alibab Cloudによるサーバレス活用・構築パターンを説明します"
-    url="http://localhost:8000/usecase-Serverless/serverless_k8s_deployment"
+    url="https://sbcloud.github.io/help/usecase-Serverless/serverless_k8s_deployment"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/images/00_Use_Knative_In_ASK_Cluster.png"
     date="2021/06/09"
     author="Bob"
