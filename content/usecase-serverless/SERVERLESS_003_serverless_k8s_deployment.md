@@ -6,7 +6,7 @@ date: "2021-06-09"
 author: "Bob"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 
 ## KnativeによるサーバーレスK8Sデプロイメント

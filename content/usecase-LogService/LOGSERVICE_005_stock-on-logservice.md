@@ -6,7 +6,7 @@ date: "2020-12-29"
 author: "Hironobu Ohara/大原 陽宣"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## Google Apps Script（GAS）で株価データを収集し、LogServiceの機械学習で株価予測・異常検知・監視をする
 

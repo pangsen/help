@@ -6,7 +6,7 @@ date: "2021-03-10"
 author: "Hironobu Ohara/大原 陽宣"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## CSVファイルをMaxComputeの内部テーブルに格納する
 

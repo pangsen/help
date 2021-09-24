@@ -6,7 +6,7 @@ date: "2020-12-29"
 author: "Hironobu Ohara/大原 陽宣"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## OSS、AWS S3からデータを収集するLogService
 

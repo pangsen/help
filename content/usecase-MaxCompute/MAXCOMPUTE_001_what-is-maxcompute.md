@@ -6,7 +6,7 @@ date: "2021-03-03"
 author: "Hironobu Ohara/大原 陽宣"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## 毎年世界No.1のTPC-BB（Big Data処理ベンチマーク）を記録し続けるMaxComputeのご紹介
 

@@ -6,7 +6,7 @@ date: "2021-06-01"
 author: "Hironobu Ohara"
 ---
 
-import CommunityAuthor from '../../src/CommunityAuthor.js';
+import CommunityAuthor from '../src/CommunityAuthor.js';
 
 
 ## はじめに

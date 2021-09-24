@@ -6,7 +6,7 @@ date: "2020-12-30"
 author: "Hironobu Ohara/大原 陽宣"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## SDKでExcelデータを収集するLogService
 

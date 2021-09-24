@@ -6,7 +6,7 @@ date: "2021-03-04"
 author: "Hironobu Ohara/大原 陽宣"
 ---
 
-import Titlelist from '../src/Titlelist.js';
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## MaxComputeをハンドリングするDataWorksについて
 
