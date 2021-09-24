@@ -33,7 +33,7 @@ query MyQuery {
 
 この記事では Alibaba Cloud LogServiceのによる活用パターンをいくつか紹介いたします。
 
-# Alibab Cloud LogService とは
+## Alibab Cloud LogService とは
 
 <Titlelist 
     metaTitle="LogServiceの紹介"
@@ -45,7 +45,7 @@ query MyQuery {
 />
 
 
-# Alibab Cloud LogService による構成例
+## Alibab Cloud LogService による構成例
 
 
 <Titlelist 
