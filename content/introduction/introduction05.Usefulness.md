@@ -6,6 +6,9 @@ date: "2021-06-02"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 # Alibaba Cloudの使いどころ
 
 Alibaba Cloudは他の世界規模の大手クラウドサービス（AWS、GCP、Azureなど）に比べると、後発のクラウドサービスになります。そのため、プロダクトサービスやサポート対応などは他のクラウドサービスよりも遅れている部分があります。そこは日進月歩、早いスピードで進化中です。その点を除き、Alibaba Cloudはほとんどのシナリオに適することができます。   
@@ -165,4 +168,14 @@ AIRec は 商品名一覧と、ユーザーの行動情報（どの商品を閲�
 例えば、データベースではユーザーのワークロードに応じてノードを自動でスケーリングするPolarDB、コンテナやEC2インスタンスのオートスケール、RDSのデータ容量の自動拡張、SQLクエリ投与時、処理リソースだけノードを瞬時に分散し並列処理するMaxCompute、使った分だけ課金するのでオンプレミスより安いリモートデスクトップ、データをアップロードするだけで類似画像検索やレコメンデーション、などなどがあります。   
 
 Alibaba Cloudが選ばれる理由の１つとして、「グローバル展開をはじめ、エンジニアの労力からの解放」が挙げられます。例えば淘宝網（Taobao）ではECサイトなどのサービスを通じて毎日数億を超えるデータ量の処理を行っていますが、インフラ運用担当者は不在という体制で運用しています。その他、大規模Webシステムやリアルタイム分析基盤を構築する場合でも、Alibaba Cloudによるフルマネージド型サービスを使うことで、1日、長くて1週間以内にサービスを完成することも可能です。   
+
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
+
 

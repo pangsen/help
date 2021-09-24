@@ -6,6 +6,8 @@ date: "2021-03-01"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 
 ## 他社プロダクト比較
 これはAlibaba Cloud 中国サイト、国際サイト、AWS、GCP、Azureのプロダクトサービス比較表をまとめたものです。　　　
@@ -669,3 +671,14 @@ author: "Hironobu Ohara"
 |icon|中国サイト|国際サイト|コメント|AWS|Azure|GCP|
 |---|---|---|---|---|---|---|
 |![cloudmarket.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/355017/2a68343e-fd04-2735-5b4e-ebd85f549072.png)| [云市场](https://market.aliyun.com/) | [Marketplace](https://marketplace.alibabacloud.com/) || [AWS Marketplace] | Azure Marketplace | Cloud Launcher |
+
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
+
+

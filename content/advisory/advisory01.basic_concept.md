@@ -6,13 +6,15 @@ date: "2021-05-26"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 # はじめに
 
 Alibaba Cloudで最初に把握したいことは、アカウント、AccessKey（AK）、課金について です。   
 
-* [アカウント](http://localhost:8000/advisory/1.basic_concept#%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88)
-* [AccessKey（AK）](http://localhost:8000/advisory/1.basic_concept#accesskey%EF%BC%88ak%EF%BC%89)
-* [課金について](http://localhost:8000/advisory/1.basic_concept#%E8%AA%B2%E9%87%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+* [アカウント](https://sbcloud.github.io/help/advisory/1.basic_concept#%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88)
+* [AccessKey（AK）](https://sbcloud.github.io/help/advisory/1.basic_concept#accesskey%EF%BC%88ak%EF%BC%89)
+* [課金について](https://sbcloud.github.io/help/advisory/1.basic_concept#%E8%AA%B2%E9%87%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
 
 ---
@@ -91,6 +93,14 @@ Alibaba Cloudの料金支払い対象となるものは、基本的には「コ�
 
 [料金体系および請求関連でより詳しい説明はこのページ](https://ohiro18.github.io/technical.site/advisory/5.About_Billing)にて記載していますので、こちらも参考にしてください。
 > https://ohiro18.github.io/technical.site/advisory/5.About_Billing
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
 
 
 

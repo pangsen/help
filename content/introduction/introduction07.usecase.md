@@ -6,6 +6,9 @@ date: "2021-07-01"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## ユースケース
 Alibaba Cloudで何が出来るか？をイメージさせるために、いくつか基本的もしくは代表的なユースケースを紹介します。
 > ここには載せていないその他のユースケースも多数あり、適時追加する予定です
@@ -108,5 +111,13 @@ Alibaba Cloudで何が出来るか？をイメージさせるために、いく�
 
 
 ---
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
 
 

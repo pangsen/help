@@ -6,6 +6,9 @@ date: "2021-06-01"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## はじめに
 本サイトは、Alibaba CloudのディストリビューターであるSBクラウドのエンジニア有志が、Alibaba Cloudをぜひ皆さんに使っていただきたいと考えてまとめたものです。   
 SBクラウドは2016年1月にソフトバンクとアリババグループの出資により設立された会社です。   
@@ -30,5 +33,13 @@ Alibaba Cloudに触れたことのない方には、このサイトを参考に�
 2021年6月15日   
 SBクラウド株式会社   
 クラウドエンジニア Hironobu Ohara   
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
+
 
 

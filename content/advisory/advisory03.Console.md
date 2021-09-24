@@ -6,6 +6,7 @@ date: "2021-05-26"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 
 # コンソールについて
@@ -77,5 +78,13 @@ Alibaba Cloud のhelpドキュメントは英語、中国語、日本語ある�
 また、日本語によるhelpページがない場合は英語、あるいは中国語で確認が望ましいです。Google Chromeを使っている場合はGoogle翻訳を使って好きな言語に翻訳しながら確認すると良いと思います。
 
 ![help doc](https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.12.PNG "help doc")
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
 
 

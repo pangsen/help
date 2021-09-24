@@ -6,6 +6,8 @@ date: "2021-06-02"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 
 ## 仮想コンピューティング・コンテナ・IaaS系プロダクトサービス紹介
 
@@ -221,4 +223,14 @@ Alibaba CloudはECSをベースとする様々なプロダクトサービス及�
 |[Web App Service](https://www.alibabacloud.com/ja/products/webx)|Webアプリケーションホスティングサービス|
 |[Serverless Workflow](https://www.alibabacloud.com/help/doc-detail/114020.htm)|Function as a Service型分散ワークフロー|
 |[Alibaba Cloud Linux 2](https://www.alibabacloud.com/zh/product/alibaba-cloud-linux-2)|Alibaba Cloud Linux 2|
+
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
+
 

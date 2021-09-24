@@ -6,6 +6,9 @@ date: "2021-06-01"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## ネットワーク系プロダクトサービス紹介
 
 Alibaba Cloudはクラウドサービスです。そのため、世界中のユーザーがAlibaba Cloudの特定リソースを利用するために独立したネットワーク環境が必要です。この独立したネットワーク環境を実現するサービスとして、VPC（Virtual Private Cloud）があります。VPCは、Alibaba Cloud上に独立したプライベートネットワーク空間を作成できるサービスです。Alibaba Cloud上のプラットフォームやSaaS、インフラクチャは世界中のAlibaba Cloudユーザー共通で利用されています。そのため、アカウント・RAMユーザー各自VPCを作成、利用することで、論理的に分割されたアカウント・RAMユーザーごとのプライベートネットワークを構築、運用することができます。
@@ -129,5 +132,10 @@ Alibaba Cloudはクラウドサービスです。そのため、世界中のユ�
 
 
 
-
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
 

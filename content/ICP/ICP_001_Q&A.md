@@ -10,9 +10,7 @@ author: "SBC engineer blog"
 
 ## 1. はじめに
 
-こんにちは、サポートエンジニアのSです。
-
-今回は、Alibaba Cloud SSL Certificates Serviceによくある質問のまとめと実際に申請してみた過程をご紹介します。
+本記事では、Alibaba Cloud SSL Certificates Serviceによくある質問のまとめと実際に申請してみた過程をご紹介します。
 
 「Alibaba Cloud SSL Certificates Service」で取り扱うSSL証明書についての記事になります。
 

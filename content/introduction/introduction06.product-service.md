@@ -5,6 +5,10 @@ metaDescription: "Alibaba Cloudプロダクトラインアップ"
 date: "2021-04-11"
 author: "Hironobu Ohara"
 ---
+
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## Alibaba Cloudプロダクトラインアップ
 
 # はじめに
@@ -97,5 +101,13 @@ Alibaba Cloudは国際サイトだけでも100を超える様々なプロダク�
 ここには紹介していないプロダクトサービスがかなりあるもの、ひとまずはこのプロダクトサービスを抑えておけば、大抵のサービス基盤開発には困らないと思います。   
 また、それぞれのプロダクトサービスは、様々なビジネスシーンに応じて利用することができます。   
 ![Digital Transfrmation](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/6.2.PNG "Digital Transfrmation")
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
 
 

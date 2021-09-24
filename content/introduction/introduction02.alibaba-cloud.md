@@ -6,6 +6,8 @@ date: "2021-04-11"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 # Alibaba が提供するクラウドサービス
 
 ![What is Alibaba Group](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/2.1.PNG "Alibaba Group")
@@ -97,5 +99,14 @@ Alibabaは技術で解決しながら未来を作ることを第一としてい�
 
 参考：
 [Alibaba Cloud Empowers China's Open Source Cloud Computing Communities](https://www.alibabacloud.com/blog/alibaba-cloud-empowers-chinas-open-source-cloud-computing-communities_594061)
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
+
 
 

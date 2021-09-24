@@ -6,6 +6,9 @@ date: "2021-06-03"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## ストレージ系プロダクトサービス紹介
 
 Alibaba Cloudは様々なストレージタイプを提供しています。
@@ -157,4 +160,12 @@ Alibaba Cloudは様々なストレージタイプを提供しています。
 |[Hybrid Cloud Storage Array](https://www.alibabacloud.com/product/storage-array)|ハイブリッドクラウドストレージアレイ|
 |[Hybrid Cloud Distributed Storage](https://www.alibabacloud.com/product/hybrid-cloud-distributed-storage)|ハイブリッド分散ストレージ|
 |[Storage Capacity Unit](https://www.alibabacloud.com/product/scu)|ストーレジ容量単位パッケージ|
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
+
 

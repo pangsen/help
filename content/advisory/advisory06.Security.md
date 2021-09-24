@@ -6,6 +6,8 @@ date: "2021-05-26"
 author: "Hironobu Ohara"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 # セキュリティ
 
 Alibaba Cloudは様々なセキュリティホワイトペーパーを公開しています。    
@@ -62,6 +64,15 @@ HIPAA に関してより詳しいことはこちらのホワイトペーパー�
 Alibaba CloudはEUのGDPR（General Data Protection Regulation：一般データ保護規則）に準した様々な資格を取得しています。    
 Alibaba Cloudは、EUクラウド行動規範の創設メンバーおよび総会のメンバーとして、GDPR第40条の要件に従ってEUクラウドサービスの行動規範の策定に積極的に関わっています。Alibaba Cloudは、EUのデータ保護機関と建設的な協力関係を築き、コードの起草中にGDPRに対する期待と将来のガイダンスが十分に考慮されるようにしています。    
 そのため、Alibaba Cloudは、クラウドコンピューティング業界における透明性の向上をサポートし、クラウドサービスプロバイダーがデータ保護の問題にどのように対処するかをクラウドの顧客が理解できるようにしつつ、Alibaba Cloudのエコシステム全体で高水準のデータ保護を維持し、テクノロジー産業の発展に貢献することを約束しています。     
+
+
+
+<CommunityAuthor 
+    author="Hironobu Ohara"
+    self_introduction = "2019年にSBクラウドへJoin。Databaseや収集、分散処理、ETL、検索、分析、機械学習基盤の構築、運用等を経て、現在分散系をメインとしたビッグデータとデータベースを得意・専門とするデータエンジニア。 AlibabaCloud MVP。"
+    imageUrl="https://avatars.githubusercontent.com/u/47152180?s=400&u=ed7d182ce541f6f0d83c54b7265136a375b24ad2&v=4"
+    githubUrl="https://github.com/ohiro18"
+/>
 
 
 
