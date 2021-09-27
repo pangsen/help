@@ -83,4 +83,65 @@ import Titlelist from '../src/Titlelist.js';
 
 
 
+<Titlelist 
+    metaTitle="APIで自動構築① - 環境準備編"
+    metaDescription="APIを用いてAlibaba Cloudリソースを自動構築する① - 環境準備編"
+    url="https://sbcloud.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127130800000/000000000000000005.png"
+    date="2019/05/15"
+    author="SBC engineer blog"
+/>
+
+
+
+<Titlelist 
+    metaTitle="APIで自動構築② - VPC編"
+    metaDescription="APIを用いてAlibaba Cloudリソースを自動構築する② - VPC編"
+    url="https://sbcloud.github.io/help/developer-tools/DEVTOOL_009_api-orchestration-2"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127154600000/000000000000000006.png"
+    date="2019/05/23"
+    author="SBC engineer blog"
+/>
+
+
+
+<Titlelist 
+    metaTitle="APIで自動構築③ - AutoScaling編"
+    metaDescription="APIを用いてAlibaba Cloudリソースを自動構築する③ - Auto Scaling編"
+    url="https://sbcloud.github.io/help/developer-tools/DEVTOOL_010_api-orchestration-3"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127171300000/000000000000000007.png"
+    date="2019/05/30"
+    author="SBC engineer blog"
+/>
+
+
+<Titlelist 
+    metaTitle="APIで自動構築④ - SLB編"
+    metaDescription="APIを用いてAlibaba Cloudリソースを自動構築する④ - SLB編"
+    url="https://sbcloud.github.io/help/developer-tools/DEVTOOL_011_api-orchestration-4"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127185100000/000000000000000008.png"
+    date="2019/06/10"
+    author="SBC engineer blog"
+/>
+
+
+
+<Titlelist 
+    metaTitle="APIで自動構築⑤ - RDS編"
+    metaDescription="APIを用いてAlibaba Cloudリソースを自動構築する⑤ - RDS編"
+    url="https://sbcloud.github.io/help/developer-tools/DEVTOOL_012_api-orchestration-5"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127201900000/000000000000000009.png"
+    date="2019/06/19"
+    author="SBC engineer blog"
+/>
+
+
+<Titlelist 
+    metaTitle="APIで自動構築⑥ - RAM編"
+    metaDescription="APIを用いてAlibaba Cloudリソースを自動構築する⑥ - RAM編"
+    url="https://sbcloud.github.io/help/developer-tools/DEVTOOL_013_api-orchestration-6"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127211900000/000000000000000010.png"
+    date="2019/07/05"
+    author="SBC engineer blog"
+/>
 

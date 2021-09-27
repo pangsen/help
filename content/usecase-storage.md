@@ -58,3 +58,21 @@ query MyQuery {
     author="SBC engineer blog"
 />
 
+<Titlelist 
+    metaTitle="Storage Capacity Unitsの紹介"
+    metaDescription="東京リージョンでStorage Capacity Units (SCU) が利用可能になりました"
+    url="https://sbcloud.github.io/help/usecase-storage/STORAGE_005_scu-tokyo-region-release"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-storage/Storage_images_26006613632265400/20200925163358.png"
+    date="2020/09/25"
+    author="sbc_yoshimura"
+/>
+
+<Titlelist 
+    metaTitle="Synology(NAS)とOSS連携"
+    metaDescription="Synology(NAS)のCloudSync機能でAlibaba Cloud OSS連携"
+    url="https://sbcloud.github.io/help/usecase-storage/STORAGE_006_oss-synology-cloudsync"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-storage/Storage_images_26006613640530800/20201014120344.png"
+    date="2020/10/14"
+    author="sbc_yoshimura"
+/>
+

@@ -117,6 +117,14 @@ query MyQuery {
     author="有馬 茂人"
 />
 
+<Titlelist 
+    metaTitle="ACKをバックアップ"
+    metaDescription="VeleroでContainer Service for Kubernetes (ACK) をバックアップする"
+    url="https://sbcloud.github.io/help/usecase-kubernetes/K8S_010_ack_backup"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-kubernetes/Container_images_26006613549307100/20200416144229.png"
+    date="2020/04/17"
+    author="有馬 茂人"
+/>
 
 
 

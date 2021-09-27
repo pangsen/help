@@ -149,7 +149,7 @@ VPC は1つの契約で複数持つことも可能です。
 
 詳細は以下のサイトを参照ください。  
 
-[Alibaba Cloudセキュリティポリシーについて（セキュリティホワイトペーパー解説）](https://www.sbcloud.co.jp/service/about/alibabacloud/securitypolicy)
+[Alibaba Cloudセキュリティポリシーについて（セキュリティホワイトペーパー解説）](https://resource.alibabacloud.com/whitepaper/intl-contenthub/2020-alibaba-cloud-security-whitepaper---the-china-gateway-version-in-japanese_1729)
 
 ## 3. 基本サービス
 

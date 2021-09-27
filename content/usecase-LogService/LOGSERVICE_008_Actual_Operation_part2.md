@@ -14,7 +14,6 @@ author: "SBC engineer blog"
 検索編①を投稿します。   
 
 本記事では、収集した<span style="color: #ff0000"><b>ログを閲覧・検索</b></span>していきます。   
-以下、目次です。
 
 
 ## 収集したログの表示
