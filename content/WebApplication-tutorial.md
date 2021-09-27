@@ -38,7 +38,7 @@ query MyQuery {
     metaTitle="中国向けWebサイト構築方法"
     metaDescription="中国向けWebサイトのクラウド構築 香港リージョン編"
     url="https://sbcloud.github.io/help/WebApplication-tutorial/WEBAPPLICATION_001_china-web-hongkong-region"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-web-application/Web_Application_images_26006613700753900/20210308133952.png"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/WebApplication-tutorial/Web_Application_images_26006613700753900/20210308133952.png"
     date="2021/03/18"
     author="sbc_yoshimura"
 />

@@ -194,7 +194,7 @@ Job IDとGroupsを入力して、Nextをクリックします。
 
 single-metric jobによって予測される値は-19.7ですが、実際の値は40です。これは明らかに異常です。
 
-## ７、終わりに
+# ７、終わりに
 
 以上でElasticsearchのMachine Learning機能で異常検知してみました。single-metric jobだけですが、異常の定義からElasticSearchを使った異常検出までの流れを説明しました。
 

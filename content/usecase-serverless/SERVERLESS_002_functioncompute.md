@@ -35,31 +35,31 @@ zip -r tech-blog.zip ./
 1つめはコンソールからzipファイルをアップロードする方法です。     
 まず、FunctionComputeのコンソール画面へ移動し、新たな関数を作成します。     
 この時、自分が作成したサービス下で関数を作成してください。     
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200206092440.jpg "img")     
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200206092440.jpg "img")     
      
      
 ランタイムはpython3を選択し、ハンドラー名はハンドラーを含むファイル名 + .handlerを指定します。     
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205132911.jpg "img")     
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205132911.jpg "img")     
      
      
 テンプレートが表示されますが、今回は事前に作成したファイルをアップロードするため使用しません。     
 ファイルをアップロードすると、存在しているコードは上書きされるためご注意下さい。     
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205133610.jpg "img")     
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205133610.jpg "img")     
      
      
 コード管理でzipファイルのアップロードを選択し、事前に作成したzipファイルを選択し、保存します。     
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205133000.jpg "img")     
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205133000.jpg "img")     
      
      
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205133140.jpg "img")     
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205133140.jpg "img")     
      
      
 左ペインにnumpyのフォルダがあることからも、ちゃんとアップロードできたことがわかります。     
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205133153.jpg "img")     
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205133153.jpg "img")     
      
      
 実行したところ、ちゃんと結果が表示されました      
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205134303.png "img")      
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205134303.png "img")      
      
      
 # 方法2.fcliを使用してコマンドラインからアップロード

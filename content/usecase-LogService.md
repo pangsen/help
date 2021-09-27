@@ -149,11 +149,11 @@ query MyQuery {
 <Titlelist 
     metaTitle="DataVデータソース登録方法"
     metaDescription="LogServiceをDataVのデータソースに登録する"
-    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_009_attach_DataV_data_source"
+    url="https://sbcloud.github.io/help/usecase-LogService/LOGSERVICE_012_attach_DataV_data_source"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-LogService/LogService_images_26006613546225700/20200408175501.png"
     date="2020/04/09"
     author="SBC engineer blog"
-/>
+/> 
 
 
 <Titlelist 

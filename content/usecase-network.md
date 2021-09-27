@@ -144,7 +144,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="CDNカスタムヘッダーを利用したキャッシング"
     metaDescription="【Albaba Cloud CDN】カスタムヘッダーを利用したキャッシングをやってみる"
-    url="https://sbcloud.github.io/help/usecase-network/NETWORK_011_cdn-customheader"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_012_cdn-customheader"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613507013700/20200221010953.png"
     date="2020/02/21"
     author="sbc_fukuda"
@@ -154,7 +154,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="VPN GatewayにIPsecで接続"
     metaDescription="VPN Gatewayに拠点ルータからIPsecで冗長接続してみる"
-    url="https://sbcloud.github.io/help/usecase-network/NETWORK_010_AlibabaCloud_Azure-VPNGatewayConnection"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_013_ipsecredundant"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613628265000/20200916172346.png"
     date="2020/09/16"
     author="VPN Gatewayに拠点ルータからIPsecで冗長接続してみる"
@@ -164,7 +164,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="CEN Transit RouterでQoS機能"
     metaDescription="CEN Transit RouterでQoS機能を使用してみた。"
-    url="https://sbcloud.github.io/help/usecase-network/NETWORK_013_CEN_TransitRouter_QoS"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_014_CEN_TransitRouter_QoS"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613796957300/20210813184155.png"
     date="2021/08/17"
     author="sbc_nishino"

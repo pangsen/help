@@ -41,7 +41,7 @@ query MyQuery {
     metaTitle="FCでECSを自動起動&自動停止"
     metaDescription="Alibaba CloudのFunction Compute(サーバレスアーキテクチャ)を使ってECSインスタンスを自動起動&自動停止させる"
     url="https://sbcloud.github.io/help/usecase-serverless/SERVERLESS_001_tnoce_functioncompute"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613488886700/20191225175054.png"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613488886700/20191225175054.png"
     date="2019/12/25"
     author="sbc_tnoce"
 />
@@ -50,7 +50,7 @@ query MyQuery {
     metaTitle="FCにライブラリをアップロード"
     metaDescription="FunctionComputeにライブラリをアップロードする"
     url="https://sbcloud.github.io/help/usecase-serverless/SERVERLESS_002_functioncompute"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Serverless/Serverless_images_26006613500666600/20200205134303.png"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205134303.png"
     date="2020/02/06"
     author="SBC engineer blog"
 />

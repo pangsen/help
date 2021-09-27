@@ -65,34 +65,3 @@ query MyQuery {
     author="SBC engineer blog"
 />
 
-
-<Titlelist 
-    metaTitle="DataV Widget 開発ガイド"
-    metaDescription="Alibab Cloud DataV Widget 開発ガイドを説明します"
-    url="https://sbcloud.github.io/help/usecase-datav/DATAV_004_datav-widget-develop-guide"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-datav/DataV_images_2134623456234513425/ecomfe-1024x512.png"
-    date="2021/06/01"
-    author="SBC engineer blog"
-/>
-
-
-<Titlelist 
-    metaTitle="DataV のデータ権限制御"
-    metaDescription="同じ Alibab Cloud DataV Dashboard に対して違うユーザは違うデータを見えるする方法を紹介します。"
-    url="https://sbcloud.github.io/help/usecase-datav/DATAV_005_datav-develop-api-cookie"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-datav/DataV_images_2134623456234513425/CORS_principle.png"
-    date="2021/06/01"
-    author="SBC engineer blog"
-/>
-
-
-
-<Titlelist 
-    metaTitle="ccccc"
-    metaDescription="ccccc"
-    url="https://sbcloud.github.io/help/usecase-datav/DATAV_006_datav-sakura"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-datav/DataV_images_2134623456234513425/TB1ji7ccLDH8KJjy1XcXXcpdXXa-767-426.gif"
-    date="2021/06/01"
-    author="SBC engineer blog"
-/>
-
