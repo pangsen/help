@@ -6,6 +6,8 @@ date: "2019-12-12"
 author: "sbc_y_matsuda"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Anti-Bot Serviceの紹介
 
 本記事では、Alibaba Cloud セキュリティプロダクトサービスである Anti-Bot Service についてをご紹介します。    
@@ -203,3 +205,14 @@ botやクローラーの場合はこの様な結果が返ってきて、正常�
 
 スライドキャプチャやブロック機能をWebサイトの改修なしに
 差し込むことが出来るのが Anti-Bot Service のポイントですね😃
+
+
+ <CommunityAuthor 
+    author="松田 悦洋"
+    self_introduction = "インフラからアプリまでのシステム基盤のアーキテクトを経てクラウドのアーキテクトへ、AWS、Azure、Cloudflare などのサービスやオープンソース関連も嗜みます。2019年1月にソフトバンクへ入社、2020年より Alibaba Cloud MVP。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/matsuda_pic.png"
+    githubUrl="https://github.com/yoshihiro-matsuda-sb"
+/>
+
+
+

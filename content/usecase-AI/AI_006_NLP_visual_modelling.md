@@ -6,6 +6,8 @@ date: "2020-03-16"
 author: "sbc_hong"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## 機械学習：ニューラルネットワークのビジュアルモデリング機能を使ってみた
 
 
@@ -369,6 +371,13 @@ The accuracy of the model is 0.975000
 ## 最後に
 シンプルなモデルの構築、グラフ化、直感的な編集を通じて、FastNeuralNetwork機能を紹介しました。コードをワンクリックでグラフに変換し、視覚的な編集ができることにより、モデルの解釈性と保守性が大幅に向上しました。    
 
+
+ <CommunityAuthor 
+    author="洪亜龍"
+    self_introduction = "2018年からPythonやJavaScriptをはじめとするAIやサービス基盤中心のバックエンド開発を担当。Alibaba Cloud、Google Cloudが得意。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/hon.png"
+    githubUrl="https://github.com/alonhung"
+/>
 
 
 

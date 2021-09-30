@@ -99,7 +99,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_006_webplus"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613495741500/20200110173415.png"    
     date="2020/01/11"
-    author="sbc_y_matsuda"
+    author="松田 悦洋"
 />
 
 
@@ -149,7 +149,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_004_How_to_expand_the_diskvsize_of_the_ECS_image"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613550959400/000000000000000001.png"    
     date="2020/06/04"
-    author="sbc_yuki"
+    author="ShotoYuki"
 />
 
 
@@ -160,7 +160,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_012_ecs_doh_cloudflare"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613626092100/000000000000000002.png"    
     date="2020/09/10"
-    author="sbc_yoshimura"
+    author="吉村 真輝"
 />
 
 
@@ -170,7 +170,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_013_alinux3"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613784005800/20210721185833.png"    
     date="2021/07/27"
-    author="sbc_fukuda"
+    author="tfukuda"
 />
 
 

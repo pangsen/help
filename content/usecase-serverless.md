@@ -43,7 +43,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-serverless/SERVERLESS_001_tnoce_functioncompute"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613488886700/20191225175054.png"
     date="2019/12/25"
-    author="sbc_tnoce"
+    author="長岡周"
 />
 
 <Titlelist 

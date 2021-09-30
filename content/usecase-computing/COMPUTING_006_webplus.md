@@ -6,6 +6,8 @@ date: "2020-01-11"
 author: "sbc_y_matsuda"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Web App Serviceを試す
 
 
@@ -181,6 +183,15 @@ ECSの管理画面を見に行くと実際にインスタンスが動いてい�
 
 まずは一旦ここまでで機能の解説などは改めて記事にしたいと思います。  
 最近はドンドン新サービスがリリースされてきていますのでみなさんイロイロさわってみて下さいね😁
+
+
+
+ <CommunityAuthor 
+    author="松田 悦洋"
+    self_introduction = "インフラからアプリまでのシステム基盤のアーキテクトを経てクラウドのアーキテクトへ、AWS、Azure、Cloudflare などのサービスやオープンソース関連も嗜みます。2019年1月にソフトバンクへ入社、2020年より Alibaba Cloud MVP。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/matsuda_pic.png"
+    githubUrl="https://github.com/yoshihiro-matsuda-sb"
+/>
 
 
 

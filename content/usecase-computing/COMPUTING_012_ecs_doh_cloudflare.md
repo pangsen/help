@@ -6,6 +6,8 @@ date: "2020-09-10"
 author: "sbc_yoshimura"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## ECSでDNS over HTTPSを設定
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613626092100/000000000000000002.png "img")     
@@ -243,5 +245,15 @@ tcpdump -i eth0 -n port 53 or port 443
 これならGFW超えができそうな気がしましたが、実際には facebook にはアクセス出来ませんでした。　   
 おそらく正常なIPアドレス自体が443/80で中国ISPにブロックされているのだろうと思います。   
 とは言っても中国に限らずDNSのセキュリティとしては良い設定だと思いますので、是非試してみてください。    
+
+
+ <CommunityAuthor 
+    author="吉村 真輝"
+    self_introduction = "Alibaba Cloud プロフェッショナルエンジニア。中国ｘクラウドが得意。趣味は日本語ラップのDJ。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yoshimura_pic.jpeg"
+    githubUrl="https://github.com/masaki-coba"
+/>
+
+
 
 

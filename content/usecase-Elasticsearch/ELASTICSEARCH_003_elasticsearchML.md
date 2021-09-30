@@ -6,6 +6,8 @@ date: "2020-10-28"
 author: "sbc_hong"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Elasticsearch 機械学習での異常検知体験
 
 
@@ -199,4 +201,13 @@ single-metric jobによって予測される値は-19.7ですが、実際の値�
 以上でElasticsearchのMachine Learning機能で異常検知してみました。single-metric jobだけですが、異常の定義からElasticSearchを使った異常検出までの流れを説明しました。
 
 もっと試したい方は是非NABデータを使ってmulti-metric jobs も試してください。
+
+
+ <CommunityAuthor 
+    author="洪亜龍"
+    self_introduction = "2018年からPythonやJavaScriptをはじめとするAIやサービス基盤中心のバックエンド開発を担当。Alibaba Cloud、Google Cloudが得意。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/hon.png"
+    githubUrl="https://github.com/alonhung"
+/>
+
 

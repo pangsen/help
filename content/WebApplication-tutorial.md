@@ -40,6 +40,6 @@ query MyQuery {
     url="https://sbcloud.github.io/help/WebApplication-tutorial/WEBAPPLICATION_001_china-web-hongkong-region"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/WebApplication-tutorial/Web_Application_images_26006613700753900/20210308133952.png"
     date="2021/03/18"
-    author="sbc_yoshimura"
+    author="吉村 真輝"
 />
 

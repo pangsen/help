@@ -6,6 +6,8 @@ date: "2021-03-17"
 author: "sbc_saito"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## クライアントVPN不要!  Cloudflareを使ってWebサーバへゼロトラストアクセスを実現
 
 # はじめに
@@ -160,5 +162,13 @@ Cloudflare SSLを利用しているときは、SSL証明書の有効期限切れ
 <b>クライアントにVPNソフトウェアをインストールしなくても、簡単&セキュアに社内システムにアクセスできる時代になりました。</b>  
 WebサーバがNAT環境にあってもArgo Tunnelによりインターネット公開が出来、しかも通信はTCP/IPレベルで暗号化されています。     
 加えてCloudflareからWebサーバ間およびCloudflareからクライアント間はアプリケーション層におけるSSL暗号化も可能で更にセキュアな環境が導入出来ます。     
+
+
+ <CommunityAuthor 
+    author="斎藤 貴広"
+    self_introduction = "2020年からAlibaba Cloudのソリューション開発や技術支援に従事。ネットワークや基盤などのインフラ回りがメイン領域で、最近はゼロトラストセキュリティやWeb系もかじり中。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/saito.png"
+    githubUrl=""
+/>
 
 

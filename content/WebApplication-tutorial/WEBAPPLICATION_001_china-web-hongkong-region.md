@@ -6,6 +6,7 @@ date: "2021-03-18"
 author: "sbc_yoshimura"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 ## 中国向けWebサイト構築方法
 
@@ -356,6 +357,16 @@ https:// サブドメイン　にアクセスして確認
 このような構成をとることで、配信だけでなく、運用面やセキュリティ面でもインフラ管理を最適化することができます。
 
 SBクラウドではAlibaba Cloudプロフェッショナルエンジニアによる構築サービスもご提供しているため、作業のご依頼の際には是非こちらまでお問い合わせください。
+
+
+ <CommunityAuthor 
+    author="吉村 真輝"
+    self_introduction = "Alibaba Cloud プロフェッショナルエンジニア。中国ｘクラウドが得意。趣味は日本語ラップのDJ。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yoshimura_pic.jpeg"
+    githubUrl="https://github.com/masaki-coba"
+/>
+
+
 
 
 

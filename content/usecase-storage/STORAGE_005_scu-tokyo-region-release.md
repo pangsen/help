@@ -6,6 +6,8 @@ date: "2020-09-25"
 author: "sbc_yoshimura"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Storage Capacity Units (SCU) の紹介
 
 # はじめに
@@ -115,4 +117,14 @@ RIと同じ扱いのようです。
 
 # 最後に
 本記事では、torage Capacity Units (SCU) についてをご紹介しました。例えば検証環境などで Pay as You Go のECSやNASを使っている方にはコストを削減したり定額利用にする良い料金プランだと思いますので、是非参考に頂ければ幸いです。     
+
+
+ <CommunityAuthor 
+    author="吉村 真輝"
+    self_introduction = "Alibaba Cloud プロフェッショナルエンジニア。中国ｘクラウドが得意。趣味は日本語ラップのDJ。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yoshimura_pic.jpeg"
+    githubUrl="https://github.com/masaki-coba"
+/>
+
+
 

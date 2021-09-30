@@ -6,6 +6,8 @@ date: "2020-03-31"
 author: "sbc_hong"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## PAI-AutoLearningの紹介〜コードなし、機械学習知識不要の画像分類〜
 
 本記事では、Alibaba Cloudの機械学習プラットフォームPAIの最新のプロダクトAutoLearningを紹介します。
@@ -72,6 +74,12 @@ PAI-AutoLearningはオンラインラベリング、自動的にモデルトレ�
 PAI-AutoLearningの基本機能を紹介して、PAI-AutoLearningで画像分類の流れを紹介しました。コードなく、アルゴリズムの基礎が必要なく、簡単に画像分類を体験でき、是非試してください。
 
 
+ <CommunityAuthor 
+    author="洪亜龍"
+    self_introduction = "2018年からPythonやJavaScriptをはじめとするAIやサービス基盤中心のバックエンド開発を担当。Alibaba Cloud、Google Cloudが得意。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/hon.png"
+    githubUrl="https://github.com/alonhung"
+/>
 
 
 

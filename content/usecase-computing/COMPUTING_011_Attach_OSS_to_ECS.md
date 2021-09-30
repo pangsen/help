@@ -6,6 +6,8 @@ date: "2020-06-04"
 author: "sbc_yuki"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## ECSにOSSをマウントする
 
 !![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613550959400/000000000000000001.png "img")
@@ -158,4 +160,12 @@ ossfs　　　  256T 　　　   0　   256T       0%           /
 ログローテーションが出来ない場合や、長期間ログを保持する運用だと、ログファイルによってディスク容量をひっ迫させる事が中にはあるかと思いますが、本記事のように簡単にマウントが出来るOSSを使えば、LVMの拡張と比べると簡単にディスク容量を増やす事ができます。また、コマンドライン操作が苦手な方でもGUIで操作ができるので、個人的には属人化しなくて使いやすいかと思います。      
 
 ECS内で全てのデータを保持していると、ごく稀に発生するファイルシステムの破損やハングアップがあった時など、直近のログを取得できない状況が発生します。コストを抑える事も大事ですが、可用性を高める事も大事です。ECSのみで運用されている方、そうでない方も是非ご参考に頂ければ幸いです。    
+
+
+ <CommunityAuthor 
+    author="ShotoYuki"
+    self_introduction = "無記載"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yuki_shoto.jpg"
+    githubUrl=""
+/>
 

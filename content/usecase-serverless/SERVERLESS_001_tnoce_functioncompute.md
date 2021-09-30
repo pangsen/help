@@ -6,6 +6,8 @@ date: "2019-12-25"
 author: "sbc_tnoce"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Function Compute(サーバレスアーキテクチャ)を使ってECSインスタンスを自動起動&自動停止させる
 
 # はじめに
@@ -249,5 +251,14 @@ Alibaba Cloud開発している各種SDKがすべて格納されているので�
 # 最後に
 ``AWS Lambda``を利用されたことがあるかたなら、直感的に理解できると思うプロダクトでした 
 ECSを営業時間帯に合わせて自動起動&自動停止したい場合は、こちらを参考に頂ければ幸いです。     
+
+
+ <CommunityAuthor 
+    author="長岡周"
+    self_introduction = "2018年からAlibabaCloudサービスに携わる。現在プリセールスエンジニア。元営業マン。初心を忘れず日々精進。AlibabaCloud Professional（Cloud computing/Security）所持。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/animal_deer.png"
+    githubUrl=""
+/>
+
 
 

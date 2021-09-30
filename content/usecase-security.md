@@ -60,7 +60,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-security/SECURITY_004_anti-bot-base"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-security/Security_images_26006613479441800/20191212114956.png"
     date="2010/12/12"
-    author="sbc_y_matsuda"
+    author="松田 悦洋"
 />
 
 <Titlelist 
@@ -120,7 +120,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-security/SECURITY_010_idaas"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-security/Security_images_26006613704708200/20210318184906.png"
     date="2021/03/19"
-    author="sbc_saito"
+    author="斎藤 貴広"
 />
 
 

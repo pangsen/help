@@ -6,6 +6,9 @@ date: "2020-03-05"
 author: "sbc_tnoce"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## ルーティングさせるNW構成
 
 # はじめに
@@ -150,4 +153,15 @@ OpenVPNがドメインで経路をpushできれば良さそうなんですけど
 
 # 最後に
 以上、特定のドメインやG-IP向けの通信経路だけAlibaba Cloud網を通したいときの手段として検証した結果になります。ご参考に頂ければ幸いです。
+
+
+ <CommunityAuthor 
+    author="長岡周"
+    self_introduction = "2018年からAlibabaCloudサービスに携わる。現在プリセールスエンジニア。元営業マン。初心を忘れず日々精進。AlibabaCloud Professional（Cloud computing/Security）所持。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/animal_deer.png"
+    githubUrl=""
+/>
+
+
+
 

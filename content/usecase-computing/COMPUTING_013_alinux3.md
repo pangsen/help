@@ -6,6 +6,8 @@ date: "2021-07-27"
 author: "sbc_fukuda"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## CentOS8 / RHEL8と互換性もある「Alibaba Cloud Linux 3」のご紹介
 
 # はじめに
@@ -141,3 +143,14 @@ Alibaba Cloud Linuxは、クラウド基盤に最適化されたパフォーマ�
 CentOS8/RHEL8の互換性があり、比較的扱いやすいかと思います。
 さらに短い期間でEOLを迎えるCentOSに対し、長いサポート期間が付帯されているのも大きなポイントです。     
 CentOS/RHELの代替OSとしても有効かと思いますので、ぜひお試しいただければ幸いです。    
+
+
+ <CommunityAuthor 
+    author="tfukuda"
+    self_introduction = "2019年よりAlibaba Cloudに携わる。これまでのクラウド基盤の導入経験を活かし、Alibaba Cloudを活用した様々なソリューションをお客様へ提案するプリセールスエンジニアとして奔走中。MARVEL映画大好き。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/tfukuda.png"
+    githubUrl=""
+/>
+
+
+

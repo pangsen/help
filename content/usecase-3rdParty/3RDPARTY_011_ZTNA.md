@@ -6,6 +6,8 @@ date: "2021-05-24"
 author: "sbc_saito"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Alibaba Cloud活用で日中間のゼロトラストネットワークを実現
 
 
@@ -238,5 +240,14 @@ Accessはポータル機能を標準で用意しています。
 本記事では、libaba Cloud活用で日中間のゼロトラストネットワークを実現する方法をご紹介しました。    
 今回のように<b>VPN Gateway+CEN+NATサーバの構成を活用すれば日本で展開している様々なSaaSを中国から利用可能になります。 </b>  
 ご興味ございましたら、ぜひ実際にハンズオンしてみてください。     
+
+
+ <CommunityAuthor 
+    author="斎藤 貴広"
+    self_introduction = "2020年からAlibaba Cloudのソリューション開発や技術支援に従事。ネットワークや基盤などのインフラ回りがメイン領域で、最近はゼロトラストセキュリティやWeb系もかじり中。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/saito.png"
+    githubUrl=""
+/>
+
 
 

@@ -85,11 +85,11 @@ const SubscribeNewsletter = ({ title, canonicalUrl }) => {
             </div>
             <h2 className="pr-40">Alibaba Cloudを始めてみましょう</h2>
             <div className="post-subscription-description">
-              SBクラウドは、Alibaba Cloudのアカウント開設から、サービス展開までをお手伝いします。
+              ソフトバンクは、Alibaba Cloudのアカウント開設から、サービス展開までをお手伝いします。
             </div>
             <div className="buttonWrapper">
-            <a href="https://www.sbcloud.co.jp/contact_jp/" target="_blank" rel="noopener noreferrer">
-                <button className="subscribeBtn">SBクラウドへのお問い合わせ</button>
+            <a href="https://tm.softbank.jp/form/cloud/iaas/index.php?ref=lp-alibaba" target="_blank" rel="noopener noreferrer">
+                <button className="subscribeBtn">お問い合わせ窓口</button>
               </a>
             </div>
           </div>

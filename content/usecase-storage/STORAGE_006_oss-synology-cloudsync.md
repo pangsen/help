@@ -6,6 +6,8 @@ date: "2020-10-14"
 author: "sbc_yoshimura"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Synology(NAS)のCloudSync機能でAlibaba Cloud OSS連携
 
 
@@ -195,6 +197,16 @@ OSSにファイルをアップロードしたら、ファイル共有だけで�
 
 # 最後に
 本記事では、NASとAlibaba Cloud OSS連携についてをご紹介しました。ご参考に頂ければ幸いです。    
+
+
+
+ <CommunityAuthor 
+    author="吉村 真輝"
+    self_introduction = "Alibaba Cloud プロフェッショナルエンジニア。中国ｘクラウドが得意。趣味は日本語ラップのDJ。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yoshimura_pic.jpeg"
+    githubUrl="https://github.com/masaki-coba"
+/>
+
 
 
 

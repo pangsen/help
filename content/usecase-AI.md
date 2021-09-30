@@ -91,7 +91,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-AI/AI_006_NLP_visual_modelling"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613533691300/20200311203710.png"
     date="2020/03/16"
-    author="sbc_hong"
+    author="洪亜龍"
 />
 
 
@@ -102,7 +102,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-AI/AI_007_PAI_Image_Classification"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613543288200/20200331213752.png"
     date="2020/03/31"
-    author="sbc_hong"
+    author="洪亜龍"
 />
 
 

@@ -6,6 +6,9 @@ date: "2021-03-25"
 author: "sbc_saito"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+
 ## Cloudflare GatewayでWebフィルタリングをやってみた
 
 
@@ -181,6 +184,12 @@ Webプロキシ形式ではないのでUDP通信も利用できてWeb会議の�
 現行のWebフィルタリングのパフォーマンスやセキュリティにお困りの方に、ピッタリのソリューションです 
 
 
+ <CommunityAuthor 
+    author="斎藤 貴広"
+    self_introduction = "2020年からAlibaba Cloudのソリューション開発や技術支援に従事。ネットワークや基盤などのインフラ回りがメイン領域で、最近はゼロトラストセキュリティやWeb系もかじり中。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/saito.png"
+    githubUrl=""
+/>
 
 
 

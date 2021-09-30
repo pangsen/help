@@ -6,6 +6,8 @@ date: "2021-03-19"
 author: "sbc_saito"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Alibaba Cloud IDaaSを使ってVPN Gatewayに2要素認証を導入してみた
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-security/Security_images_26006613704708200/20210318184906.png "img")      
@@ -219,4 +221,11 @@ OKボタンをクリックすると接続が成功しました
 このようにIDaaSは色々な組み合わせが出来ますので、ご参考に頂ければ幸いです。     
  
  
- 
+  <CommunityAuthor 
+    author="斎藤 貴広"
+    self_introduction = "2020年からAlibaba Cloudのソリューション開発や技術支援に従事。ネットワークや基盤などのインフラ回りがメイン領域で、最近はゼロトラストセキュリティやWeb系もかじり中。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/saito.png"
+    githubUrl=""
+/>
+
+

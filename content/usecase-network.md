@@ -137,7 +137,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-network/NETWORK_011_openvpn"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613530415200/20210524172534.png"
     date="2020/03/05"
-    author="sbc_tnoce"
+    author="長岡周"
 />
 
 
@@ -147,7 +147,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-network/NETWORK_012_cdn-customheader"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613507013700/20200221010953.png"
     date="2020/02/21"
-    author="sbc_fukuda"
+    author="tfukuda"
 />
 
 

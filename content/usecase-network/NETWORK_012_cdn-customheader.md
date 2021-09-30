@@ -6,6 +6,8 @@ date: "2020-02-21"
 author: "sbc_fukuda"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## CDNカスタムヘッダーを利用したキャッシングをやってみる
 
 # はじめに
@@ -523,4 +525,11 @@ CDNを利用する事により、そのストレスを軽減する構成が可�
 
  
 
- 
+  <CommunityAuthor 
+    author="tfukuda"
+    self_introduction = "2019年よりAlibaba Cloudに携わる。これまでのクラウド基盤の導入経験を活かし、Alibaba Cloudを活用した様々なソリューションをお客様へ提案するプリセールスエンジニアとして奔走中。MARVEL映画大好き。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/tfukuda.png"
+    githubUrl=""
+/>
+
+

@@ -61,7 +61,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-Elasticsearch/ELASTICSEARCH_003_elasticsearchML"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Elasticsearch/Elasticsearch_images_26006613638535300/20201028151204.png"
     date="2020/10/28"
-    author="sbc_hong"
+    author="洪亜龍"
 />
 
 

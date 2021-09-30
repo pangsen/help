@@ -6,6 +6,8 @@ date: "2021-04-19"
 author: "sbc_saito"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Cloudflare WARPで次世代VPNを体験しよう
 
 
@@ -155,6 +157,14 @@ Gatewayにて、Yahoo!ドメインへのアクセスをブロックする様に�
 <b>Cloudflare WARPを利用して簡単・安全・高速なVPN接続を手に入れることが可能です。 </b>   
 WARPは1GBまでは無料&登録不要で即時使えるプロダクトですので  
 カフェや駅などの公共のWiFiスポットやセキュリティが貧弱なWiFiスポットを利用する場合に是非使ってみてください。  
+
+
+ <CommunityAuthor 
+    author="斎藤 貴広"
+    self_introduction = "2020年からAlibaba Cloudのソリューション開発や技術支援に従事。ネットワークや基盤などのインフラ回りがメイン領域で、最近はゼロトラストセキュリティやWeb系もかじり中。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/saito.png"
+    githubUrl=""
+/>
 
 
 
