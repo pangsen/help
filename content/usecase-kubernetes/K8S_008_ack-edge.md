@@ -6,6 +6,8 @@ date: "2021-07-21"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## ACK@Edge でエッジ連携
 
 本記事では、Container Service for Kubernetes (ACK) で利用可能な ACK@Edge を使用して、クラウドやオンプレミス等へ設置されたコンピュートとの連携をする方法をご紹介します。    
@@ -229,6 +231,14 @@ ACK@Edge では CNCF の Sundbox Project でホストされている openyurt �
 
 > https://community.alibabacloud.com/tags/type_blog-tagid_31845
 
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 
 

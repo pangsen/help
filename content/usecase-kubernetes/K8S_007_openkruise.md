@@ -6,6 +6,8 @@ date: "2021-04-26"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## ACK で OpenKruise をためしてみた
 
 本記事では、オープンソースで提供されている OpenKruise を、Container Service for Kubernetes (ACK) へデプロイして動作する方法を記載します。     
@@ -409,6 +411,14 @@ OpenKruise の CloneSet と SidecarSet をためしてみましたが、ご紹�
 
 > https://community.alibabacloud.com/tags/type_blog-tagid_29383/
 
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 
 

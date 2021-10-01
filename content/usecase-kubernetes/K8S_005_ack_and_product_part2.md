@@ -6,6 +6,8 @@ date: "2020-05-15"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Container Service for Kubernetes (ACK) と Alibaba Cloud プロダクトを連携する Part 2 (Log Service, RAM, DingTalk)
 
 本記事では、Container Service for Kubernetes (ACK) から、Alibaba Cloud の各プロダクトと連携する方法についてご紹介します。    
@@ -490,6 +492,14 @@ ACKでは前回ご紹介したプロダクト連携と合わせて、多くのAl
 
 最後までお読み頂き、ありがとうございました。
 
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 
 

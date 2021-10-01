@@ -6,6 +6,8 @@ date: "2021-09-03"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## ACK Register Cluster で外部 k8s クラスタ連携
 
 本記事では、Container Service for Kubernetes (ACK) の Register Cluster を使用して、外部の Kubernetes クラスタと連携する方法をご紹介します。     
@@ -128,6 +130,14 @@ nginx   1/1     Running   0          16s   172.16.2.8   ip-172-16-2-98.ap-northe
 動作確認で使用したクラスタは1つだけでしたが、マルチクラウドやハイブリッド環境での  
 複数クラスタの管理手段として参考になればと思います。
 
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 
 

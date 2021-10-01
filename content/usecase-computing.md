@@ -146,7 +146,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="ECSにOSSをマウントする"
     metaDescription="ECSにOSSをマウントしてみる"
-    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_004_How_to_expand_the_diskvsize_of_the_ECS_image"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_011_Attach_OSS_to_ECS"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613550959400/000000000000000001.png"    
     date="2020/06/04"
     author="ShotoYuki"

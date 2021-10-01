@@ -6,6 +6,8 @@ date: "2020-04-01"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Alibaba Cloud Container Registry (ACR) でコンテナイメージのビルドパイプラインを実装する
 
 本記事では、Docker イメージのビルドから、ビルドしたイメージをContainer Service for Kubernetes (ACK) へデプロイするまでのビルドパイプラインを、Alibaba Cloud Container Registry (ACR) を使用して実装する方法をご紹介します。     
@@ -345,5 +347,13 @@ ACRと連携させる為の設定や、ACKの設定等がいくつかあり、�
 先日配信されました「Alibaba Cloud Academy Day Online Conference」のセッションの中でも、ACRを使用したDevOpsソリューションを動画で見る事ができるので、こちらも参考になればと思います。
 
 > https://resource.alibabacloud.com/ja/webinar/detail.html?spm=a3c0i.13976856.9463370820.15.24627f81D7MHj3&id=1481
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 

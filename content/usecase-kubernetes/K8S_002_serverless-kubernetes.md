@@ -6,6 +6,8 @@ date: "2020-03-19"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Serverless Kubernetes (ASK) を使用したPodのデプロイとServiceへの接続について
 
 本記事では、Serverless Kubernetes (ASK) の利用についてご紹介します。  
@@ -206,5 +208,14 @@ SBクラウドのSlideShareへElastic Container Instance (ECI)とServerless Kube
 こちらも参考になればと思います。
 
 > https://www.slideshare.net/sbcloud/elastic-container-instanceserverless-kubernetesnodeless-200272122
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
+
 
 

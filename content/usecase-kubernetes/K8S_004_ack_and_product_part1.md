@@ -6,6 +6,8 @@ date: "2020-04-13"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Container Service for Kubernetes (ACK) と Alibaba Cloud プロダクトを連携する Part 1  (SLB, Cloud Disk, NAS, OSS)
 
 本記事では、Container Service for Kubernetes (ACK) を使用して、Alibaba Cloud の各プロダクトとの連携方法についてご紹介します。     
@@ -418,5 +420,13 @@ ossfs                fuse.ossfs    256.0T         0    256.0T   0% /oss
      
 次回はLog Service, RAM等の連携についてご紹介出来ればと思います。  
 最後までお読み頂き、ありがとうございました。
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 

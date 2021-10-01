@@ -6,6 +6,8 @@ date: "2020-03-11"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Elastic Container Instance (ECI)でサーバレスなコンテナ環境を利用する
 
 
@@ -167,5 +169,13 @@ Elastic Container Instance (ECI)の概要と簡単な作成方法を説明しま
 少し前になりますが、Elastic Container Instance (ECI)についての資料をSlideShareへアップロードしていますので、こちらも参考になればと思います。 
 
 > https://www.slideshare.net/sbcloud/elastic-container-instanceserverless-kubernetesnodeless-200272122
+
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 

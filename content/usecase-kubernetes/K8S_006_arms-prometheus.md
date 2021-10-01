@@ -6,6 +6,8 @@ date: "2021-03-23"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## ARMS Prometheus MonitoringでACKクラスターを監視する
 
 本記事では、Application Real-Time Monitoring Service （ARMS）  で、Container Service for Kubernetes （ACK） のモニタリングをする方法をご紹介します。     
@@ -285,4 +287,12 @@ Grafana へ作成した Redis のダッシュボードは、ACK のコンソー�
 
 今回はARMS  Prometheus を使用し、ACK へデプロイした Redis コンテナへのモニタリング設定を行ってみました。  
 ARMS  Prometheus では、Prometheus のコンポーネントをマネージドで利用でき、コンソールから簡単に設定する事が出来るなど、 Alibaba Cloud で Prometheus を使用する選択枠の１つとして検討できるプロダクトになっているのではないでしょうか。
+
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
+
 

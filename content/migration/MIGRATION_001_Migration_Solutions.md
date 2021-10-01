@@ -6,6 +6,8 @@ date: "2021-03-02"
 author: "有馬 茂人"
 ---
 
+import CommunityAuthor from '../../src/CommunityAuthor.js';
+
 ## Alibaba Cloud マイグレーションソリューション
 
 
@@ -67,7 +69,8 @@ Alibaba Cloud ではサーバーマイグレーションを支援するプロダ
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/migration/Migration_images_26006613696236900/20210226135453.png "img")
 
-    
+
+
 
 ---
 
@@ -121,6 +124,11 @@ Alibaba Cloud の耐久性・信頼性の高いストレージを利用する事
 現状利用されている環境を、異なるプラットフォームへ即時に移行する事はなかなかハードルが高く、多くの課題や工数が必要となる事が想定されますが、今回ご紹介したマイグレーションプロダクトを活用し、Alibaba Cloud への移行の手助けとなればと思います。
 
 
-
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
 
 
