@@ -8,69 +8,13 @@ author: "Yoshihiro Matsuda"
 
 ## 1. はじめに
 本資料は、管理者向けのDaaSポータルを利用するための手順を記述したものです。  
-## 2. 事前準備
-この章では、管理者向けのDaaSポータルを利用するための、事前準備作業の手順をご紹介します。  
-## 2.1 AlibabaCloudコンソールログイン
-以下のurlより、AlibabaCloudコンソールへアクセスします。 
-- https://account.alibabacloud.com/login/log  
-アカウントのEmail及びパスワードを入力し、「Sign in」ボタンを押下します。  
-![2.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.1.1-login.png)  
-スライダーが表示される場合は、指示通りにスライダーを一番右へスライドします。  
-![2.1.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.1.2-slider.png)  
-MFAが設定されている場合は、６桁の認証番号を入力し、「Submit」ボタンを押下します。  
-（ ※MFAが設定されていない場合は、本画面が表示されません。）  
-![2.1.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.1.3-mfa.png)  
-画面右上の「Console」リンクをクリックします。  
-![2.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.1.4-console.png)  
-## 2.2 アカウントUID確認
-画面右上の![2.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.2.1-profile.png)アイコンにカーソルを合わせて、「Account ID」の数字をコピーします。  
-![2.2.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.2.2-uid.png)  
-以上でアカウントUIDの確認が終了します。先ほどコピーした「Account ID」は後ほどPortalログインの際利用します。  
-## 2.3 PortalAdminユーザー作成
-画面左上の![2.3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.1-menu-ico.png)ボタンを押下します。  
-![2.3.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.2-menu.png)  
-検索欄にて「ram」を入力し、「Resource Access Management」を押下します。  
-![2.3.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.3-search-ram.png)  
-左メニューの「Users」を押下します。  
-![2.3.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.4-ram-users.png)  
-「Create User」を押下します。  
-![2.3.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.5-create-users.png)  
-以下のパラメータを入力します。  
-- Logon Name：PortalAdmin  
-- Display Name：PortalAdmin  
-- Programmatic Access：チェックを入れます  
-「OK」を押下します。  
-ユーザーが正しく作成されたことを確認し、CSVファイルをダウンロードします。（ ※CSVファイルに記載されているAccessKeyID及びAccessKeySecretは後ほどPortalログインの際利用します。）  
-画面左メニューの「Users」を押下し、User一覧画面へ戻ります。  
-![2.3.6](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.6-ram-users.png)  
-先ほど作成したPortalAdminユーザーをクリックします。  
-![2.3.7](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.7-portal-admin.png)  
-「Permissions」タブより、「Add Permissions」を押下します。  
-![2.3.8](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.8-add-permissions.png)  
-「AdministratorAccess」を選択し、Selectedメニューに表示されていることを確認します。  
-「OK」を押下します。  
-![2.3.9](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.9-administrator-access.png)  
-「Complete」を押下します。  
-![2.3.10](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/2.3.10-complete.png)  
 ## 3. ログイン
-（１）弊社より事前に展開したUrlより、操作ポータルを開きます。  
-http://ipaddress/  
+（１）弊社より事前に展開したショートカットより、操作ポータルを開きます。  
 ![3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/3.1-portal-login.png)  
 （２）以下のユーザー名とパスワードを入力し、ログインを押下します。  
-- ユーザー名：Administrator  
-- パスワード：sb!123$Cloud  
-（３）初回ログインの際、以下の情報が求められます。手順「2.事前準備」で取得した情報を入力します。  
-- アカウントUID  
-- アクセスキー  
-- アクセスシークレット  
-登録を押下します。  
-![3.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/3.2-first-login.png)  
-（４）ログイン成功していることを確認します。  
-- 地域　　　　　　　：操作対象のデスクトップの地域を選択できます。  
-- サポート　　　　　：SBCloudへ問い合わせする場合は、こちらを押下します。  
-- ログアウト　　　　：ログアウトする場合はこちらを押下します。  
-- 管理者メニュー　　：管理者向け機能一覧。  
-- コンテンツエリア　：管理者向け機能の操作エリア。  
+- ユーザー名：admin  
+- パスワード：弊社より事前に展開したもの  
+（３）ログイン成功していることを確認します。  
 ## 4. 共通ヘッダー
 ## 4.1 地域
 ヘッダー左側の地域ボタンを押下することで、地域ごとのデスクトップ一覧を切り替えることができます。  
@@ -156,7 +100,7 @@ http://ipaddress/
 ![5.2.2.1.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.2.1.3-desktop-start-wait.png)  
 （４）起動が成功したことを確認します。  
 「閉じる」ボタンを押下します。  
-![](images/5.2.2.1.4-desktop-start-close.png)  
+![5.2.2.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.2.1.4-desktop-start-close.png)  
 ## 5.2.2.2 デスクトップの再起動
 （１）デスクトップの再起動：  
 ①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
