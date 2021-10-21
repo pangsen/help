@@ -8,27 +8,27 @@ author: "Yoshihiro Matsuda"
 
 ## 1. はじめに
 本資料は、管理者向けのDaaSポータルを利用するための手順を記述したものです。  
-## 3. ログイン
+## 2. ログイン
 （１）弊社より事前に展開したショートカットより、操作ポータルを開きます。  
 ![3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/3.1-portal-login.png)  
 （２）以下のユーザー名とパスワードを入力し、ログインを押下します。  
 - ユーザー名：admin  
 - パスワード：弊社より事前に展開したもの  
 （３）ログイン成功していることを確認します。  
-## 4. 共通ヘッダー
-## 4.1 地域
+## 3. 共通ヘッダー
+## 3.1 地域
 ヘッダー左側の地域ボタンを押下することで、地域ごとのデスクトップ一覧を切り替えることができます。  
 ※デフォルトは日本（東京）リージョンが選択されています。  
 ![4.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/4.1.1-region.png)  
-## 4.2 サポート
+## 3.2 サポート
 ヘッダー右側のサポートボタンを押下することで、SBCloudへ問い合わせすることができます。  
 ※問い合わせは別途弊社のサポートサービスと契約する必要があります。  
 ![4.1.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/4.1.2-support.png)  
-## 4.3 ログアウト
+## 3.3 ログアウト
 ヘッダ右側のログアウトボタンを押下することで、ポータルよりログアウトすることができます。  
 ![4.1.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/4.1.3-logout.png)  
-## 5. 管理者メニュー
-## 5.1 ダッシュボード
+## 4. 管理者メニュー
+## 4.1 ダッシュボード
 ダッシュボード機能についてご紹介します。  
 （１）グループ選択：デスクトップをグループ分けて管理することが可能です。defaultグループは全てのデスクトップが表示されます。  
 ![5.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.1.1-select-group.png)  
@@ -42,9 +42,9 @@ author: "Yoshihiro Matsuda"
 - 有効期限  
 - OSバージョン  
 ![5.1.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.1.2-desktop-list.png)  
-## 5.2 デスクトップ管理
-## 5.2.1 作成・削除
-## 5.2.1.1 デスクトップの作成
+## 4.2 デスクトップ管理
+## 4.2.1 作成・削除
+## 4.2.1.1 デスクトップの作成
 （１）デスクトップ管理＞作成・削除を選択します。  
 ![5.2.1.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.1-menu-create.png)  
 （２）作成ボタンを押下します。  
@@ -79,7 +79,7 @@ author: "Yoshihiro Matsuda"
 ![5.2.1.1.9](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.9-create-success.png)  
 ユーザーポータル用の情報ファイルをダウンロード後、完了ボタンを押下します。  
 以上でデスクトップの作成が完了しました。  
-## 5.2.1.2 デスクトップの削除
+## 4.2.1.2 デスクトップの削除
 （１）デスクトップ管理＞作成・削除を選択します。  
 ![5.2.1.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.2.1-menu-delete.png)  
 （２）削除したいデスクトップにチェックを入れます。  
@@ -87,8 +87,8 @@ author: "Yoshihiro Matsuda"
 （３）最終確認後、OKボタンを押下します。  
 ![5.2.1.2.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.2.3-delete-confirm.png)  
 以上で、デスクトップの削除が完了しました。  
-## 5.2.2 起動・再起動・停止
-## 5.2.2.1 デスクトップの起動
+## 4.2.2 起動・再起動・停止
+## 4.2.2.1 デスクトップの起動
 （１）デスクトップの起動：  
 ①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
 ②「一括起動」を選択します。  
@@ -101,7 +101,7 @@ author: "Yoshihiro Matsuda"
 （４）起動が成功したことを確認します。  
 「閉じる」ボタンを押下します。  
 ![5.2.2.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.2.1.4-desktop-start-close.png)  
-## 5.2.2.2 デスクトップの再起動
+## 4.2.2.2 デスクトップの再起動
 （１）デスクトップの再起動：  
 ①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
 ②「一括再起動」を選択します。  
@@ -117,7 +117,7 @@ author: "Yoshihiro Matsuda"
 （４）再起動が成功したことを確認します。  
 「閉じる」ボタンを押下します。  
 ![5.2.2.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.2.2.4-desktop-restart-close.png)  
-## 5.2.2.3 デスクトップの停止
+## 4.2.2.3 デスクトップの停止
 （１）デスクトップの停止：  
 ①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
 ②「一括停止」を選択します。  
@@ -132,8 +132,8 @@ author: "Yoshihiro Matsuda"
 （４）タスクが成功したことを確認します。  
 「閉じる」ボタンを押下します。  
 ![5.2.2.3.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.2.3.4-desktop-stop-close.png)  
-## 5.2.3 スペック変更
-## 5.2.3.1 デスクトップスペック変更
+## 4.2.3 スペック変更
+## 4.2.3.1 デスクトップスペック変更
 （１）管理者メニューより、「デスクトップ管理」＞「スペック変更」を押下します。  
 ![5.2.3.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.1.1-select-change-spec.png)  
 （２）デスクトップ一覧より、変更対象を選択し、デスクトップスペック変更を押下します。  
@@ -144,7 +144,7 @@ author: "Yoshihiro Matsuda"
 ![5.2.3.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.1.4-confirm-change.png)  
 （５）変更完了後、デスクトップ一覧にて新しいスペックに変更されていることを確認できます。  
 ![5.2.3.1.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.1.5-confirm-new-spec.png)  
-## 5.2.3.2 ディスクサイズ変更
+## 4.2.3.2 ディスクサイズ変更
 （１）管理者メニューより、「デスクトップ管理」＞「スペック変更」を押下します。  
 ![5.2.3.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.2.1-select-change-spec.png)  
 （２）デスクトップ一覧より、変更対象を選択し、ディスクサイズ変更を押下します。  
@@ -155,7 +155,7 @@ author: "Yoshihiro Matsuda"
 ![5.2.3.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.2.4-confirm-change.png)  
 （５）変更完了後、デスクトップ一覧にて新しいサイズに変更されていることを確認できます。  
 ![5.2.3.2.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.2.5-confirm-new-disk-size.png)  
-## 5.2.3.3 ディスクカテゴリ変更
+## 4.2.3.3 ディスクカテゴリ変更
 （１）管理者メニューより、「デスクトップ管理」＞「スペック変更」を押下します。  
 ![5.2.3.3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.3.1-select-change-spec.png)  
 （２）デスクトップ一覧より、変更対象を選択し、ディスクカテゴリ変更を押下します。  
@@ -164,7 +164,7 @@ author: "Yoshihiro Matsuda"
 ![5.2.3.3.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.3.3-select-target-disk.png)  
 （４）変更内容を確認し、問題なければ「OK」を押下します。  
 ![5.2.3.3.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.3.4-confirm-change.png)  
-## 5.2.3.4 データディスク追加
+## 4.2.3.4 データディスク追加
 （１）管理者メニューより、「デスクトップ管理」＞「スペック変更」を押下します。  
 ![5.2.3.4.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.4.1-select-change-spec.png)  
 （２）デスクトップ一覧より、変更対象を選択し、データディスク追加を押下します。  
@@ -176,7 +176,7 @@ author: "Yoshihiro Matsuda"
 ![5.2.3.4.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.4.4-confirm-change.png)  
 （５）追加完了後、デスクトップ一覧にてデータディスクが追加されたことを確認できます。  
 ![5.2.3.4.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.3.4.5-confirm-new-data-disk.png)  
-## 5.2.4 課金タイプ変更
+## 4.2.4 課金タイプ変更
 （１）管理者メニューより、「課金タイプ変更」を押下します。  
 ![5.2.4.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.4.1-select-change-payment-method.png)  
 （２）デスクトップ一覧より、変更対象を選択し、「変更」を押下します。  
@@ -187,7 +187,7 @@ author: "Yoshihiro Matsuda"
 ![5.2.4.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.4.4-confirm-change.png)  
 （５）変更完了後、デスクトップ一覧にて課金タイプを確認できます。  
 ![5.2.4.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.4.5-confirm-result.png)  
-## 5.2.5 バーストモード変更
+## 4.2.5 バーストモード変更
 （１）管理者メニューより、「バーストモード変更」を押下します。  
 ![5.2.5.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.5.1-select-burst-mode.png)  
 （２）デスクトップ一覧より、変更対象を選択し、「無限モードに変更」を押下します。  
@@ -196,8 +196,8 @@ author: "Yoshihiro Matsuda"
 ![5.2.5.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.5.3-confirm-change.png)  
 （４）変更後、デスクトップ一覧にてバーストモードは「無制限モード」に変更されたことを確認できます。  
 ![5.2.5.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.2.5.4-confirm-result.png)  
-## 5.3 スナップショット管理
-## 5.3.1 スナップショットの作成
+## 4.3 スナップショット管理
+## 4.3.1 スナップショットの作成
 （１）管理者メニューより、「スナップショット管理」を選択します。  
 ![5.3.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.1.1-select-snapshot-mgmt.png)  
 （２）デスクトップ一覧より、作成対象を選択し、「スナップショット作成」を押下します。  
@@ -208,7 +208,7 @@ author: "Yoshihiro Matsuda"
 ![5.3.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.1.4-confirm-change.png)  
 （５）スナップショット一覧より、スナップショットの進捗を確認できます。  
 ![5.3.1.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.1.5-confirm-result.png)  
-## 5.3.2 スナップショットのロールバック
+## 4.3.2 スナップショットのロールバック
 （１）管理者メニューより、「スナップショット管理」を選択します。  
 ![5.3.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.2.1-select-snapshot-mgmt.png)  
 （２）ロールバック対象を選択し、「スナップショット一覧表示＆ロールバック」を押下します。  
@@ -219,7 +219,7 @@ author: "Yoshihiro Matsuda"
 ![5.3.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.2.4-confirm-change.png)  
 （５）ロールバックが正しく完了したことを確認します。  
 ![5.3.2.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.2.5-confirm-result.png)  
-## 5.3.3 スナップショットの削除
+## 4.3.3 スナップショットの削除
 （１）管理者メニューより、「スナップショット管理」を選択します。  
 ![5.3.3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.3.1-select-snapshot-mgmt.png)  
 （２）削除対象を選択し、「スナップショット一覧表示＆ロールバック」を押下します。  
@@ -230,8 +230,8 @@ author: "Yoshihiro Matsuda"
 ![5.3.3.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.3.4-confirm-change.png)  
 （５）削除成功したことを確認します。  
 ![5.3.3.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.3.3.5-confirm-result.png)  
-## 5.4 イメージ管理
-## 5.4.1 イメージの作成
+## 4.4 イメージ管理
+## 4.4.1 イメージの作成
 （１）管理者メニューより「イメージ管理」を選択します。  
 ![5.4.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.4.1.1-select-image-mgmt.png)  
 （２）「作成」を押下します。  
@@ -245,7 +245,7 @@ author: "Yoshihiro Matsuda"
 ![5.4.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.4.1.4-confirm-change.png)  
 （５）作成完了後、イメージ一覧画面より確認できます。  
 ![5.4.1.5](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.4.1.5-confirm-result.png)  
-## 5.4.2 イメージの削除
+## 4.4.2 イメージの削除
 （１）管理者メニューより「イメージ管理」を選択します。  
 ![5.4.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.4.2.1-select-image-mgmt.png)  
 （２）対象イメージを選択し、「削除」を押下します。  
@@ -254,9 +254,9 @@ author: "Yoshihiro Matsuda"
 ![5.4.2.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.4.2.3-confirm-change.png)  
 （４）イメージが正しく削除されたことを確認します。  
 ![5.4.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.4.2.4-confirm-result.png)  
-## 5.5 スケジュール管理
-## 5.5.1 タスクの作成
-## 5.5.1.1 定期実行タスク
+## 4.5 スケジュール管理
+## 4.5.1 タスクの作成
+## 4.5.1.1 定期実行タスク
 （１）定期実行タスク（週次繰り返しタスク）の作成ボタンを押下します。  
 ![5.5.1.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.1.1.1-scheduler-weekly-create.png)  
 （２）以下のパラメータを入力します。  
@@ -274,7 +274,7 @@ author: "Yoshihiro Matsuda"
 「閉じる」ボタンを押下します。  
 ![5.5.1.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.1.1.4-scheduler-weekly-close.png)  
 以上で、タスクの作成が完了しました。  
-## 5.5.1.2 一回実行タスク
+## 4.5.1.2 一回実行タスク
 １回実行タスク（１回のみ実行）の作成ボタンを押下します。  
 ![5.5.1.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.1.2.1-scheduler-onetime-create.png)  
 以下のパラメータを入力します。  
@@ -291,8 +291,8 @@ author: "Yoshihiro Matsuda"
 タスク作成完了していることを確認します。  
 ![5.5.1.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.1.2.4-scheduler-onetime-close.png)  
 以上で、タスクの作成が完了しました。  
-## 5.5.2 タスクの編集
-## 5.5.2.1 定期実行タスク
+## 4.5.2 タスクの編集
+## 4.5.2.1 定期実行タスク
 作成されたタスクに、デスクトップを追加／削除を実施する場合は、「変更」ボタンを押下します。  
 ![5.5.2.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.2.1.1-scheduler-weekly-edit.png)  
 スケジュールの対象デスクトップを選び直して、「次へ」を押下します。  
@@ -303,7 +303,7 @@ author: "Yoshihiro Matsuda"
 「閉じる」ボタンを押下します。  
 ![5.5.2.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.2.1.4-scheduler-weekly-edit-close.png)  
 以上で、タスクの編集が完了しました。  
-## 5.5.2.2 一回実行タスク
+## 4.5.2.2 一回実行タスク
 作成されたタスクに、デスクトップを追加／削除を実施する場合は、「変更」ボタンを押下します。  
 ![5.5.2.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.2.2.1-scheduler-onetime-edit.png)  
 スケジュールの対象デスクトップを選び直して、「次へ」を押下します。  
@@ -314,8 +314,8 @@ author: "Yoshihiro Matsuda"
 「押下」ボタンをクリックします。  
 ![5.5.2.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.2.2.4-scheduler-onetime-edit-colse.png)  
 以上で、タスクの編集が完了しました。  
-## 5.5.3 タスクの削除
-## 5.5.3.1 定期実行タスク
+## 4.5.3 タスクの削除
+## 4.5.3.1 定期実行タスク
 対象のタスクにチェックを入れます。  
 ![5.5.3.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.3.1.1-scheduler-weekly-delete-check.png)  
 削除ボタンを押下します。  
@@ -324,7 +324,7 @@ author: "Yoshihiro Matsuda"
 ![5.5.3.1.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.3.1.3-scheduler-weekly-delete-confirm.png)  
 タスクが正しく削除されたことを確認します。閉じるボタンを押下します。  
 ![5.5.3.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.3.1.4-scheduler-weekly-delete-close.png)  
-## 5.5.3.2 一回実行タスク
+## 4.5.3.2 一回実行タスク
 対象のタスクにチェックを入れます。  
 ![5.5.3.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.3.2.1-scheduler-onetime-delete-check.png)  
 削除ボタンを押下します。  
@@ -333,9 +333,9 @@ author: "Yoshihiro Matsuda"
 ![5.5.3.2.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.3.2.3-scheduler-onetime-delete-confirm.png)  
 タスクが正しく削除されたことを確認します。閉じるボタンを押下します。  
 ![5.5.3.2.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.5.3.2.4-scheduler-onetime-delete-close.png)  
-## 5.6 ネットワークリソース管理
-## 5.6.1 SAG管理
-## 5.6.1.1 SAGインスタンス情報管理
+## 4.6 ネットワークリソース管理
+## 4.6.1 SAG管理
+## 4.6.1.1 SAGインスタンス情報管理
 （１）管理者メニューより、「ネットワークリソース管理」＞「SAG管理」を選択します。  
 ![5.6.1.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.6.1.1.1-select-sag-mgmt.png)  
 （２）SAG APPインスタンス情報より、既存のSAGインスタンスを確認できます。  
@@ -345,7 +345,7 @@ author: "Yoshihiro Matsuda"
 （４）変更内容を確認し、問題なければ「OK」を押下します。  
 ![5.6.1.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.6.1.1.4-confirm-change.png)  
 （５）変更成功後、SAG APPインスタンス情報より確認できます。  
-## 5.6.1.2 SAGユーザー情報管理
+## 4.6.1.2 SAGユーザー情報管理
 （１）SAGユーザー情報画面からSAGユーザー情報を確認できます。  
 ![5.6.1.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.6.1.2.1-sag-user-info.png)  
 （２）ユーザー追加の場合は、メールアドレスとパスワードを入力し、「追加」を押下します。  
@@ -353,13 +353,13 @@ author: "Yoshihiro Matsuda"
 （３）追加内容を確認し、問題なければ「OK」を押下します。  
 ![5.6.1.2.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.6.1.2.3-confirm-change.png)  
 （４）追加完了後、SAP APPユーザー情報一覧に追加したユーザーを確認できます。  
-## 5.6.2 VPN管理
+## 4.6.2 VPN管理
 （１）管理者メニューより、VPN管理を選択します。  
 ![5.6.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.6.2.1-select-vpn-mgmt.png)  
 （２）VPN Gatewayインスタンス情報が表示され、既存のVPNインスタンス情報を確認できます。  
 ![5.6.2.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.6.2.2-vpn-info.png)  
-## 5.7 ポータル設定
-## 5.7.1 アカウント情報更新
+## 4.7 ポータル設定
+## 4.7.1 アカウント情報更新
 ポータル設定＞アクセスキー更新を押下します。  
 ![5.7.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.1.1-menu-accesskey.png)  
 更新ボタンを押下します。  
@@ -367,8 +367,8 @@ author: "Yoshihiro Matsuda"
 アクセスキーが正しく更新されたことを確認します。  
 ![5.7.1.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.1.3-accesskey-confirm.png)  
 以上で、アクセスキーの更新が完了しました。  
-## 5.7.2 管理者ユーザ管理
-## 5.7.2.1 新規ユーザー作成
+## 4.7.2 管理者ユーザ管理
+## 4.7.2.1 新規ユーザー作成
 ポータル設定＞管理者ユーザー管理を押下します。  
 ![5.7.2.1.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.1.1-menu-user.png)  
 作成ボタンを押下します。  
@@ -381,14 +381,14 @@ author: "Yoshihiro Matsuda"
 ユーザーが正しく作成されたことを確認します。  
 ![5.7.2.1.4](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.1.4-user-create-close.png)  
 以上で、新規管理者ユーザーの作成が完了します。  
-## 5.7.2.2 既存ユーザーパスワード変更
+## 4.7.2.2 既存ユーザーパスワード変更
 ポータル設定＞管理者ユーザー管理を押下します。  
 ![5.7.2.2.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.2.1-menu-user.png)  
 対象ユーザーのパスワード変更ボタンを押下します。  
 ![5.7.2.2.2](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.2.2-user-password-edit.png)  
 新しいパスワードを入力し、OKボタンを押下します。  
 ![5.7.2.2.3](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.2.3-user-password-confirm.png)  
-## 5.7.2.3 既存ユーザー削除
+## 4.7.2.3 既存ユーザー削除
 ポータル設定＞管理者ユーザー管理を押下します。  
 ![5.7.2.3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.3.1-select-user-mgmt.png)  
 対象ユーザーの削除ボタンを押下します。  
