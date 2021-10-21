@@ -33,23 +33,23 @@ author: "Hironobu Ohara"
 
 |リソース|リソース名|パラメータ|必須|設定値|内容|
 |---|---|---|---|---|---|
-|alicloud_vpc|vpc|name|任意|${var.project_name}-vpc|VPC の名称。この例の場合、Accelerated-Content-Delivery-for-Terraform-vpc として表示されます。|
+|alicloud_vpc|vpc|vpc_name|任意|${var.project_name}-vpc|VPC の名称。この例の場合、web-application-for-terraform-vpc として表示されます。|
 ||vpc|cidr_block|必須|192.168.0.0/16|VPC の CIDR ブロック|
-||vpc|description|任意|VPC for ${var.project_name}|VPC の説明。この場合VPC for Accelerated-Content-Delivery-for-Terraform として表示されます。|
-|alicloud_vswitch|web|name|任意|${var.project_name}-web-vswitch    |vswitch の名称。この例の場合、Accelerated-Content-Delivery-for-Terraform-web-vswitch として表示されます。|
+||vpc|description|任意|VPC for ${var.project_name}|VPC の説明。この場合VPC for web-application-for-terraform として表示されます。|
+|alicloud_vswitch|web|vswitch_name|任意|${var.project_name}-web-vswitch    |vswitch の名称。この例の場合、web-application-for-terraform-web-vswitch として表示されます。|
 ||web|vpc_id|必須|${alicloud_vpc.vpc.id}|アタッチするVPCのID|
 ||web|cidr_block|必須|192.168.1.0/24|vswitch の CIDR ブロック|
-||web|availability_zone|必須|${var.zone}|使用するアベイラビリティゾーン|
+||web|zone_id|必須|${var.zone}|使用するアベイラビリティゾーン|
 ||web|description|任意|Enable Web-Application web vswitch|vswitch の説明。|
-|alicloud_vswitch|app|name|任意|${var.project_name}-app-vswitch    |vswitch の名称。この例の場合、Accelerated-Content-Delivery-for-Terraform-app-vswitch として表示されます。|
+|alicloud_vswitch|app|vswitch_name|任意|${var.project_name}-app-vswitch    |vswitch の名称。この例の場合、web-application-for-terraform-app-vswitch として表示されます。|
 ||app|vpc_id|必須|${alicloud_vpc.vpc.id}|アタッチするVPCのID|
 ||app|cidr_block|必須|192.168.2.0/24|vswitch の CIDR ブロック|
-||app|availability_zone|必須|${var.zone}|使用するアベイラビリティゾーン|
+||app|zone_id|必須|${var.zone}|使用するアベイラビリティゾーン|
 ||app|description|任意|Enable Web-Application app vswitch|vswitch の説明。|
-|alicloud_vswitch|db|name|任意|${var.project_name}--db-vswitch    |vswitch の名称。この例の場合、Accelerated-Content-Delivery-for-Terraform-db-vswitch として表示されます。|
+|alicloud_vswitch|db|vswitch_name|任意|${var.project_name}--db-vswitch    |vswitch の名称。この例の場合、web-application-for-terraform-db-vswitch として表示されます。|
 ||db|vpc_id|必須|${alicloud_vpc.vpc.id}|アタッチするVPCのID|
 ||db|cidr_block|必須|192.168.3.0/24|vswitch の CIDR ブロック|
-||db|availability_zone|必須|${var.zone}|使用するアベイラビリティゾーン|
+||db|zone_id|必須|${var.zone}|使用するアベイラビリティゾーン|
 ||db|description|任意|Enable Web-Application db vswitch|vswitch の説明。|
 
 
@@ -84,7 +84,7 @@ WebのECSインスタンス構成:
 ||web|vswitch_id|必須|${alicloud_vswitch.web.id}|アタッチするVSwitchのID。|
 ||web|password|任意|${var.ecs_password}|EC インスタンスのログインパスワード。|
 ||web|internet_max_bandwidth_out|任意|20|パブリックネットワークへの最大帯域幅。デフォルトは0ですが、0より大きい値を入れるとパブリックIPアドレスがアタッチされます。|
-||web|user_data|任意|${var.web_instance_user_data}|ECSインスタンス起動後に実行するshell内容もしくはファイル名。|
+||web|user_data|任意|${file("${var.web_instance_user_data}")}|ECSインスタンス起動後に実行するshell内容もしくはファイル名。|
 
 
 
@@ -93,17 +93,19 @@ WebのSLB構成:
 
 |リソース|リソース名|パラメータ|必須|設定値|内容|
 |---|---|---|---|---|---|
-|alicloud_slb|web|name|任意|${var.web_layer_name}-slb|SLBの名称。|
+|alicloud_slb_load_balancer|web|load_balancer_name|任意|${var.web_layer_name}-slb|SLBの名称。|
 ||web|vswitch_id|任意|${alicloud_vswitch.web.id}|アタッチするVSwitchのID。|
-||web|internet|必須|true|SLB addressのインターネットタイプ。Trueのインターネットにするか、falseのイントラネットいずれかになります。|
+||web|address_type|必須|internet|SLB addressのインターネットタイプ。internetのインターネットにするか、intranetのイントラネットいずれかになります。|
 ||web|internet_charge_type|必須|paybytraffic|インターネットチェンジタイプ。PayByBandwidth、PayByTrafficのいずれかになります。|
-|alicloud_slb_listener|web_listener|load_balancer_id|必須|${alicloud_slb.web.id}|新しいリスナーを起動するために使用されるロードバランサID。|
+||web|bandwidth|任意|5|最大帯域幅。|
+||web|load_balancer_spec|任意|slb.s2.small|SLBのタイプ。今回は slb.s2.smallを選定します。|
+|alicloud_slb_listener|web_listener|load_balancer_id|必須|${alicloud_slb_load_balancer.web.id}|新しいリスナーを起動するために使用されるロードバランサID。|
 ||web_listener|backend_port|必須|${var.web_instance_port}|Server Load Balancerインスタンスバックエンドが使用するポート。|
 ||web_listener|frontend_port|必須|${var.web_instance_port}|Server Load Balancerインスタンスフロントエンドが使用するポート。|
 ||web_listener|health_check_type|任意|tcp|ヘルスチェックが使用するポート。health_check_typeの代わりに使用することも可能です。|
 ||web_listener|protocol|必須|http|使用するプロトコル。http、https、tcp、udpのいずれかになります。|
 ||web_listener|bandwidth|任意|5|Listenerの最大帯域幅。|
-|alicloud_slb_attachment|web|load_balancer_id|必須|${alicloud_slb.web.id}|ロードバランサID。|
+|alicloud_slb_attachment|web|load_balancer_id|必須|${alicloud_slb_load_balancer.web.id}|ロードバランサID。|
 ||web|instance_ids|必須|${alicloud_instance.web.*.id}|アタッチするECSインスタンスID。|
 
 
@@ -138,7 +140,7 @@ AppのECSインスタンス構成:
 ||app|vswitch_id|必須|${alicloud_vswitch.app.id}|アタッチするVSwitchのID。|
 ||app|password|任意|${var.ecs_password}|EC インスタンスのログインパスワード。|
 ||app|internet_max_bandwidth_out|任意|5|パブリックネットワークへの最大帯域幅。デフォルトは0ですが、0より大きい値を入れるとパブリックIPアドレスがアタッチされます。|
-||app|user_data|任意|${var.app_instance_user_data}|ECSインスタンス起動後に実行するshell内容もしくはファイル名。|
+||app|user_data|任意|${file("${var.app_instance_user_data}")}|ECSインスタンス起動後に実行するshell内容もしくはファイル名。|
 
 
 AppのSLB構成:
@@ -146,43 +148,20 @@ AppのSLB構成:
 
 |リソース|リソース名|パラメータ|必須|設定値|内容|
 |---|---|---|---|---|---|
-|alicloud_slb|app|name|任意|${var.app_layer_name}-slb|SLBの名称。|
+|alicloud_slb_load_balancer|app|load_balancer_name|任意|${var.app_layer_name}-slb|SLBの名称。|
 ||app|vswitch_id|任意|${alicloud_vswitch.web.id}|アタッチするVSwitchのID。|
-||app|internet|必須|false|SLB addressのインターネットタイプ。Trueのインターネットにするか、falseのイントラネットいずれかになります。|
+||app|address_type|必須|intranet|SLB addressのインターネットタイプ。internetのインターネットにするか、intranetのイントラネットいずれかになります。|
 ||app|internet_charge_type|必須|paybytraffic|インターネットチェンジタイプ。PayByBandwidth、PayByTrafficのいずれかになります。|
-|alicloud_slb_listener|app_listener|load_balancer_id|必須|${alicloud_slb.app.id}|新しいリスナーを起動するために使用されるロードバランサID。|
+||app|bandwidth|任意|5|最大帯域幅。|
+||app|load_balancer_spec|任意|slb.s2.small|SLBのタイプ。今回は slb.s2.smallを選定します。|
+|alicloud_slb_listener|app_listener|load_balancer_id|必須|${alicloud_slb_load_balancer.app.id}|新しいリスナーを起動するために使用されるロードバランサID。|
 ||app_listener|backend_port|必須|${var.web_instance_port}|Server Load Balancerインスタンスバックエンドが使用するポート。|
 ||app_listener|frontend_port|必須|${var.web_instance_port}|Server Load Balancerインスタンスフロントエンドが使用するポート。|
 ||app_listener|health_check_type|任意|tcp|ヘルスチェックが使用するポート。health_check_typeの代わりに使用することも可能です。|
 ||app_listener|protocol|必須|tcp|使用するプロトコル。http、https、tcp、udpのいずれかになります。|
 ||app_listener|bandwidth|任意|5|Listenerの最大帯域幅。|
-|alicloud_slb_attachment|app|load_balancer_id|必須|${alicloud_slb.app.id}|ロードバランサID。|
+|alicloud_slb_attachment|app|load_balancer_id|必須|${alicloud_slb_load_balancer.app.id}|ロードバランサID。|
 ||app|instance_ids|必須|${alicloud_instance.app.*.id}|アタッチするECSインスタンスID。|
-
-
-AppのAutoScaling構成:
-
-
-|リソース|リソース名|パラメータ|必須|設定値|内容|
-|---|---|---|---|---|---|
-|alicloud_ess_scaling_group|app|scaling_group_name|任意|${var.solution_name}-ess-app|スケーリンググループ名称。|
-||app|min_size|必須|${var.app_instance_min_count}|ECSインスタンスのスケーリング最小数。|
-||app|max_size|必須|${var.app_instance_max_count}|ECSインスタンスのスケーリング最大数。|
-||app|removal_policies|必須|OldestInstance, NewestInstance|スケーリング削除ポリシー。OldestInstance、NewestInstance、OldestScalingConfigurationのどれかと組み合わせて選定になります。|
-||app|loadbalancer_ids|任意|${alicloud_slb.app.id}|SLBを利用する場合、アタッチするSLBインスタンスID。|
-||app|vswitch_ids|必須|${alicloud_vswitch.app.id}|アタッチするVSwitchのID。|
-|alicloud_ess_scaling_configuration|app|scaling_group_id|必須|${alicloud_ess_scaling_group.app.id}|アタッチするスケーリンググループのID。|
-||app|image_id|必須|${var.app_instance_image_id}|ECSインスタンスのImageID。|
-||app|instance_type|任意|${var.app_instance_type}|ECSインスタンスのリソースタイプ。|
-||app|scaling_configuration_name|任意|scaling-configuration-app|スケジュール済みタスクに表示される名称。デフォルト値はScalingConfigurationIdです。|
-||app|system_disk_category|任意|cloud_efficiency|システムディスクのカテゴリ。|
-||app|security_group_id|任意|${alicloud_security_group.app.id}|アタッチするセキュリティグループのID|
-||app|active|任意|true|現在のスケーリング設定をアクティブにするか。|
-|alicloud_ess_scaling_rule|app|scaling_rule_name|必須|${var.solution_name}-ess-rule-app|スケールルールに表示される名称。|
-||app|scaling_group_id|必須|${alicloud_ess_scaling_group.app.id}|スケーリンググループのID。|
-||app|adjustment_type|必須|TotalCapacity|スケーリングルールの調整モード。QuantityChangeInCapacity、PercentChangeInCapacity、TotalCapacityのいずれかになります。|
-||app|adjustment_value|任意|2|スケーリングルールの調整値。|
-||app|cooldown|任意|60|スケーリングルールのクールダウン時間。|
 
 
 RDS構成:
@@ -199,9 +178,9 @@ RDS構成:
 |alicloud_db_database|default|name|必須|${var.db_layer_name}|RDSの名称。この例の場合、RDS-Sample-for-Terraform として表示されます。|
 ||default|instance_id|必須|${alicloud_db_instance.db_instance.id}|データベースを実行するインスタンスのID。|
 ||default|character_set|必須|utf8|文字セット。|
-|alicloud_db_account|default|instance_id|必須|${alicloud_db_instance.db_instance.id}|データベースを実行するインスタンスのID。|
-||default|name|必須|${var.db_user}|運用アカウント名。|
-||default|password|必須|${var.db_password}|運用アカウント名に対するパスワード。|
+|alicloud_db_account|default|db_instance_id|必須|${alicloud_db_instance.db_instance.id}|データベースを実行するインスタンスのID。|
+||default|account_name|必須|${var.db_user}|運用アカウント名。|
+||default|account_password|必須|${var.db_password}|運用アカウント名に対するパスワード。|
 |alicloud_db_account_privilege|default|instance_id|必須|${alicloud_db_instance.db_instance.id}|データベースを実行するインスタンスのID。|
 ||default|account_name|必須|${alicloud_db_account.default.name}|運用アカウント名。|
 ||default|db_names|必須|${alicloud_db_database.default.name}|データベース名。|
@@ -240,33 +219,33 @@ provider "alicloud" {
 }
 
 resource "alicloud_vpc" "default" {
-  name        = "${var.project_name}-vpc"
+  vpc_name    = "${var.project_name}-vpc"
   cidr_block  = "192.168.0.0/16"
   description = "VPC for ${var.project_name}"
 }
 
 resource "alicloud_vswitch" "web" {
-  name              = "${var.project_name}-web-vswitch"
+  vswitch_name      = "${var.project_name}-web-vswitch"
   description       = "Enable Web-Application web vswitch"
   vpc_id            = "${alicloud_vpc.default.id}"
   cidr_block        = "192.168.1.0/24"
-  availability_zone = "${var.zone}"
+  zone_id           = "${var.zone}"
 }
 
 resource "alicloud_vswitch" "app" {
-  name              = "${var.project_name}-app-vswitch"
+  vswitch_name      = "${var.project_name}-app-vswitch"
   description       = "Enable Web-Application app vswitch"
   vpc_id            = "${alicloud_vpc.default.id}"
   cidr_block        = "192.168.2.0/24"
-  availability_zone = "${var.zone}"
+  zone_id           = "${var.zone}"
 }
 
 resource "alicloud_vswitch" "db" {
-  name              = "${var.project_name}-db-vswitch"
+  vswitch_name      = "${var.project_name}-db-vswitch"
   description       = "Enable Web-Application db vswitch"
   vpc_id            = "${alicloud_vpc.default.id}"
   cidr_block        = "192.168.3.0/24"
-  availability_zone = "${var.zone}"
+  zone_id           = "${var.zone}"
 }
 
 resource "alicloud_instance" "web" {
@@ -281,18 +260,20 @@ resource "alicloud_instance" "web" {
   security_groups            = ["${alicloud_security_group.web.id}"]
   internet_max_bandwidth_out = 5
   password                   = "${var.ecs_password}"
-  user_data                  = "${var.web_instance_user_data}"
+  user_data                  = "${file("${var.web_instance_user_data}")}"
 }
 
-resource "alicloud_slb" "web" {
-  name        = "${var.web_layer_name}-slb"
-  internet    = true
+resource "alicloud_slb_load_balancer" "web" {
+  load_balancer_name   = "${var.web_layer_name}-slb"
+  address_type         = "internet"
   internet_charge_type = "paybytraffic"
-  vswitch_id = "${alicloud_vswitch.web.id}"
+  vswitch_id           = "${alicloud_vswitch.web.id}"
+  load_balancer_spec   = "slb.s2.small"
+  bandwidth            = 5
 }
 
 resource "alicloud_slb_listener" "web_listener" {
-  load_balancer_id = "${alicloud_slb.web.id}"
+  load_balancer_id = "${alicloud_slb_load_balancer.web.id}"
   backend_port = "${var.web_instance_port}"
   frontend_port = "${var.web_instance_port}"
   protocol = "http"
@@ -302,8 +283,8 @@ resource "alicloud_slb_listener" "web_listener" {
 
 
 resource "alicloud_slb_attachment" "web" {
-  load_balancer_id = "${alicloud_slb.web.id}"
-  instance_ids = ["${alicloud_instance.web.*.id}"]
+  load_balancer_id = "${alicloud_slb_load_balancer.web.id}"
+  instance_ids = "${alicloud_instance.web.*.id}"
 }
 
 resource "alicloud_oss_bucket" "oss"{
@@ -340,18 +321,20 @@ resource "alicloud_instance" "app" {
   security_groups            = ["${alicloud_security_group.app.id}"]
   internet_max_bandwidth_out = 5
   password                   = "${var.ecs_password}"
-  user_data                  = "${var.app_instance_user_data}"
+  user_data                  = "${file("${var.app_instance_user_data}")}"
 }
 
-resource "alicloud_slb" "app" {
-  name        = "${var.app_layer_name}-slb"
-  internet    = false
-  internet_charge_type = "paybytraffic"
-  vswitch_id = "${alicloud_vswitch.app.id}"
+resource "alicloud_slb_load_balancer" "app" {
+  load_balancer_name    = "${var.app_layer_name}-slb"
+  address_type          = "intranet"
+  internet_charge_type  = "paybytraffic"
+  vswitch_id            = "${alicloud_vswitch.app.id}"
+  load_balancer_spec    = "slb.s2.small"
+  bandwidth             = 5
 }
 
 resource "alicloud_slb_listener" "app_listener" {
-  load_balancer_id = "${alicloud_slb.app.id}"
+  load_balancer_id = "${alicloud_slb_load_balancer.app.id}"
   backend_port = "${var.app_instance_port}"
   frontend_port = "${var.app_instance_port}"
   protocol = "tcp"
@@ -360,8 +343,8 @@ resource "alicloud_slb_listener" "app_listener" {
 }
 
 resource "alicloud_slb_attachment" "app" {
-  load_balancer_id = "${alicloud_slb.app.id}"
-  instance_ids = ["${alicloud_instance.app.*.id}"]
+  load_balancer_id = "${alicloud_slb_load_balancer.app.id}"
+  instance_ids = "${alicloud_instance.app.*.id}"
 }
 
 
@@ -398,9 +381,9 @@ resource "alicloud_db_database" "default" {
 }
 
 resource "alicloud_db_account" "default" {
-  instance_id = "${alicloud_db_instance.db_instance.id}"
-  name = "${var.db_user}"
-  password = "${var.db_password}"
+  db_instance_id = "${alicloud_db_instance.db_instance.id}"
+  account_name = "${var.db_user}"
+  account_password = "${var.db_password}"
 }
 
 resource "alicloud_db_account_privilege" "default" {
@@ -463,7 +446,7 @@ access_key = "xxxxxxxxxxxxxxxx"
 secret_key = "xxxxxxxxxxxxxxxx"
 region = "ap-northeast-1"
 zone = "ap-northeast-1a"
-project_name = "Web-Application-for-Terraform"
+project_name = "web-application-for-terraform"
 ecs_password = "!Password2019"
 db_user = "test_user"
 db_password = "!Password2019"
@@ -475,7 +458,7 @@ web_instance_count = 3
 web_instance_type = "ecs.sn1ne.large"
 web_instance_port = 80
 web_instance_image_id = "centos_7_06_64_20G_alibase_20190218.vhd"
-web_instance_user_data = "${file("provisioning.sh")}"
+web_instance_user_data = "provisioning.sh"
 
 app_layer_name = "app-server"
 app_availability_zone = "ap-northeast-1a"
@@ -483,7 +466,7 @@ app_instance_count = 3
 app_instance_type = "ecs.sn1ne.large"
 app_instance_port = 5000
 app_instance_image_id = "centos_7_06_64_20G_alibase_20190218.vhd"
-app_instance_user_data = "${file("provisioning.sh")}"
+app_instance_user_data = "provisioning.sh"
 
 db_layer_name = "db-server"
 db_availability_zone = "ap-northeast-1a"
@@ -498,7 +481,7 @@ output.tf
 
 ```
 output "slb_web_public_ip" {
-  value = "${alicloud_slb.web.address}"
+  value = "${alicloud_slb_load_balancer.web.address}"
 }
 
 output "ECS_instance_app_ip" {
@@ -532,7 +515,7 @@ systemctl enable httpd
 
 ```
 terraform init
-terraform play -var-file="confing.tfvars"
+terraform plan -var-file="confing.tfvars"
 terraform apply -var-file="confing.tfvars"
 ```
 

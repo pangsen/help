@@ -39,13 +39,13 @@ author: "Hironobu Ohara"
 
 |リソース|リソース名|パラメータ|必須|設定値|内容|
 |---|---|---|---|---|---|
-|alicloud_vpc|vpc|name|任意|${var.project_name}-vpc| VPC の名称。この例の場合、`Bastion-Server-for-Terraform-vpc` として表示されます。 |
+|alicloud_vpc|vpc|vpc_name|任意|${var.project_name}-vpc| VPC の名称。この例の場合、`Bastion-Server-for-Terraform-vpc` として表示されます。 |
 ||vpc|cidr_block|必須|192.168.1.0/24| VPC の CIDR ブロック |
 ||vpc|description|任意|Enable Bastion-Server vpc| VPC の説明。 |
-|alicloud_vswitch|vsw|name|任意|${var.project_name}-vswitch| vswitch の名称。この例の場合、`Bastion-Server-for-Terraform-vswitch` として表示されます。 |
+|alicloud_vswitch|vsw|vswitch_name|任意|${var.project_name}-vswitch| vswitch の名称。この例の場合、`Bastion-Server-for-Terraform-vswitch` として表示されます。 |
 ||vsw|vpc_id|必須|${alicloud_vpc.vpc.id}| アタッチするVPCのID |
 ||vsw|cidr_block|必須|192.168.1.0/28| vswitch の CIDR ブロック |
-||vsw|availability_zone|必須|${var.zone}| 使用するアベイラビリティゾーン |
+||vsw|zone_id|必須|${var.zone}| 使用するアベイラビリティゾーン |
 ||vsw|description|任意|Enable Bastion-Server vswitch| vswitch の説明。 |
 
 
@@ -75,7 +75,7 @@ SSH踏み台専用EC2構成:
 |---|---|---|---|---|---|
 |alicloud_instance|ECS_instance_for_Bastion_Server|instance_name|任意|${var.project_name}-Bastion-Server-ECS-instance| ECSインスタンスの名称。この例の場合、`Bastion-Server-for-Terraform-Bastion-Server-ECS-instance` として表示されます。 |
 ||ECS_instance_for_Bastion_Server|host_name|任意|${var.project_name}-Bastion-Server-ECS-instance| ECSインスタンスのHost名称。この例の場合、`Bastion-Server-for-Terraform-Bastion-Server-ECS-instance` として表示されます。 |
-||ECS_instance_for_Bastion_Server|instance_type|必須|ecs.xn4.small| ECSインスタンスのタイプ。今回は `ecs.xn4.small` を選定します。 |
+||ECS_instance_for_Bastion_Server|instance_type|必須|ecs.sn1.medium| ECSインスタンスのタイプ。今回は `ecs.sn1.medium` を選定します。 |
 ||ECS_instance_for_Bastion_Server|image_id|必須|centos_7_04_64_20G_alibase_201701015.vhd| ECSインスタンスのImageID。今回は `centos_7_04_64_20G_alibase_201701015.vhd` を選定します。 |
 ||ECS_instance_for_Bastion_Server|system_disk_category|任意|cloud_efficiency| ECSインスタンスのディスクタイプ。デフォルトは cloud_efficiency です。 |
 ||ECS_instance_for_Bastion_Server|security_groups|必須|"${alicloud_security_group.sg_bastion_server.id}"|アタッチするセキュリティグループのID |
@@ -118,7 +118,7 @@ SSH踏み台専用EC2構成:
 |---|---|---|---|---|---|
 |alicloud_instance|ECS_instance_for_Production_Server|instance_name|必須|${var.project_name}-Production-Server-ECS-instance| ECSインスタンスの名称。この例の場合、`Bastion-Server-for-Terraform-Bastion-Server-ECS-instance` として表示されます。 |
 ||ECS_instance_for_Production_Server|host_name|必須|${var.project_name}-Production-Server-ECS-instance| ECSインスタンスのHost名称。この例の場合、`Bastion-Server-for-Terraform-Bastion-Server-ECS-instance` として表示されます。 |
-||ECS_instance_for_Production_Server|instance_type|必須|ecs.xn4.small| ECSインスタンスのタイプ。今回は `ecs.xn4.small` を選定します。 |
+||ECS_instance_for_Production_Server|instance_type|必須|ecs.sn1.medium| ECSインスタンスのタイプ。今回は `ecs.sn1.medium` を選定します。 |
 ||ECS_instance_for_Production_Server|image_id|必須|centos_7_04_64_20G_alibase_201701015.vhd| ECSインスタンスのImageID。今回は `centos_7_04_64_20G_alibase_201701015.vhd` を選定します。 |
 ||ECS_instance_for_Production_Server|system_disk_category|必須|cloud_efficiency| ECSインスタンスのディスクタイプ。デフォルトは cloud_efficiency です。 |
 ||ECS_instance_for_Production_Server|security_groups|必須|"${alicloud_security_group.sg_production_server.id}"|アタッチするセキュリティグループのID |
@@ -142,16 +142,16 @@ provider "alicloud" {
 }
 
 resource "alicloud_vpc" "vpc" {
-  name = "${var.project_name}-vpc"
+  vpc_name = "${var.project_name}-vpc"
   cidr_block = "192.168.1.0/24"
   description = "Enable Bastion-Server vpc"
 }
 
 resource "alicloud_vswitch" "vsw" {
-  name = "${var.project_name}-vswitch"
+  vswitch_name = "${var.project_name}-vswitch"
   vpc_id            = "${alicloud_vpc.vpc.id}"
   cidr_block        = "192.168.1.0/28"
-  availability_zone = "${var.zone}"
+  zone_id = "${var.zone}"
   description = "Enable Bastion-Server vswitch"
 }
 
@@ -176,7 +176,7 @@ resource "alicloud_security_group_rule" "allow_ssh" {
 resource "alicloud_instance" "ECS_instance_for_Bastion_Server" {
   instance_name   = "${var.project_name}-Bastion-Server-ECS-instance"
   host_name       = "${var.project_name}-Bastion-Server-ECS-instance"
-  instance_type   = "ecs.xn4.small"
+  instance_type   = "ecs.sn1.medium"
   image_id        = "centos_7_04_64_20G_alibase_201701015.vhd"
   system_disk_category = "cloud_efficiency"
   security_groups = ["${alicloud_security_group.sg_bastion_server.id}"]
@@ -219,7 +219,7 @@ resource "alicloud_security_group_rule" "allow_ssh_for_Bastion" {
 resource "alicloud_instance" "ECS_instance_for_Production_Server" {
   instance_name   = "${var.project_name}-Production-Server-ECS-instance"
   host_name   = "${var.project_name}-Production-Server-ECS-instance"
-  instance_type   = "ecs.n4.small"
+  instance_type   = "ecs.sn1.medium"
   image_id        = "centos_7_04_64_20G_alibase_201701015.vhd"
   system_disk_category = "cloud_efficiency"
   security_groups = ["${alicloud_security_group.sg_production_server.id}"]
@@ -284,7 +284,7 @@ systemctl enable httpd
 
 ```
 terraform init
-terraform play -var-file="confing.tfvars"
+terraform plan -var-file="confing.tfvars"
 terraform apply -var-file="confing.tfvars"
 ```
 
