@@ -12,7 +12,7 @@ author: "Yoshihiro Matsuda"
 （１）弊社より事前に展開したショートカットより、操作ポータルを開きます。  
 ![3.1](https://raw.githubusercontent.com/sbcloud/help/main/content/DaaS/images/DaaS-02-Portal-Manual/3.1-portal-login.png)  
 （２）以下のユーザー名とパスワードを入力し、ログインを押下します。  
-- ユーザー名：admin  
+- ユーザー名：弊社より事前に展開したもの  
 - パスワード：弊社より事前に展開したもの  
 （３）ログイン成功していることを確認します。  
 ## 3. 共通ヘッダー
