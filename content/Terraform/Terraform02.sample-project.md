@@ -107,14 +107,14 @@ provider "alicloud" {
 }
 
 resource "alicloud_vpc" "vpc" {
-  name = "ECS_instance_for_terraform-vpc"
+  vpc_name   = "ECS_instance_for_terraform-vpc"
   cidr_block = "192.168.1.0/24"
 }
 
 resource "alicloud_vswitch" "vsw" {
   vpc_id            = "${alicloud_vpc.vpc.id}"
   cidr_block        = "192.168.1.0/28"
-  availability_zone = "${var.zone}"
+  zone_id           = "${var.zone}"
 }
 
 resource "alicloud_security_group" "sg" {
@@ -135,8 +135,8 @@ resource "alicloud_security_group_rule" "allow_http" {
 
 resource "alicloud_instance" "ECS_instance" {
   instance_name   = "ECS_instance_for_terraform"
-  host_name       = "ECS_instance_for_terraform"
-  instance_type   = "ecs.n4.small"
+  host_name       = "ECS-instance-for-terraform"
+  instance_type   = "ecs.sn1.medium"
   image_id        = "centos_7_04_64_20G_alibase_201701015.vhd"
   system_disk_category = "cloud_efficiency"
   security_groups = ["${alicloud_security_group.sg.id}"]
@@ -192,14 +192,14 @@ region = "${var.region}"
 &nbsp; VPCを作成するコードです。
 ```
 resource "alicloud_vpc" "vpc" {
-  name = "ECS_instance_for_terraform-vpc"
+  vpc_name = "ECS_instance_for_terraform-vpc"
   cidr_block = "192.168.1.0/24"
 }
 ```
 &nbsp; 上記で記載したリソース以外にオプション（任意）でパラメータや構成を指定することもできます。
 
 * `cidr_block` - （必須）VPCのCIDRブロック。この例では24bitまでをネットワーク部とする設定をしています。
-* `name` - （オプション）VPCの名前。デフォルトはnullです。
+* `vpc_name` - （オプション）VPCの名前。デフォルトはnullです。
 * `description` - （オプション）VPCの説明。デフォルトはnullです。
 
 &nbsp; このリソースを実行することにより、以下のVPC属性情報が出力されます。
@@ -218,12 +218,12 @@ resource "alicloud_vpc" "vpc" {
 resource "alicloud_vswitch" "vsw" {
   vpc_id            = "${alicloud_vpc.vpc.id}"
   cidr_block        = "192.168.1.0/28"
-  availability_zone = "${var.zone}"
+  zone_id = "${var.zone}"
 }
 ```
 &nbsp; VPC_SWITCHも上記で記載したリソース以外にオプション（任意）でパラメータや構成を指定することもできます。
 
-* `availability_zone` - （必須）スイッチのAZ。
+* `zone_id` - （必須）スイッチのAZ。
 * `vpc_id` - （必須）VPC ID。
 * `cidr_block` - （必須）スイッチのCIDR block。
 * `name` - （任意）スイッチの名前。デフォルトはnullです。
@@ -232,7 +232,7 @@ resource "alicloud_vswitch" "vsw" {
 &nbsp; このリソースを実行することにより、以下のVPC_SWITCH属性情報が出力されます。
 
 * `id` - スイッチのID
-* `availability_zone` スイッチのAZ
+* `zone_id` スイッチのAZ
 * `cidr_block` - スイッチのCIDRブロック
 * `vpc_id` - VPC ID
 * `name` - スイッチの名前
@@ -304,8 +304,8 @@ resource "alicloud_security_group_rule" "allow_http" {
 ```
 resource "alicloud_instance" "ECS_instance" {
   instance_name   = "ECS_instance_for_terraform"
-  host_name       = "ECS_instance_for_terraform"
-  instance_type   = "ecs.n4.small"
+  host_name       = "ECS-instance-for-terraform"
+  instance_type   = "ecs.sn1.medium"
   image_id        = "centos_7_04_64_20G_alibase_201701015.vhd"
   system_disk_category = "cloud_efficiency"
   security_groups = ["${alicloud_security_group.sg.id}"]

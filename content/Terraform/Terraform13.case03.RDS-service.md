@@ -51,13 +51,13 @@ services:
 
 |リソース|リソース名|パラメータ|必須|設定値|内容|
 |---|---|---|---|---|---|
-|alicloud_vpc|vpc|name|任意|${var.project_name}-vpc|VPC の名称。この例の場合、RDS-Sample-for-Terraform-vpc として表示されます。|
+|alicloud_vpc|vpc|vpc_name|任意|${var.project_name}-vpc|VPC の名称。この例の場合、RDS-Sample-for-Terraform-vpc として表示されます。|
 ||vpc|cidr_block|必須|192.168.1.0/24|VPC の CIDR ブロック|
 ||vpc|description|任意|Enable SLB-Setteing-Sample vpc|VPC の説明。|
-|alicloud_vswitch|vsw|name|任意|${var.project_name}-vswitch|vswitch の名称。この例の場合、RDS-Sample-for-Terraform-vswitch として表示されます。|
+|alicloud_vswitch|vsw|vswitch_name|任意|${var.project_name}-vswitch|vswitch の名称。この例の場合、RDS-Sample-for-Terraform-vswitch として表示されます。|
 ||vsw|vpc_id|必須|${alicloud_vpc.vpc.id}|アタッチするVPCのID|
 ||vsw|cidr_block|必須|192.168.1.0/28|vswitch の CIDR ブロック|
-||vsw|availability_zone|必須|${var.zone}|使用するアベイラビリティゾーン|
+||vsw|zone_id|必須|${var.zone}|使用するアベイラビリティゾーン|
 ||vsw|description|任意|Enable RDS-Setteing-Sample vswitch|vswitch の説明。|
 
 
@@ -94,7 +94,7 @@ ECSインスタンス構成:
 |---|---|---|---|---|---|
 |alicloud_instance|ECS_instance|instance_name|任意|${var.project_name}-ECS-instance|ECSインスタンスの名称。この例の場合、RDS-Sample-for-Terraform-ECS-instance として表示されます。|
 ||ECS_instance|host_name|任意|${var.project_name}-ECS-instance|ECSインスタンスのHost名称。この例の場合、RDS-Sample-for-Terraform-ECS-instance として表示されます。|
-||ECS_instance|instance_type|必須|ecs.xn4.small|ECSインスタンスのタイプ。今回は ecs.xn4.smallを選定します。|
+||ECS_instance|instance_type|必須|ecs.sn1.medium|ECSインスタンスのタイプ。今回は ecs.sn1.mediumを選定します。|
 ||ECS_instance|image_id|必須|centos_7_04_64_20G_alibase_201701015.vhd|ECSインスタンスのImageID。今回は centos_7_04_64_20G_alibase_201701015.vhd を選定します。|
 ||ECS_instance|system_disk_category|任意|cloud_efficiency|ECSインスタンスのディスクタイプ。デフォルトは cloud_efficiency です。|
 ||ECS_instance|security_groups|必須|”${alicloud_security_group.sg.id}”|アタッチするセキュリティグループのID|
@@ -110,11 +110,13 @@ SLB構成:
 
 |リソース|リソース名|パラメータ|必須|設定値|内容|
 |---|---|---|---|---|---|
-|alicloud_slb|default|name|任意|"${var.project_name}-slb"|SLBの名称。この例の場合、RDS-Sample-for-Terraform-slb として表示されます。|
+|alicloud_slb_load_balancer|default|load_balancer_name|任意|"${var.project_name}-slb"|SLBの名称。この例の場合、RDS-Sample-for-Terraform-slb として表示されます。|
 ||default|vswitch_id|任意| "${alicloud_vswitch.vsw.id}"|アタッチするVSwitchのID。|
-||default|internet|必須|true|SLB addressのインターネットタイプ。Trueのインターネットにするか、falseのイントラネットいずれかになります。|
+||default|address_type|必須|internet|SLB addressのインターネットタイプ。internetのインターネットにするか、intranetのイントラネットいずれかになります。|
 ||default|internet_charge_type|必須|paybytraffic|インターネットチェンジタイプ。PayByBandwidth、PayByTrafficのいずれかになります。|
-|alicloud_slb_listener|http|load_balancer_id|必須| "${alicloud_slb.slb.id}"|新しいリスナーを起動するために使用されるロードバランサID。|
+||default|bandwidth|任意|5|最大帯域幅。|
+||default|load_balancer_spec|任意|slb.s2.small|SLBのタイプ。今回は slb.s2.smallを選定します。|
+|alicloud_slb_listener|http|load_balancer_id|必須| "${alicloud_slb_load_balancer.slb.id}"|新しいリスナーを起動するために使用されるロードバランサID。|
 ||http|backend_port|必須|80|Server Load Balancerインスタンスバックエンドが使用するポート。|
 ||http|frontend_port|必須|80|Server Load Balancerインスタンスフロントエンドが使用するポート。|
 ||http|health_check_connect_port|任意|80|ヘルスチェックが使用するポート。health_check_typeの代わりに使用することも可能です。|
@@ -124,7 +126,7 @@ SLB構成:
 ||http|sticky_session_type|任意|"insert"|Cookieを処理するためのタイプ。insertかserverのいずれかになります。|
 ||http|cookie|任意|"slblistenercookie"|サーバに設定されているクッキー。|
 ||http|cookie_timeout|任意|86400|クッキーのタイムアウト時間。|
-|alicloud_slb_attachment|slb_attachment|load_balancer_id|必須|"${alicloud_slb.slb.id}"|ロードバランサID。|
+|alicloud_slb_attachment|slb_attachment|load_balancer_id|必須|"${alicloud_slb_load_balancer.slb.id}"|ロードバランサID。|
 ||slb_attachment|instance_ids|必須|"${alicloud_instance.ECS_instance.*.id}"|アタッチするECSインスタンスID。|
 
 
@@ -139,12 +141,13 @@ RDS構成:
 ||db_instance|instance_type|必須|"rds.mysql.t1.small"|DBインスタンスタイプ。|
 ||db_instance|instance_storage|必須|5|DBインスタンスのストレージ領域。|
 ||db_instance|vswitch_id|必須|"${alicloud_vswitch.vsw.id}"|アタッチするVSwitchのID。|
+||db_instance|security_ips|任意|["192.168.1.0/28"]|インスタンスのすべてのデータベースにアクセスできるIPアドレスのリスト。今回は 192.168.1.0/28を選定します。|
 |alicloud_db_database|default|name|必須|"${var.database_name}"|RDSの名称。この例の場合、RDS-Sample-for-Terraform として表示されます。|
 ||default|instance_id|必須|"${alicloud_db_instance.db_instance.id}"|データベースを実行するインスタンスのID。|
 ||default|character_set|必須|"utf8"|文字セット。|
-|alicloud_db_account|default|instance_id|必須|"${alicloud_db_instance.db_instance.id}"|データベースを実行するインスタンスのID。|
-||default|name|必須|"${var.db_user}"|運用アカウント名。|
-||default|password|必須|"${var.db_password}"|運用アカウント名に対するパスワード。|
+|alicloud_db_account|default|db_instance_id|必須|"${alicloud_db_instance.db_instance.id}"|データベースを実行するインスタンスのID。|
+||default|account_name|必須|"${var.db_user}"|運用アカウント名。|
+||default|account_password|必須|"${var.db_password}"|運用アカウント名に対するパスワード。|
 |alicloud_db_account_privilege|default|instance_id|必須|"${alicloud_db_instance.db_instance.id}"|データベースを実行するインスタンスのID。|
 ||default|account_name|必須|"${alicloud_db_account.default.name}"|運用アカウント名。|
 ||default|db_names|必須|"${alicloud_db_database.default.name}"|データベース名。|
@@ -168,16 +171,16 @@ provider "alicloud" {
 }
 
 resource "alicloud_vpc" "vpc" {
-  name = "${var.project_name}-vpc"
+  vpc_name = "${var.project_name}-vpc"
   cidr_block = "192.168.1.0/24"
   description = "Enable RDS Setting Sample vpc"
 }
 
 resource "alicloud_vswitch" "vsw" {
-  name              = "${var.project_name}-vswitch"
+  vswitch_name      = "${var.project_name}-vswitch"
   vpc_id            = "${alicloud_vpc.vpc.id}"
   cidr_block        = "192.168.1.0/28"
-  availability_zone = "${var.zone}"
+  zone_id           = "${var.zone}"
   description = "Enable RDS Setting Sample vswitch"
 }
 
@@ -189,6 +192,7 @@ resource "alicloud_db_instance" "db_instance" {
   instance_type = "rds.mysql.t1.small"
   instance_storage = 5
   vswitch_id = "${alicloud_vswitch.vsw.id}"
+  security_ips = ["192.168.1.0/28"]
 }
 
 resource "alicloud_db_database" "default" {
@@ -198,9 +202,9 @@ resource "alicloud_db_database" "default" {
 }
 
 resource "alicloud_db_account" "default" {
-  instance_id = "${alicloud_db_instance.db_instance.id}"
-  name = "${var.db_user}"
-  password = "${var.db_password}"
+  db_instance_id = "${alicloud_db_instance.db_instance.id}"
+  account_name = "${var.db_user}"
+  account_password = "${var.db_password}"
 }
 
 resource "alicloud_db_account_privilege" "default" {
@@ -248,7 +252,7 @@ resource "alicloud_security_group_rule" "allow_http" {
 resource "alicloud_instance" "ECS_instance" {
   instance_name   = "${var.project_name}-ECS-instance"
   host_name   = "${var.project_name}-ECS-instance"
-  instance_type   = "ecs.xn4.small"
+  instance_type   = "ecs.sn1.medium"
   image_id        = "centos_7_04_64_20G_alibase_201701015.vhd"
   system_disk_category = "cloud_efficiency"
   security_groups = ["${alicloud_security_group.sg.id}"]
@@ -259,15 +263,17 @@ resource "alicloud_instance" "ECS_instance" {
   user_data = "${file("provisioning.sh")}"
 }
 
-resource "alicloud_slb" "default" {
-  name = "${var.project_name}-slb"
+resource "alicloud_slb_load_balancer" "default" {
+  load_balancer_name = "${var.project_name}-slb"
   vswitch_id = "${alicloud_vswitch.vsw.id}"
-  internet = true
+  address_type = "internet"
   internet_charge_type = "paybytraffic"
+  load_balancer_spec = "slb.s2.small"
+  bandwidth = 5
 }
 
 resource "alicloud_slb_listener" "http" {
-  load_balancer_id = "${alicloud_slb.default.id}"
+  load_balancer_id = "${alicloud_slb_load_balancer.default.id}"
   backend_port              = 80
   frontend_port             = 80
   health_check_connect_port = 80
@@ -280,13 +286,13 @@ resource "alicloud_slb_listener" "http" {
 }
 
 resource "alicloud_slb_attachment" "default" {
-  load_balancer_id = "${alicloud_slb.default.id}"
+  load_balancer_id = "${alicloud_slb_load_balancer.default.id}"
   instance_ids = ["${alicloud_instance.ECS_instance.id}"]
 }
 
 data "template_file" "user_data" {
   template = "${file("provisioning.sh")}"
-  vars {
+  vars = {
     DB_HOST_IP = "${alicloud_db_instance.db_instance.connection_string}"
     DB_NAME = "${var.database_name}"
     DB_USER = "${var.db_user}"
@@ -319,7 +325,7 @@ output "ECS_instance_ip" {
   value = "${alicloud_instance.ECS_instance.*.public_ip}"
 }
 output "slb_ip" {
-  value = "${alicloud_slb.default.address}"
+  value = "${alicloud_slb_load_balancer.default.address}"
 }
 output "rds_host" {
   value = "${alicloud_db_instance.db_instance.connection_string}"
@@ -394,7 +400,7 @@ docker-compose up -d
 
 ```
 terraform init
-terraform play -var-file="confing.tfvars"
+terraform plan -var-file="confing.tfvars"
 terraform apply -var-file="confing.tfvars"
 ```
 
