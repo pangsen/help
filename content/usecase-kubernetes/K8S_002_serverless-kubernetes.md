@@ -18,7 +18,7 @@ import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 # はじめに
 
-SBクラウドEngineers' Blogでも何度かご紹介しておりますが、Alibaba CloudではKubernetesをマネージドで利用可能な、Container Service for Kubernetes (ACK) と言うプロダクトがあります。  
+Alibaba CloudではKubernetesをマネージドで利用可能な、Container Service for Kubernetes (ACK) と言うプロダクトがあります。  
 その中で利用可能なクラスタタイプは、大きく分けて３パターン利用する事が可能になっています。  
 各クラスタタイプの大きな違いとしては、Kubernetesのマスターノードとワーカーノードのデプロイ構成の違いとなります。  
 大まかな構成は以下のようになります。また、クラスタタイプによって他プロダクトの構成も少々変わってきますが、ここではわかりやくする為他プロダクトは省略しています。
@@ -204,7 +204,7 @@ XX.XX.XX.XX - - [18/Mar/2020:02:08:56 +0000] "GET / HTTP/1.1" 200 612 "-" "Mozil
 次回はAlibaba Cloud Container Registry (ACR) を使用した、コンテナイメージのCI/CDパイプライについてご紹介できればと思います。  
 最後までお読みいただきありがとうございました。
 
-SBクラウドのSlideShareへElastic Container Instance (ECI)とServerless Kubernetes (ASK) についてのスライドをアップロードしていますので、  
+SoftBank（元SBクラウド）のSlideShareへElastic Container Instance (ECI)とServerless Kubernetes (ASK) についてのスライドをアップロードしていますので、  
 こちらも参考になればと思います。
 
 > https://www.slideshare.net/sbcloud/elastic-container-instanceserverless-kubernetesnodeless-200272122
@@ -212,7 +212,7 @@ SBクラウドのSlideShareへElastic Container Instance (ECI)とServerless Kube
 
  <CommunityAuthor 
     author="有馬 茂人"
-    self_introduction = "2018年SBクラウドへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    self_introduction = "2018年SoftBankへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
     imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
     githubUrl="https://github.com/s-ari"
 />

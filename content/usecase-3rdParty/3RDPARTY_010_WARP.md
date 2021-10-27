@@ -16,7 +16,7 @@ import CommunityAuthor from '../../src/CommunityAuthor.js';
 # はじめに
 
 本記事では、Cloudflare WARPというクライアントVPNソリューションをご紹介します。    
-なお、SBクラウドはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
+なお、SoftBankはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
 
 > https://www.sbcloud.co.jp/entry/news/2020/1007_cloudflare/
           

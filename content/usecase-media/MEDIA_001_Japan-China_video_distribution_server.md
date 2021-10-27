@@ -42,7 +42,7 @@ Express ConnectはAlibaba CloudのVPCとVPCを結ぶものであるため、構�
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-media/Media_images_98012380860378000/20181202132412.png "img")
 
-次にどのリージョンからどのリージョンのVPCに繋ぐかを設定、購入します。最後にルートテーブルで日本なら上海、上海なら日本のCIDRを設定して終了です。金額が金額ですので、購入の周辺でお困りの方はSBクラウドへご相談ください。特に法人の方は担当のソフトバンク営業を通しても相談いただけます。    
+次にどのリージョンからどのリージョンのVPCに繋ぐかを設定、購入します。最後にルートテーブルで日本なら上海、上海なら日本のCIDRを設定して終了です。金額が金額ですので、購入の周辺でお困りの方はSoftBankへご相談ください。特に法人の方は担当のソフトバンク営業を通しても相談いただけます。    
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-media/Media_images_98012380860378000/20181202132538.png "img")
 

@@ -101,7 +101,7 @@ const config = {
 	},
 	"siteMetadata": {
     "title": 'Alibaba Cloud テクニカルリファレンス',
-    "description": 'SBクラウドによる Alibaba Cloud テクニカルリファレンスです',
+    "description": 'SoftBank による Alibaba Cloud テクニカルリファレンスです',
     "ogImage": null,
     "docsLocation": 'https://github.com/sbcloud/help/tree/master/content',
     "favicon": 'https://www.sbcloud.co.jp/icon/favicon',

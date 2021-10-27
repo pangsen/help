@@ -16,7 +16,7 @@ import CommunityAuthor from '../../src/CommunityAuthor.js';
 
 本記事では、Cloudflare Accessを利用したWebサーバへのアクセスに認証機能を導入と  
 Argo Tunnelを利用したWebサーバとCloudflare間の暗号化を行い、ゼロトラストネットワークを構築する方法をご紹介します。    
-なお、SBクラウドはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
+なお、SoftBankはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
 
 > https://www.sbcloud.co.jp/entry/news/2020/1007_cloudflare/
 

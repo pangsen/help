@@ -2,9 +2,11 @@
 ```
 rd ./.cache -Recurse ; rd ./public/* -Recurse ; rd ./node_modules -Recurse ; rd ./docs/ -Recurse; mkdir docs ; rd yarn.lock
 npm cache clean --force; yarn install ; gatsby clean ;
-gatsby build --prefix-paths ; cp src/components/404.html public/; mv public/* docs/ ; cp src/pwa-512.png public/
+gatsby build --prefix-paths ; cp src/components/404.html public/; mv public/* docs/ 
 git add *; git commit -m 'add Titlelist.js/CommunityAuthor.js'; git push
 
+
+git add *; git commit -m 'update terraform provider'; git push
 ```
 
 
@@ -44,6 +46,22 @@ npm cache clean --force
 
 
 import CommunityAuthor from '../../src/CommunityAuthor.js';
+
+ShotoYuki
+
+ sbc_sarima
+ <CommunityAuthor 
+    author="有馬 茂人"
+    self_introduction = "2018年SoftBankへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
+    githubUrl="https://github.com/s-ari"
+/>
+
+
+----
+2018年SoftBankへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。
+---
+
 
 ShotoYuki
 無記載
@@ -165,9 +183,12 @@ Alibaba Cloud の Quota Center でプロダクトのクォータを管理する	
     author="吉村 真輝"
     self_introduction = "Alibaba Cloud プロフェッショナルエンジニア。中国ｘクラウドが得意。趣味は日本語ラップのDJ。"
     imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yoshimura_pic.jpeg"
-    githubUrl=""
+    githubUrl="https://github.com/masaki-coba"
 />
 
+
+インフラからアプリまでのシステム基盤のアーキテクトを経てクラウドのアーキテクトへ、AWS、Azure、Cloudflare などのサービスやオープンソース関連も嗜みます。
+2019年1月にソフトバンクへ入社、2020年より Alibaba Cloud MVP。
 
 import CommunityAuthor from '../../src/CommunityAuthor.js';
 松田 悦洋
@@ -183,9 +204,9 @@ https://tm.softbank.jp/form/cloud/iaas/index.php?ref=lp-alibaba
 
  <CommunityAuthor 
     author="松田 悦洋"
-    self_introduction = "Alibaba Cloud プロフェッショナルエンジニア。中国ｘクラウドが得意。趣味は日本語ラップのDJ。"
-    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/yoshimura_pic.jpeg"
-    githubUrl=""
+    self_introduction = "インフラからアプリまでのシステム基盤のアーキテクトを経てクラウドのアーキテクトへ、AWS、Azure、Cloudflare などのサービスやオープンソース関連も嗜みます。2019年1月にソフトバンクへ入社、2020年より Alibaba Cloud MVP。"
+    imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/matsuda_pic.png"
+    githubUrl="https://github.com/yoshihiro-matsuda-sb"
 />
 
 
