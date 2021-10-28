@@ -6,12 +6,14 @@ date: "2021-06-11"
 author: "Hironobu Ohara"
 ---
 
+import Titlelist from '../src/Titlelist.js';
+
+
 ## Alibab Cloudによるネットワーク活用パターン
 
 
-import Titlelist from '../src/Titlelist.js';
 
-## ApsaraDB for ClickHouseプロダクトサービス活用パターンについて
+
 
 <!-- 
 query MyQuery {
@@ -157,7 +159,7 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-network/NETWORK_013_ipsecredundant"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613628265000/20200916172346.png"
     date="2020/09/16"
-    author="VPN Gatewayに拠点ルータからIPsecで冗長接続してみる"
+    author="SBC engineer blog"
 />
 
 
@@ -167,7 +169,68 @@ query MyQuery {
     url="https://sbcloud.github.io/help/usecase-network/NETWORK_014_CEN_TransitRouter_QoS"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613796957300/20210813184155.png"
     date="2021/08/17"
-    author="sbc_nishino"
+    author="SBC engineer blog"
 />
+
+
+<Titlelist 
+    metaTitle="CENでクラウドネットワークPart1"
+    metaDescription="《前編》CENでつなげる↔クラウドネットワーク🕸"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_014_cen-first-part"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613395171600/20190809185318.png"
+    date="2019/08/15"
+    author="松田 悦洋"
+/>
+
+
+<Titlelist 
+    metaTitle="CENでクラウドネットワークPart2"
+    metaDescription="《後編》CENでつなげる↔クラウドネットワーク🕸"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_015_cen-second-part"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613400731600/20190805200841.png"
+    date="2019/08/28"
+    author="松田 悦洋"
+/>
+
+
+<Titlelist 
+    metaTitle="SAGデバイスのご紹介"
+    metaDescription="中国拠点のNW運用負担削減に！？SAGデバイス（Smart Access Gateway）のご紹介"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_016_sagdevice"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613617631600/20200910164037.png"
+    date="2020/09/14"
+    author="斎藤 貴広"
+/>
+
+
+<Titlelist 
+    metaTitle="SAG-APPを無料で試してみた"
+    metaDescription="新SSL-VPNプロダクト「SAG-APP」を無料で試してみた"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_017_sag-app"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613631873100/20200925111102.png"
+    date="2020/09/25"
+    author="斎藤 貴広"
+/>
+
+
+<Titlelist 
+    metaTitle="さくらクラウドをBBIXで繋げる"
+    metaDescription="Alibaba Cloud 上海リージョンとさくらのクラウド東京リージョンをBBIXで繋げてみた"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_018_alibabacloud_bbix_sakuracloud"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_26006613659120000/20201201175616.png"
+    date="2020/12/01"
+    author="吉村 真輝"
+/>
+
+
+<Titlelist 
+    metaTitle="IPsec-VPN Serverを試す"
+    metaDescription="リモートアクセス用「IPsec-VPN Server」がリリースされたので、早速試してみた。"
+    url="https://sbcloud.github.io/help/usecase-network/NETWORK_019_IPsec-VPN-Server"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-network/Network_images_13574176438016100000/20210927132925.png"
+    date="2021/09/27"
+    author="斎藤 貴広"
+/>
+
 
 

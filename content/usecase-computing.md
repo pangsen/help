@@ -175,3 +175,58 @@ query MyQuery {
 
 
 
+<Titlelist 
+    metaTitle="SLB 実はスケールするんです"
+    metaDescription="知っていました ? Server Load Balancer 実はスケールするんです"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_014_slb-scale"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_17680117127050800000/20190419145733.png"    
+    date="2019/04/22"
+    author="松田 悦洋"
+/>
+
+
+<Titlelist 
+    metaTitle="ECS で CentOS 8.0が登場"
+    metaDescription="Alibaba Cloud ECS で CentOS 8.0 が使えるようになりました❗️"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_015_centos8"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613494549400/20200107221928.png"    
+    date="2020/01/08"
+    author="松田 悦洋"
+/>
+
+<Titlelist 
+    metaTitle="リザーブドインスタンスを使おう"
+    metaDescription="Alibaba Cloud の RI（リザーブドインスタンス）を使おう❗️"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_016_reserved-instance"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613503496100/20200204195325.png"    
+    date="2020/02/05"
+    author="松田 悦洋"
+/>
+
+<Titlelist 
+    metaTitle="Quota Center でクォータを管理"
+    metaDescription="Alibaba Cloud の Quota Center でプロダクトのクォータを管理する"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_017_quotacenter"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613663231500/20210106184758.png"    
+    date="2020/12/10"
+    author="吉村 真輝"
+/>
+
+<Titlelist 
+    metaTitle="インスタンスメタデータのご紹介"
+    metaDescription="いまさらですがインスタンスメタデータ（Instance Metadata Service）のお話をするよ❗️"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_018_imds"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613778278600/20210630094758.png"    
+    date="2021/06/30"
+    author="松田 悦洋"
+/>
+
+<Titlelist 
+    metaTitle="EIP に逆引きDNSを設定する方法"
+    metaDescription="Alibaba Cloud の EIP にPTRレコード(逆引きDNS)を設定する方法"
+    url="https://sbcloud.github.io/help/usecase-computing/COMPUTING_019_ptrrecord_for_eip"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-computing/computing_images_26006613659667500/20210106190229.png"    
+    date="2020/12/03"
+    author="吉村 真輝"
+/>
+

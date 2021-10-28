@@ -43,3 +43,12 @@ query MyQuery {
     author="吉村 真輝"
 />
 
+<Titlelist 
+    metaTitle="日本から中国のWEBサイトを閲覧する"
+    metaDescription="Nginx(Forward Proxy)とGAの組み合わせで日本から中国のWEBサイトを閲覧する"
+    url="https://sbcloud.github.io/help/WebApplication-tutorial/WEBAPPLICATION_002_nginx_forwardproxy_ga"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/WebApplication-tutorial/WebApplication-tutorial_images_26006613628167800/20200915112921.png"
+    date="2020/09/15"
+    author="吉村 真輝"
+/>
+

@@ -106,3 +106,12 @@ query MyQuery {
 />
 
 
+<Titlelist 
+    metaTitle="曖昧さを分類するAIソリューション"
+    metaDescription="「この微妙な違いって何？」を画像AIで解決！曖昧さを分類するAIソリューションはじめました (解説編)"
+    url="https://sbcloud.github.io/help/usecase-AI/AI_008_ai-vision-sol"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613646656300/matrix.PNG"
+    date="2020/11/02"
+    author="SBC engineer blog"
+/>
+

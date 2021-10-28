@@ -127,4 +127,24 @@ query MyQuery {
 />
 
 
+<Titlelist 
+    metaTitle="RancherでKubernetes管理"
+    metaDescription="Rancher🐮でKubernetes (ACK) を管理しよう❗️ - 検証編 -"
+    url="https://sbcloud.github.io/help/usecase-kubernetes/K8S_011_rancher"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-kubernetes/Container_images_17680117127180000000/20190604205052.png"
+    date="2019/06/06"
+    author="松田 悦洋"
+/>
+
+
+<Titlelist 
+    metaTitle="ACKをアップグレードしよう"
+    metaDescription="Container Service for Kubernetes (ACK)をアップグレードしよう❗️"
+    url="https://sbcloud.github.io/help/usecase-kubernetes/K8S_012_ack-upgrade"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-kubernetes/Container_images_17680117127198400000/20190612172152.png"
+    date="2019/07/01"
+    author="松田 悦洋"
+/>
+
+
 

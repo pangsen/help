@@ -76,3 +76,21 @@ query MyQuery {
     author="吉村 真輝"
 />
 
+<Titlelist 
+    metaTitle="OSSバージョン管理機能"
+    metaDescription="Alibaba Cloud オブジェクトストレージサービス（OSS）にバージョン管理機能が増えました❗️"
+    url="https://sbcloud.github.io/help/usecase-storage/STORAGE_007_oss-versioning"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-storage/Storage_images_26006613472801500/20191205205341.png"
+    date="2019/12/07"
+    author="松田 悦洋"
+/>
+
+<Titlelist 
+    metaTitle="OSS Transfer Acceleration"
+    metaDescription="OSSブラウザで OSS Transfer Acceleration を利用する方法"
+    url="https://sbcloud.github.io/help/usecase-storage/STORAGE_008_ossbrowser_transferacceleration"
+    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-storage/Storage_images_26006613656822400/20201125165504.png"
+    date="2020/11/25"
+    author="吉村 真輝"
+/>
+
