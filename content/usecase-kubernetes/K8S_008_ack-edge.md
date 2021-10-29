@@ -235,7 +235,7 @@ ACK@Edge では CNCF の Sundbox Project でホストされている openyurt �
 
  <CommunityAuthor 
     author="有馬 茂人"
-    self_introduction = "2018年SoftBankへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    self_introduction = "2018年ソフトバンクへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
     imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
     githubUrl="https://github.com/s-ari"
 />

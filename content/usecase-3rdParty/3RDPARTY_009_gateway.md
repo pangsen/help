@@ -17,7 +17,7 @@ import CommunityAuthor from '../../src/CommunityAuthor.js';
 # はじめに
 
 本記事では、Cloudflare Gatewayを利用して、簡単にクライアントのWebフィルタリングする方法をご紹介します。    
-なおSoftBankはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
+なおソフトバンクはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
 
 > https://www.sbcloud.co.jp/entry/news/2020/1007_cloudflare/
 

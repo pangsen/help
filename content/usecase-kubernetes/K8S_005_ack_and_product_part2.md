@@ -315,7 +315,7 @@ DingTalkの詳しい機能については公式ページをご覧ください。
      
 
 また、「DingTalk」のコミュニケーション機能を切り出したライト版の「DingTalk Lite」については、  
-SoftBankで導入支援サービスを提供しておりますので、もしご興味がある方がいらっしゃいましたらご連絡ください。
+ソフトバンクで導入支援サービスを提供しておりますので、もしご興味がある方がいらっしゃいましたらご連絡ください。
 
 > https://www.sbcloud.co.jp/service/about/dingtalk/
 
@@ -496,7 +496,7 @@ ACKでは前回ご紹介したプロダクト連携と合わせて、多くのAl
 
  <CommunityAuthor 
     author="有馬 茂人"
-    self_introduction = "2018年SoftBankへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
+    self_introduction = "2018年ソフトバンクへjoin。普段はIaC・コンテナ・Kubernetes等を触っているエンジニアです。"
     imageUrl="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/arima.jpeg"
     githubUrl="https://github.com/s-ari"
 />

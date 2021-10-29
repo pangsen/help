@@ -9,9 +9,6 @@ author: "SBC engineer blog"
 ## 「この微妙な違いって何？」を画像AIで解決！曖昧さを分類するAIソリューションはじめました (解説編)
 
 
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613646656300/20211012154120.jpg "img")    
-
-  
 ソフトバンクではAIプロフェッショナルサービスを展開しておりますが、「一体どういった事を解決してくれるのか？」についてはお問い合せいただかないと中々お応えする機会がありませんでした。
 そこで本記事では、AIプロフェッションサービスの中でも特に画像領域では一体どういった事をやっているのか？、その一部をチラ見せできればと思います。
 
@@ -113,7 +110,7 @@ Article: [Deep Face Recognition: A Survey](https://arxiv.org/abs/1804.06655)
 
 ## 2.2. 強力なメソッド：可視化
 
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613646656300/20201030191250g:plain]
+![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-AI/AI_images_26006613646656300/20201030191250.gif "img")    
 
 
 

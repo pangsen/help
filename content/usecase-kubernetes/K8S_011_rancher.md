@@ -41,7 +41,8 @@ Kubernetesクラスタの構築、運用やアプリケーション展開機能�
 特に大きなポイントは「マルチクラウド」「マルチクラスタ」を１つのRancherプラットフォームから管理することができる点です。
 
 
-参照元：[https://rancher.com/products/rancher/multi-cluster-management/:title]
+参照元：  
+> https://rancher.com/products/rancher/multi-cluster-management/
 
 
 

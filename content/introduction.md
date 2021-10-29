@@ -1,7 +1,7 @@
 ---
 title: "はじめに"
 metaTitle: "はじめに"
-metaDescription: "SoftBank、Alibaba Cloud、よくある質問などを紹介します"
+metaDescription: "ソフトバンク、Alibaba Cloud、よくある質問などを紹介します"
 date: "2021-06-01"
 author: "Hironobu Ohara"
 ---
@@ -10,8 +10,8 @@ import CommunityAuthor from '../src/CommunityAuthor.js';
 
 
 ## はじめに
-本サイトは、Alibaba CloudのディストリビューターであるSoftBankのエンジニア有志が、Alibaba Cloudをぜひ皆さんに使っていただきたいと考えてまとめたものです。   
-SoftBankは、世界最大手Eコマース企業の一つであるAlibaba Group傘下の会社が提供するAlibaba Cloudのパブリッククラウドサービスを提供します。   
+本サイトは、Alibaba Cloudのディストリビューターであるソフトバンクのエンジニア有志が、Alibaba Cloudをぜひ皆さんに使っていただきたいと考えてまとめたものです。   
+ソフトバンクは、世界最大手Eコマース企業の一つであるAlibaba Group傘下の会社が提供するAlibaba Cloudのパブリッククラウドサービスを提供します。   
 
 
 クラウドサービスはインターネットを通じてWeb上のコンソールを少し操作するだけで、リモートでサーバーやプラットフォームを素早く立ち上げることができます。   

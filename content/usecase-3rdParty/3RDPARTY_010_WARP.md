@@ -16,7 +16,7 @@ import CommunityAuthor from '../../src/CommunityAuthor.js';
 # はじめに
 
 本記事では、Cloudflare WARPというクライアントVPNソリューションをご紹介します。    
-なお、SoftBankはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
+なお、ソフトバンクはクラウドフレア・ジャパン株式会社と提携し、Cloudflareのソリューションを提供しております。  
 
 > https://www.sbcloud.co.jp/entry/news/2020/1007_cloudflare/
           
@@ -70,7 +70,7 @@ IPv4とIPv6のIPアドレスが払い出されていますね。
 # パフォーマンステスト
 
 スループットのパフォーマンスを測ってみます。
-回線はSoftBank 5Gを利用しています。
+回線はソフトバンク 5Gを利用しています。
 
 <b>まずはWARP未接続の通常接続時</b>  
 本題の趣旨から逸れますが5G爆速ですね   

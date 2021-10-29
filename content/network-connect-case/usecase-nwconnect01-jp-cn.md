@@ -108,8 +108,8 @@ https://www.alibabacloud.com/help/doc-detail/65072.htm
 
 #### ステップバイステップ手順書
 SBCloudドキュメント：ダイレクトアクセス
-https://www.sbcloud.co.jp/document/cen_direcr_access
-Softbankドキュメント：サービス紹介書
+https://raw.githubusercontent.com/sbcloud/help/master/content/network-connect-case/DirectAccessOpeningGuide.pdf
+ソフトバンクドキュメント：サービス紹介書
 https://www.softbank.jp/biz/nw/nwp/cloud_access/direct_access_for_alibaba/
 Alibaba Cloudドキュメント:VPN ゲートウェイを経由したローカルデータセンターから Alibaba Cloudへの接続
 https://www.alibabacloud.com/help/doc-detail/87042.htm
