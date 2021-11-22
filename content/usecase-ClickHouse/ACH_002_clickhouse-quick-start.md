@@ -168,43 +168,28 @@ CREATE TABLE sls_test_d ON CLUSTER default as sls_test_local ENGINE = Distribute
 
 
 ## 3-2.ECSでClickHouse Client環境を設定する
-1）ClickHouse Clientのインストールファイルをダウンロードします。altinity社によるコネクターがあるので、そこから必要なインストールファイルをダウンロードしてからインストールします。     
+1）ClickHouse Clientのインストールファイルをダウンロードします。AlibabaCloudの[ドキュメンタリー](https://www.alibabacloud.com/help/doc-detail/301716.htm)からダウンロードしてインストールします。     
 
-①下記altinity社のツールリストのリンクを開きます     
+①下記AlibabaCloudのドキュメンタリーのリンクを開きます     
+[ドキュメンタリー url](https://www.alibabacloud.com/help/doc-detail/301716.htm)
+
+![Download Client](./08_Download_Client_01.png "Client 01")
+
+②clickhouse-clientのダウンロードファイルリンクを確認します
+[clickhouse-client download url](https://clickhouse-release.oss-cn-shanghai.aliyuncs.com/doc-data/clickhouse-client.zip)
 
 > Click House version :20.8.7.15      
-[Click house download](https://packagecloud.io/altinity/clickhouse?page=2)
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160006.png "img")
-
-②20.8.3.18のインストールファイルをダウンロードします。     
+ 
+②ECSで19.15.2.2のclickhouse-clientファイルをダウンロードします。     
 
 ```
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-server-common-20.8.3.18-1.el7.x86_64.rpm/download.rpm
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-server-20.8.3.18-1.el7.x86_64.rpm/download.rpm
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-common-static-20.8.3.18-1.el7.x86_64.rpm/download.rpm
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-client-20.8.3.18-1.el7.x86_64.rpm/download.rpm
+wget https://clickhouse-release.oss-cn-shanghai.aliyuncs.com/doc-data/clickhouse-client.zip
 
 ```
+![Download Client](./08_Download_Client_02.png "Client 02")
 
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160038.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160049.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160057.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160104.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160116.png "img")
-
-
-２）上記４つのインストールファイルの保存が出来たら、次は下記コマンドでクライアントをインストールします。     
-
-```
-rpm -ivh *.rpm
-```
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160208.png "img")
+2）clickhouse-client.zipを解凍します
+![Download Client](./08_Download_Client_03.png "Client 03")
 
 
 3）Clientでclickhouseへ接続する       
@@ -230,7 +215,7 @@ VPC Endpoint:cc-0iw4v4hezq9lw9333.ads.aliyuncs.com
 clickhouse-client --multiline --host=cc-0iw4v4hezq9lw9333.ads.aliyuncs.com --port=3306 --user=sbtest --password=********
 ```
 
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787379200/20210716160355.png "img")
+ ![Download Client](./08_Download_Client_04.png "Client 04")
 
 
 ④下記コマンドでデータベースを作成します    

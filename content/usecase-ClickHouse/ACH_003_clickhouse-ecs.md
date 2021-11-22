@@ -17,7 +17,6 @@ ECS - ClickHouseのデータ連携方法を記載します。構成図は次の�
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/007.png "img")
 
 
-
 # 1.ClickHouseとは
 ClickHouseは非集計データを含む大量のデータを安定的かつ継続しながら集計といったリアルタイム分析を支える列指向の分散型データベースサービスです。      
 [トラフィック分析、広告およびマーケティング分析、行動分析、リアルタイム監視などのビジネスシナリオで幅広く](https://clickhouse.tech/docs/en/introduction/adopters/) 使用されています。
@@ -88,44 +87,29 @@ ClickHouseは非集計データを含む大量のデータを安定的かつ継�
 
 
 ## 1-3.ECSでClickHouse Client環境を設定します
-1）ClickHouse Clientのインストールファイルをダウンロードします。altinity社によるコネクターがあるので、そこから必要なインストールファイルをダウンロードしてからインストールします。     
+1）ClickHouse Clientのインストールファイルをダウンロードします。AlibabaCloudの[ドキュメンタリー](https://www.alibabacloud.com/help/doc-detail/301716.htm)からダウンロードしてインストールします。     
 
-①下記altinity社のツールリストのリンクを開きます     
-Click House version :20.8.7.15     
-[Click house download](https://packagecloud.io/altinity/clickhouse?page=2)
+①下記AlibabaCloudのドキュメンタリーのリンクを開きます     
+[ドキュメンタリー url](https://www.alibabacloud.com/help/doc-detail/301716.htm)
 
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160006.png "img")
+![Download Client](./08_Download_Client_01.png "Client 01")
 
+②clickhouse-clientのダウンロードファイルリンクを確認します
+[clickhouse-client download url](https://clickhouse-release.oss-cn-shanghai.aliyuncs.com/doc-data/clickhouse-client.zip)
 
-②20.8.3.18のインストールファイルをダウンロードします。     
-```
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-server-common-20.8.3.18-1.el7.x86_64.rpm/download.rpm
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-server-20.8.3.18-1.el7.x86_64.rpm/download.rpm
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-common-static-20.8.3.18-1.el7.x86_64.rpm/download.rpm
-wget --content-disposition https://packagecloud.io/Altinity/clickhouse/packages/el/7/clickhouse-client-20.8.3.18-1.el7.x86_64.rpm/download.rpm
+> Click House version :20.8.7.15      
+ 
+②ECSで19.15.2.2のclickhouse-clientファイルをダウンロードします。     
 
 ```
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160038.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160049.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160057.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160104.png "img")
-
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160116.png "img")
-
-
-２）上記４つのインストールファイルの保存が出来たら、次は下記コマンドでクライアントをインストールします。     
+wget https://clickhouse-release.oss-cn-shanghai.aliyuncs.com/doc-data/clickhouse-client.zip
 
 ```
-rpm -ivh *.rpm
-```
+![Download Client](./08_Download_Client_02.png "Client 02")
 
-![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/ClickHouse_images_26006613787433100/20210716160208.png "img")
-
-
+2）clickhouse-client.zipを解凍します
+![Download Client](./08_Download_Client_03.png "Client 03")
+ 
 3）Clientでclickhouseへ接続     
 ①接続先となるApsaraDB for ClickHouseの接続情報を確認します。コンソール側から確認することができます。     
 
