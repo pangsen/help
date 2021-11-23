@@ -31,7 +31,7 @@ jobs:
         ref: main
         path: build
     - run: |
-        mv build/package.json web/package.json
+        mv ./build/package.json ./web/package.json
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
