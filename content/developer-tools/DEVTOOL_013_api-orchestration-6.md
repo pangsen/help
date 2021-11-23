@@ -14,7 +14,7 @@ author: "SBC engineer blog"
 
 `APIを用いてAlibaba Cloudリソースを自動構築する`シリーズ第6回目となります。
 
-[前回の第5回](https://sbcloud.github.io/help/developer-tools/DEVTOOL_012_api-orchestration-5)までで、予定していた構成図の全コンポーネントをAPIで作成することが出来ました。  
+[前回の第5回](https://pangsen.github.io/help/developer-tools/DEVTOOL_012_api-orchestration-5)までで、予定していた構成図の全コンポーネントをAPIで作成することが出来ました。  
 今回は、RAM（Resource Access Management）の機能の一部であるインスタンスRAMロールを利用して、APIを実行する方法を紹介したいと思います。
 
 # 結論
@@ -317,7 +317,7 @@ IAcsClient client = new DefaultAcsClient("ap-northeast-1");
 [^3]: なお、RAMロール名を指定せずにインスタンスメタデータを取得した場合（http://100.100.100.200/latest/meta-data/Ram/security-credentials でアクセスした場合）、ECSインスタンスにアタッチされているRAMロールの一覧が取得されるため、実装次第では環境変数に設定する必要もなくなります。
 
 #### 検証コード
-検証に使用するソースコードは、[第1回・環境準備編](https://sbcloud.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1)で紹介したリージョン一覧を取得するサンプルコードを使用します。  
+検証に使用するソースコードは、[第1回・環境準備編](https://pangsen.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1)で紹介したリージョン一覧を取得するサンプルコードを使用します。  
 
 下記のように、クライアント生成部分のみ変更します。  
 （比較のため、`AccessKey/SecretAccessKey`および既存のクライアント生成部分はコメントアウトしています）

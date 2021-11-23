@@ -13,7 +13,7 @@ author: "sbc_akahane"
 
 # Web Application Firewall
 Web Application Firewall（WAF）の概要については過去記事のご参照をお願いします。
-> https://sbcloud.github.io/help/usecase-security/SECURITY_006_waf_ga
+> https://pangsen.github.io/help/usecase-security/SECURITY_006_waf_ga
 
 AlibabaCloud WAFはデフォルトで**Anti-DDoS Basic**が有効になっています。Anti-DDoS Basicでは、トラフィッククリーニングに加え、ブラックホール機能(※)により、Alibaba Cloud全体を保護しています。このブラックホール機能ですが、閾値を超える量の攻撃を受けると発動し、WEBサイトへのアクセスそのものを止めるという仕様になっています。ユーザ側でブラックホール状態の解除や、Anti-DDoS Basicの無効化はできないため、もしブラックホール機能が発動した場合は解除されるまで待つしかありません。     
 

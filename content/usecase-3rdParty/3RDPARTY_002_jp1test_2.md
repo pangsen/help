@@ -14,7 +14,7 @@ author: "SBC engineer blog"
 
 # はじめに
 
-<a href="https://sbcloud.github.io/help/usecase-3rdParty/3RDPARTY_001_jp1test_1">前回の記事</a>では、JP1-AJS3でのジョブの<span style="color: #ff0000">実装内容を検討</span>しました。  
+<a href="https://pangsen.github.io/help/usecase-3rdParty/3RDPARTY_001_jp1test_1">前回の記事</a>では、JP1-AJS3でのジョブの<span style="color: #ff0000">実装内容を検討</span>しました。  
 
 本記事では、Alibaba CloudにてJP1/AJS3（Version 12）らミドルウェアの導入検討した内容をAlibabaCloudで正常に動作するかについてご紹介します。    
 
@@ -26,13 +26,13 @@ JP1/AJS3のインストールは様々なブログやドキュメントに紹介
       
 
 # 検証環境  
-<a href="https://sbcloud.github.io/help/usecase-3rdParty/3RDPARTY_001_jp1test_1">前回の記事</a>の繰り返しとなりますが、本記事の検証を実施するための環境はこちらです。  
+<a href="https://pangsen.github.io/help/usecase-3rdParty/3RDPARTY_001_jp1test_1">前回の記事</a>の繰り返しとなりますが、本記事の検証を実施するための環境はこちらです。  
 なお、検証環境は<span style="color: #ff0000">構築済</span>とします。  
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-3rdParty/3rdParty_images_26006613447461200/20191010201939.png "img")      
 
 # ジョブの実装内容  
-こちらも<a href="https://sbcloud.github.io/help/usecase-3rdParty/3RDPARTY_001_jp1test_1">前回の記事</a>の繰り返しとなりますが、ジョブネット構成です。  
+こちらも<a href="https://pangsen.github.io/help/usecase-3rdParty/3RDPARTY_001_jp1test_1">前回の記事</a>の繰り返しとなりますが、ジョブネット構成です。  
 本記事では、このジョブネットの動作確認を実施していきます。  
 
 ![img](https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-3rdParty/3rdParty_images_26006613447461200/20191010201958.png "img")      　　

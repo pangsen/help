@@ -2,18 +2,18 @@ const config = {
 	"gatsby": {
 		"pathPrefix": "/help/",
     "pathPrefix_remove_slash": "/help",
-		"siteUrl": "https://sbcloud.github.io/help/",
+		"siteUrl": "https://pangsen.github.io/help/",
 		"gaTrackingId": null,
 		"trailingSlash": false
 	},
 	"header": {
-		"title": "<a href='https://sbcloud.github.io/help/'><img class='img-responsive' src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/TechnicalSite_5.png' alt='Learn logo' /></a>",
-		"githubUrl": "https://sbcloud.github.io/help/",
+		"title": "<a href='https://pangsen.github.io/help/'><img class='img-responsive' src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/TechnicalSite_5.png' alt='Learn logo' /></a>",
+		"githubUrl": "https://pangsen.github.io/help/",
 		"helpUrl": "",
 		"tweetText": "",
     "social": `
   <li>
-  <a href="https://sbcloud.github.io/help/rss.xml" target="_blank" rel="noopener">
+  <a href="https://pangsen.github.io/help/rss.xml" target="_blank" rel="noopener">
     <div class="twitterBtn">
       <img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/rss.svg' alt={'RSS'}/>
     </div>

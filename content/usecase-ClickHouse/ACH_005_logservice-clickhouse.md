@@ -40,9 +40,9 @@ LogService - ClickHouseのデータ連携方法を記載します。LogService�
 # 1.ClickHouseを準備する
 ## 1-1.ClickHouseインスタンスを準備する
 
-この手法は[過去の記事](https://sbcloud.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start)でも記載していますが、再掲として記載します。
+この手法は[過去の記事](https://pangsen.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start)でも記載していますが、再掲として記載します。
 
-> https://sbcloud.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start
+> https://pangsen.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start
 
 1）まずはApsaraDB for ClickHouseインスタンスを作成します。     
 ①VPCを作成     

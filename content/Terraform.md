@@ -38,7 +38,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="00 Terraformとは何か"
     metaDescription="Alibab Cloud Terraform についてを説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform00.what-is"
+    url="https://pangsen.github.io/help/Terraform/Terraform00.what-is"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -49,7 +49,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="01 Terraform Install"
     metaDescription="Alibab Cloud TerraformのInstall方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform01.install"
+    url="https://pangsen.github.io/help/Terraform/Terraform01.install"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.4.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -58,7 +58,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="02 サンプルプロジェクトの作成"
     metaDescription="Alibab Cloud Terraformサンプルプロジェクトの作成方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform02.sample-project"
+    url="https://pangsen.github.io/help/Terraform/Terraform02.sample-project"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_5.3.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -67,7 +67,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="03 サンプルプロジェクトの実行"
     metaDescription="Alibab Cloud Terraformサンプルプロジェクトの実行方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform03.run-terraform"
+    url="https://pangsen.github.io/help/Terraform/Terraform03.run-terraform"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_5.0.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -76,7 +76,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="04 Terraformの文法について"
     metaDescription="Alibab Cloud Terraformの文法についてを説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform04.program-syntax"
+    url="https://pangsen.github.io/help/Terraform/Terraform04.program-syntax"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.2.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -85,7 +85,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="05 Dockerについて"
     metaDescription="Dockerについて、および活用方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform05.docker"
+    url="https://pangsen.github.io/help/Terraform/Terraform05.docker"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_7.0.0.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -94,7 +94,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="06 Terraform Muduleについて"
     metaDescription="Terraform の Moduleについてを説明します"
-    url="https://sbcloud.github.io/help/Terraform/ccccc"
+    url="https://pangsen.github.io/help/Terraform/ccccc"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_2.4.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -106,7 +106,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="ssh踏み台サーバ"
     metaDescription="Alibab Cloud Terraformによるssh踏み台サーバの構築方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform11.case01.bastion-server"
+    url="https://pangsen.github.io/help/Terraform/Terraform11.case01.bastion-server"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_17.1.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -115,7 +115,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="SLBを利用したECSサーバ基盤"
     metaDescription="Alibab Cloud TerraformによるSLBを利用したECSサーバ基盤の構築方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform12.case02.SLB-service"
+    url="https://pangsen.github.io/help/Terraform/Terraform12.case02.SLB-service"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_18.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -124,7 +124,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="RDSを利用したECSサーバ基盤"
     metaDescription="Alibab Cloud TerraformによるRDSを利用したECSサーバ基盤の構築方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform13.case03.RDS-service"
+    url="https://pangsen.github.io/help/Terraform/Terraform13.case03.RDS-service"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_19.1.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -133,7 +133,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="Webアプリケーションの構築"
     metaDescription="Alibab Cloud TerraformによるWebアプリケーションの構築方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform14.case04.Web-application01"
+    url="https://pangsen.github.io/help/Terraform/Terraform14.case04.Web-application01"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_21.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -142,7 +142,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="高速コンテンツ配信Webサイトの構築"
     metaDescription="Alibab Cloud Terraformによる高速コンテンツ配信Webサイトの構築方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform15.case05.Web-application02"
+    url="https://pangsen.github.io/help/Terraform/Terraform15.case05.Web-application02"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_22.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"
@@ -151,7 +151,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="オートスケーリングするWebアプリケーションの構築"
     metaDescription="Alibab Cloud TerraformによるオートスケーリングするWebアプリケーションの構築方法を説明します"
-    url="https://sbcloud.github.io/help/Terraform/Terraform16.case06.Web-application03"
+    url="https://pangsen.github.io/help/Terraform/Terraform16.case06.Web-application03"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/Terraform/images/terraform_23.1.png"
     date="2021/05/10"
     author="Hironobu Ohara"

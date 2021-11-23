@@ -36,7 +36,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="Direct Mailでメール：コンソール編"
     metaDescription="Direct Mailでメールを送る方法：コンソール編"
-    url="https://sbcloud.github.io/help/usecase-Application/APPLICATION_001_Direct_Mail_console"
+    url="https://pangsen.github.io/help/usecase-Application/APPLICATION_001_Direct_Mail_console"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Application/Application_images_26006613468493200/20191120101023.png"
     date="2019/12/09"
     author="SBC engineer blog"
@@ -46,7 +46,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="Direct Mailでメール：API、SMTP編"
     metaDescription="Direct Mailでメールを送る方法：API、SMTP編"
-    url="https://sbcloud.github.io/help/usecase-Application/APPLICATION_002_Direct_Mail_API"
+    url="https://pangsen.github.io/help/usecase-Application/APPLICATION_002_Direct_Mail_API"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Application/Application_images_26006613468518500/00001.png"
     date="2019/12/10"
     author="SBC engineer blog"

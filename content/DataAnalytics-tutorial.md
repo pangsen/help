@@ -38,7 +38,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="データ分析とは？"
     metaDescription="今さらだが人に聞けない話、データ分析とは？"
-    url="https://sbcloud.github.io/help/DataAnalytics-tutorial/DATAANALYTICS_001_what-is-data-analytics"
+    url="https://pangsen.github.io/help/DataAnalytics-tutorial/DATAANALYTICS_001_what-is-data-analytics"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/DataAnalytics-tutorial/DataAnalytics_images_26006613656608400/20201203183620.png"    
     date="2020/12/04"
     author="sbc_ohara"

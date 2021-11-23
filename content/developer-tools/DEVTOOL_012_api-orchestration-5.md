@@ -14,7 +14,7 @@ author: "SBC engineer blog"
 
 `APIを用いてAlibaba Cloudリソースを自動構築する`シリーズ第5回目となります。
 
-[前回の記事](https://sbcloud.github.io/help/developer-tools/DEVTOOL_011_api-orchestration-4)では、Server Load Balancerを作成し、RDS経由でECSサーバにログインしました。  
+[前回の記事](https://pangsen.github.io/help/developer-tools/DEVTOOL_011_api-orchestration-4)では、Server Load Balancerを作成し、RDS経由でECSサーバにログインしました。  
 今回はRDBMSサービスであるApsara DB for RDSを作成し、ECSインスタンスからクエリを発行してみたいと思います。
 
 ## RDS要件
@@ -389,7 +389,7 @@ public class ApiSample {
 ## 接続確認
 では、作成したデータベースに接続し、テーブルを作成してみましょう 
 
-まずは、[前回の記事](https://sbcloud.github.io/help/developer-tools/DEVTOOL_011_api-orchestration-4)を参考にECSインスタンスにログインします。  
+まずは、[前回の記事](https://pangsen.github.io/help/developer-tools/DEVTOOL_011_api-orchestration-4)を参考にECSインスタンスにログインします。  
 
 ![ECSインスタンスログイン](https://raw.githubusercontent.com/sbcloud/help/master/content/developer-tools/developer-tools_images_17680117127201900000/20190617163321.png "ECSインスタンスログイン")      
 

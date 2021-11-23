@@ -16,8 +16,8 @@ Alibaba Cloudは国際サイトだけでも100を超える様々なプロダク�
 
 ![Producet Service portfolio](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/6.1.PNG "Producet Service portfolio")
 
-こちらは[プロダクトサービス一覧のページ](https://sbcloud.github.io/help/product_service)にて詳しく説明します。   
-> https://sbcloud.github.io/help/product_service
+こちらは[プロダクトサービス一覧のページ](https://pangsen.github.io/help/product_service)にて詳しく説明します。   
+> https://pangsen.github.io/help/product_service
 
 中でも、把握しておきたい代表的なプロダクトサービスは以下の通りです。
 

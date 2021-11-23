@@ -40,7 +40,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="FCでECSを自動起動&自動停止"
     metaDescription="Alibaba CloudのFunction Compute(サーバレスアーキテクチャ)を使ってECSインスタンスを自動起動&自動停止させる"
-    url="https://sbcloud.github.io/help/usecase-serverless/SERVERLESS_001_tnoce_functioncompute"
+    url="https://pangsen.github.io/help/usecase-serverless/SERVERLESS_001_tnoce_functioncompute"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613488886700/20191225175054.png"
     date="2019/12/25"
     author="長岡周"
@@ -49,7 +49,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="FCにライブラリをアップロード"
     metaDescription="FunctionComputeにライブラリをアップロードする"
-    url="https://sbcloud.github.io/help/usecase-serverless/SERVERLESS_002_functioncompute"
+    url="https://pangsen.github.io/help/usecase-serverless/SERVERLESS_002_functioncompute"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/Serverless_images_26006613500666600/20200205134303.png"
     date="2020/02/06"
     author="SBC engineer blog"
@@ -60,7 +60,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="KNativeによるサーバーレスK8S"
     metaDescription="Alibab Cloudによるサーバレス活用・構築パターンを説明します"
-    url="https://sbcloud.github.io/help/usecase-serverless/SERVERLESS_003_serverless_k8s_deployment"
+    url="https://pangsen.github.io/help/usecase-serverless/SERVERLESS_003_serverless_k8s_deployment"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-serverless/images/00_Use_Knative_In_ASK_Cluster.png"
     date="2021/06/09"
     author="Bob"

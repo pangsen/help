@@ -31,9 +31,9 @@ ClickHouseは非集計データを含む大量のデータを安定的かつ継�
 # 1.ECSでClickHouseClientの準備
 ## 1-1.ClickHouseインスタンスを準備します
 
-この手法は[過去の記事](https://sbcloud.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start)でも記載していますが、再掲として記載します。
+この手法は[過去の記事](https://pangsen.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start)でも記載していますが、再掲として記載します。
 
-> https://sbcloud.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start
+> https://pangsen.github.io/help/usecase-ClickHouse/ACH_002_clickhouse-quick-start
 
 1）まずはApsaraDB for ClickHouseインスタンスを作成します。     
 ①VPCを作成     

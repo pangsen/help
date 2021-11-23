@@ -14,7 +14,7 @@ author: "SBC engineer blog"
 
 `APIを用いてAlibaba Cloudリソースを自動構築する`シリーズ第2回目となります。
 
-[前回の記事](https://sbcloud.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1)では、Alibaba Java SDKの開発環境を整備する手順を紹介しました。  
+[前回の記事](https://pangsen.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1)では、Alibaba Java SDKの開発環境を整備する手順を紹介しました。  
 今回からは、本格的にAPIを用いてAlibaba Cloud上にリソースを構築していきたいと思います。
 
 ## 全体構成図

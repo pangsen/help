@@ -38,7 +38,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="DataVの紹介"
     metaDescription="インパクトのあるダッシュボードを作るならDataV #1 紹介編"
-    url="https://sbcloud.github.io/help/usecase-datav/DATAV_001_Introduction"
+    url="https://pangsen.github.io/help/usecase-datav/DATAV_001_Introduction"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-datav/DataV_images_17680117127213200000/temp1.gif"
     date="2019/07/04"
     author="SBC engineer blog"
@@ -50,7 +50,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="DataVでマップ作成"
     metaDescription="インパクトのあるダッシュボードを作るならDataV #2 3Dマップ編"
-    url="https://sbcloud.github.io/help/usecase-datav/DATAV_002_Map"
+    url="https://pangsen.github.io/help/usecase-datav/DATAV_002_Map"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-datav/DataV_images_26006613378008500/instance_list.png"
     date="2019/12/26"
     author="SBC engineer blog"
@@ -59,7 +59,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="DataV Proxyについて"
     metaDescription="DataVユーザーの強い味方！DataV Proxyについて"
-    url="https://sbcloud.github.io/help/usecase-datav/DATAV_003_DataVProxy"
+    url="https://pangsen.github.io/help/usecase-datav/DATAV_003_DataVProxy"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-datav/DataV_images_26006613506519500/20200203161752.png"
     date="2020/02/05"
     author="SBC engineer blog"

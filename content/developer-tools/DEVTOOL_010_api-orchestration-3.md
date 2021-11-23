@@ -14,7 +14,7 @@ author: "SBC engineer blog"
 
 `APIを用いてAlibaba Cloudリソースを自動構築する`シリーズ第3回目となります。
 
-[前回の記事](https://sbcloud.github.io/help/developer-tools/DEVTOOL_009_api-orchestration-2)では、  
+[前回の記事](https://pangsen.github.io/help/developer-tools/DEVTOOL_009_api-orchestration-2)では、  
 シリーズを通して作成するAlibaba Cloud環境の構成図を紹介し、さらに各コンポーネントの土台となるVPCおよびVSwitchを作成しました。  
 
 今回は前回構築したVPC内にAuto Scalingを作成し、ECSサーバをたててみたいと思います。
@@ -241,7 +241,7 @@ APIを用いてSecurity Groupを作成した場合、作成時点ではIN/OUTと
 </dependency>
 ```
 
-本記事では、ECS SDKも使用しますので、インポートしていない場合は[第1回の記事](https://sbcloud.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1)を参考に、`pom.xml`に依存関係を追加してください。
+本記事では、ECS SDKも使用しますので、インポートしていない場合は[第1回の記事](https://pangsen.github.io/help/developer-tools/DEVTOOL_008_api-orchestration-1)を参考に、`pom.xml`に依存関係を追加してください。
 
 ## サンプルコード
 先程紹介した手順の、**3. Scaling Group作成**から**5. Scaling Groupの有効化**までを、一気通貫でやってしまいます。

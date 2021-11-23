@@ -34,7 +34,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="PolarDB-OマイグレーションPart1"
     metaDescription="【PolarDBマイグレーションシリーズ】Oracle DatabaseからPolarDB-Oマイグレーション-Part1 OracleDatabaseセットアップ、事前準備"
-    url="https://sbcloud.github.io/help/usecase-PolarDB/PolarDB_001_oracle-migration-part1"
+    url="https://pangsen.github.io/help/usecase-PolarDB/PolarDB_001_oracle-migration-part1"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-PolarDB/polardb_images_13574176438014222676/20210922091036.png"
     date="2021/09/23"
     author="Hironobu Ohara"
@@ -43,7 +43,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="PolarDB-OマイグレーションPart2"
     metaDescription="【PolarDBマイグレーションシリーズ】Oracle DatabaseからPolarDB-Oマイグレーション-Part2 Oracle Database評価"
-    url="https://sbcloud.github.io/help/usecase-PolarDB/PolarDB_002_oracle-migration-part2"
+    url="https://pangsen.github.io/help/usecase-PolarDB/PolarDB_002_oracle-migration-part2"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-PolarDB/polardb_images_13574176438014223999/20210922091327.png"
     date="2021/09/23"
     author="Hironobu Ohara"
@@ -52,7 +52,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="PolarDB-OマイグレーションPart3"
     metaDescription="【PolarDBマイグレーションシリーズ】Oracle DatabaseからPolarDB-Oマイグレーション-Part3 データベースマイグレーション準備"
-    url="https://sbcloud.github.io/help/usecase-PolarDB/PolarDB_003_oracle-migration-part3"
+    url="https://pangsen.github.io/help/usecase-PolarDB/PolarDB_003_oracle-migration-part3"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-PolarDB/polardb_images_13574176438014224403/20210922092601.png"
     date="2021/09/23"
     author="Hironobu Ohara"
@@ -61,7 +61,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="PolarDB-OマイグレーションPart4"
     metaDescription="【PolarDBマイグレーションシリーズ】Oracle DatabaseからPolarDB-Oマイグレーション-Part4 データベースマイグレーション実行"
-    url="https://sbcloud.github.io/help/usecase-PolarDB/PolarDB_004_oracle-migration-part4"
+    url="https://pangsen.github.io/help/usecase-PolarDB/PolarDB_004_oracle-migration-part4"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-PolarDB/polardb_images_13574176438014224791/20210922195004.png"
     date="2021/09/23"
     author="Hironobu Ohara"
@@ -70,7 +70,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="PolarDB-OマイグレーションPart5"
     metaDescription="【PolarDBマイグレーションシリーズ】Oracle DatabaseからPolarDB-Oマイグレーション-Part5 アプリケーションマイグレーションと改修"
-    url="https://sbcloud.github.io/help/usecase-PolarDB/PolarDB_005_oracle-migration-part5"
+    url="https://pangsen.github.io/help/usecase-PolarDB/PolarDB_005_oracle-migration-part5"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-PolarDB/polardb_images_13574176438014225111/20210922223627.png"
     date="2021/09/23"
     author="Hironobu Ohara"

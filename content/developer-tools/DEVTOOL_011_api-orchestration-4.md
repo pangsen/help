@@ -15,7 +15,7 @@ author: "SBC engineer blog"
 
 `APIを用いてAlibaba Cloudリソースを自動構築する`シリーズ第4回目となります。
 
-[前回の記事](https://sbcloud.github.io/help/developer-tools/DEVTOOL_010_api-orchestration-3)では、Auto Scalingを作成し、ECSサーバを起動しました。  
+[前回の記事](https://pangsen.github.io/help/developer-tools/DEVTOOL_010_api-orchestration-3)では、Auto Scalingを作成し、ECSサーバを起動しました。  
 今回は負荷分散装置であるServer Load Balancer（SLB）を作成し、前回作成したAuto Scalingに紐付け、  
 SLB経由でECSサーバにログインしてみたいと思います。
 

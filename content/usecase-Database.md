@@ -38,7 +38,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="POLARDBとRDSの性能比較"
     metaDescription="Alibaba Cloud POLARDBとRDSの簡単な性能比較（Sysbench編）"
-    url="https://sbcloud.github.io/help/usecase-Database/DATABASE_001_PolarDB_Sysbench"
+    url="https://pangsen.github.io/help/usecase-Database/DATABASE_001_PolarDB_Sysbench"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Database/Database_images_26006613495358500/000000000000000003.png"
     date="2020/01/10"
     author="SBC engineer blog"
@@ -48,7 +48,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="ワンクリックでPolarDBへ"
     metaDescription="ワンクリックで既存のRDSからPOLARDBを作成する"
-    url="https://sbcloud.github.io/help/usecase-Database/DATABASE_002_On_click_PolarDB"
+    url="https://pangsen.github.io/help/usecase-Database/DATABASE_002_On_click_PolarDB"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Database/Database_images_26006613497985700/000000000000000004.png"
     date="2020/01/17"
     author="SBC engineer blog"
@@ -58,7 +58,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="TableStoreのインデックス機能"
     metaDescription="TableStoreのインデックス機能の紹介"
-    url="https://sbcloud.github.io/help/usecase-Database/DATABASE_003_tebale-store-index"
+    url="https://pangsen.github.io/help/usecase-Database/DATABASE_003_tebale-store-index"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Database/Database_images_26006613589299100/20200624162717.png"
     date="2020/07/03"
     author="SBC engineer blog"
@@ -69,7 +69,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="RDS SQL Serverの暗号化"
     metaDescription="ApsaraDB RDS for SQLServerでデータをTDE暗号化し、確認してみる"
-    url="https://sbcloud.github.io/help/usecase-Database/DATABASE_004_ApsaraDB-TDE"
+    url="https://pangsen.github.io/help/usecase-Database/DATABASE_004_ApsaraDB-TDE"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-Database/Database_images_26006613777375500/20210618211853.png"
     date="2021/06/18"
     author="sbc_ohara"

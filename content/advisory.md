@@ -34,7 +34,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="基本概念"
     metaDescription="Alibab Cloudの基本概念についてを説明します"
-    url="https://sbcloud.github.io/help/advisory/advisory01.basic_concept"
+    url="https://pangsen.github.io/help/advisory/advisory01.basic_concept"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/1.3.2.png"
     date="2021/05/26"
     author="Hironobu Ohara"
@@ -44,7 +44,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="リージョン&ゾーン"
     metaDescription="Alibab Cloudのリージョン&ゾーンについてを説明します"
-    url="https://sbcloud.github.io/help/advisory/advisory02.Regions&Zones"
+    url="https://pangsen.github.io/help/advisory/advisory02.Regions&Zones"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/2.1.PNG"
     date="2021/05/26"
     author="Hironobu Ohara"
@@ -54,7 +54,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="コンソールについて"
     metaDescription="Alibab Cloudのコンソールについてを説明します"
-    url="https://sbcloud.github.io/help/advisory/advisory03.Console"
+    url="https://pangsen.github.io/help/advisory/advisory03.Console"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/3.5.PNG"
     date="2021/05/26"
     author="Hironobu Ohara"
@@ -64,7 +64,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="Alibab CloudのRAMについて"
     metaDescription="Alibab CloudのRAMについてを説明します"
-    url="https://sbcloud.github.io/help/advisory/advisory04.RAM"
+    url="https://pangsen.github.io/help/advisory/advisory04.RAM"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/4.1.PNG"
     date="2021/05/26"
     author="Hironobu Ohara"
@@ -74,7 +74,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="課金・請求関連"
     metaDescription="Alibab Cloud プロダクト料課金・請求関連についてを説明します。"
-    url="https://sbcloud.github.io/help/advisory/advisory05.About_Billing"
+    url="https://pangsen.github.io/help/advisory/advisory05.About_Billing"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/5.2.PNG"
     date="2021/06/10"
     author="Hironobu Ohara"
@@ -84,7 +84,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="セキュリティ"
     metaDescription="Alibab Cloudのセキュリティについてを説明します"
-    url="https://sbcloud.github.io/help/advisory/advisory06.Security"
+    url="https://pangsen.github.io/help/advisory/advisory06.Security"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/advisory/images/6.1.PNG"
     date="2021/05/26"
     author="Hironobu Ohara"

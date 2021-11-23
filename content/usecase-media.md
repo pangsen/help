@@ -39,7 +39,7 @@ query MyQuery {
 <Titlelist 
     metaTitle="日中間動画配信サーバーの構築"
     metaDescription="日中間動画配信サーバーの構築"
-    url="https://sbcloud.github.io/help/usecase-media/MEDIA_001_Japan-China_video_distribution_server"
+    url="https://pangsen.github.io/help/usecase-media/MEDIA_001_Japan-China_video_distribution_server"
     imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-media/Media_images_98012380860378000/20181202132152.png"
     date="2018/11/30"
     author="SBC engineer blog"

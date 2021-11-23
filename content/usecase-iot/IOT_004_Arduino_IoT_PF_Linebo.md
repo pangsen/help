@@ -270,9 +270,9 @@ if __name__ == "__main__":
 
 ```
 
-LineBotの部分の説明は[こちらの記事](https://sbcloud.github.io/help/usecase-AI/AI_004_LineBot_imagesearch_demo) をご参照ください。     
+LineBotの部分の説明は[こちらの記事](https://pangsen.github.io/help/usecase-AI/AI_004_LineBot_imagesearch_demo) をご参照ください。     
 
-> https://sbcloud.github.io/help/usecase-AI/AI_004_LineBot_imagesearch_demo
+> https://pangsen.github.io/help/usecase-AI/AI_004_LineBot_imagesearch_demo
 
 
 具体的な説明を省いて、AlibabaIoTPlatformと通信の際の注意点のみ紹介させていただきます。    

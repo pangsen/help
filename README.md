@@ -3,7 +3,7 @@
 
 ## 🔗 サイト
 
-Here's [https://sbcloud.github.io/help/](https://sbcloud.github.io/help/)
+Here's [https://pangsen.github.io/help/](https://pangsen.github.io/help/)
 
 ## 概要
 Alibaba Cloudの初心者から、開発者向けに照らしつつ、Alibaba Cloudをどのように使用するか、プロダクトサービスの説明、シナリオに応じた構築方法を技術的に理解するためのサイトです。

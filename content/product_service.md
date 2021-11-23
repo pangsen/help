@@ -12,7 +12,7 @@ author: "Hironobu Ohara"
 
 # ネットワーク
 
-> [Alibaba Cloud のネットワーク系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service01.Networking)
+> [Alibaba Cloud のネットワーク系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service01.Networking)
 
 |プロダクト名|コメント|
 |---|---|
@@ -37,7 +37,7 @@ author: "Hironobu Ohara"
 
 # 仮想コンピューティング・コンテナ・IaaS
 
-> [Alibaba Cloud の仮想コンピューティング・コンテナ・IaaS系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service02.ElasticComputing)
+> [Alibaba Cloud の仮想コンピューティング・コンテナ・IaaS系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service02.ElasticComputing)
 
 |プロダクト名|内容|
 |---|---|
@@ -69,7 +69,7 @@ author: "Hironobu Ohara"
 
 # ストレージ
 
-> [Alibaba Cloud のストレージ系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service03.Storage)
+> [Alibaba Cloud のストレージ系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service03.Storage)
 
 
 |プロダクト名|コメント|
@@ -93,7 +93,7 @@ author: "Hironobu Ohara"
 
 # データベース
 
-> [Alibaba Cloud のデータベース系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service04.Database)
+> [Alibaba Cloud のデータベース系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service04.Database)
 
 |プロダクト名|コメント|
 |---|---|
@@ -131,7 +131,7 @@ author: "Hironobu Ohara"
 
 # セキュリティ
 
-> [Alibaba Cloud のセキュリティ系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service05.Security)
+> [Alibaba Cloud のセキュリティ系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service05.Security)
 
 |プロダクト名|コメント|
 |---|---|
@@ -164,7 +164,7 @@ author: "Hironobu Ohara"
 
 # CDN
 
-> [Alibaba Cloud のCDN系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service06.CDN)
+> [Alibaba Cloud のCDN系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service06.CDN)
 
 |プロダクト名|コメント|
 |---|---|
@@ -178,7 +178,7 @@ author: "Hironobu Ohara"
 
 # 分析サービス
 
-> [Alibaba Cloud の分析サービス系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service07.Analytics)
+> [Alibaba Cloud の分析サービス系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service07.Analytics)
 
 |プロダクト名|コメント|
 |---|---|
@@ -199,7 +199,7 @@ author: "Hironobu Ohara"
 
 # AI系
 
-> [Alibaba Cloud のAI系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service08.ArtificialIntelligence)
+> [Alibaba Cloud のAI系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service08.ArtificialIntelligence)
 
 |プロダクト名|コメント|
 |---|---|
@@ -215,7 +215,7 @@ author: "Hironobu Ohara"
 
 # ミドルウェア
 
-> [Alibaba Cloud のミドルウェア系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service09.Middleware)
+> [Alibaba Cloud のミドルウェア系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service09.Middleware)
 
 |プロダクト名|コメント|
 |---|---|
@@ -234,7 +234,7 @@ author: "Hironobu Ohara"
 
 # メディア
 
-> [Alibaba Cloud のメディア系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service10.MediaServices)
+> [Alibaba Cloud のメディア系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service10.MediaServices)
 
 |プロダクト名|コメント|
 |---|---|
@@ -247,7 +247,7 @@ author: "Hironobu Ohara"
 
 # IoT
 
-> [Alibaba Cloud のIoT系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service11.InternetofThings)
+> [Alibaba Cloud のIoT系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service11.InternetofThings)
 
 |プロダクト名|コメント|
 |---|---|
@@ -259,7 +259,7 @@ author: "Hironobu Ohara"
 
 # マイクロサービス
 
-> [Alibaba Cloud のマイクロサービス系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service12.microservices)
+> [Alibaba Cloud のマイクロサービス系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service12.microservices)
 
 |プロダクト名|コメント|
 |---|---|
@@ -271,7 +271,7 @@ author: "Hironobu Ohara"
 
 # ブロックチェーン
 
-> [Alibaba Cloud のブロックチェーンプロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service13.blockchain)
+> [Alibaba Cloud のブロックチェーンプロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service13.blockchain)
 
 |プロダクト名|コメント|
 |---|---|
@@ -282,7 +282,7 @@ author: "Hironobu Ohara"
 
 # Developer
 
-> [Alibaba Cloud のDeveloper系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service14.developer)
+> [Alibaba Cloud のDeveloper系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service14.developer)
 
 |プロダクト名|コメント|
 |---|---|
@@ -304,7 +304,7 @@ author: "Hironobu Ohara"
 
 # ドメイン名とウェブサイト
 
-> [Alibaba Cloud のドメイン名とウェブサイト系プロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service15.Domain_website)
+> [Alibaba Cloud のドメイン名とウェブサイト系プロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service15.Domain_website)
 
 |プロダクト名|コメント|
 |---|---|
@@ -317,7 +317,7 @@ author: "Hironobu Ohara"
 
 # プライベートクラウド
 
-> [Alibaba Cloud のプライベートクラウドプロダクトサービスの詳細についてはこちらを参照ください。](https://sbcloud.github.io/help/product_service/product_service16.PrivateCloud)
+> [Alibaba Cloud のプライベートクラウドプロダクトサービスの詳細についてはこちらを参照ください。](https://pangsen.github.io/help/product_service/product_service16.PrivateCloud)
 
 |プロダクト名|コメント|
 |---|---|
@@ -329,7 +329,7 @@ author: "Hironobu Ohara"
 
 # よくある質問集
 
-> [よくある質問集へ（プロダクトサービス関連にかかわるQA）](https://sbcloud.github.io/help/product_service/product_service99.product_service_faq)
+> [よくある質問集へ（プロダクトサービス関連にかかわるQA）](https://pangsen.github.io/help/product_service/product_service99.product_service_faq)
 
 
 
