@@ -21,8 +21,8 @@ jobs:
 
     steps:
     - run: ls
+    - uses: actions/checkout@v2   
     - working-directory: ./build
-    - uses: actions/checkout@v2    
     - run: ls
     - run: cd ..
     - run: ls
