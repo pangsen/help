@@ -8,7 +8,7 @@ author: "Hironobu Ohara"
 
 import CommunityAuthor from '../../src/CommunityAuthor.js';
 
-# Alibaba が提供するクラウドサービス Sam test
+# Alibaba が提供するクラウドサービス Sam test again
 
 ![What is Alibaba Group](https://raw.githubusercontent.com/sbcloud/help/master/content/introduction/images/2.1.PNG "Alibaba Group")
 
