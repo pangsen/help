@@ -20,7 +20,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v2
+    - run: ls
+    - working-directory: ./build
+    - uses: actions/checkout@v2    
     - run: ls
     - run: cd ..
     - run: ls
