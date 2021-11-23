@@ -20,12 +20,11 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - run: ls
-    - uses: actions/checkout@v2   
-    - working-directory: ./build
-    - run: ls
-    - run: cd ..
-    - run: ls
+    - uses: actions/checkout@v2  
+    - name: Setup and run tests
+      working-directory: ./build
+      run: |
+       ls
+       cd ..
+       ls
     - run: mv package.json ../public
-    - run: cd ../
-    - run: ls
