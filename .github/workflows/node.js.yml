@@ -23,7 +23,8 @@ jobs:
     - uses: actions/checkout@v2  
     - name: Setup and run tests
       run: |
-       ls
-       cd ../
+       mkdir test
+       mv package.json ./test
+       cd test
        ls
     - run: mv package.json ../public
