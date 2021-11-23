@@ -25,6 +25,6 @@ jobs:
       working-directory: ./build
       run: |
        ls
-       cd ..
+       cd ../
        ls
     - run: mv package.json ../public
