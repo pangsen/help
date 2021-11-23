@@ -26,4 +26,8 @@ jobs:
       with:
         ref: web
         path: web
-    - run: ls 
+    - run: |
+          date > generated.txt
+          git add .
+          git commit -m "generated"
+          git push
