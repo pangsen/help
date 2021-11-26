@@ -17,7 +17,7 @@
     "@playlyfe/gql": "^2.6.2",
     "algoliasearch": "^3.35.1",
     "dotenv": "^8.2.0",
-    "gatsby": "^3.1.2",
+    "gatsby": "^3.1.1",
     "gatsby-link": "^3.1.0",
     "gatsby-plugin-algolia": "^0.17.0",
     "gatsby-plugin-emotion": "^6.1.0",
