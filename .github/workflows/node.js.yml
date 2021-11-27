@@ -23,13 +23,13 @@ jobs:
     - uses: jitterbit/get-changed-files@v1
     - run: |
         for changed_file in ${{ steps.files.outputs.all }}; do
-          echo "Do something with this ${changed_file}."
+          echo  ${{changed_file}}
         done
     - run: echo ${{github.actor}}
     - uses: actions/checkout@v2  
       with:
         ref: main
     - run: ls
-    - run: node ./workflow_scripts/test.js ${{ steps.files.outputs.all }}
+    - run: node ./workflow_scripts/test.js ${ steps.files.outputs.all }
 
 
