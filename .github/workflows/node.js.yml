@@ -29,6 +29,6 @@ jobs:
         ref: main
     - run: ls
     - run: node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
-    - run: node ./workflow_scripts/test2.js
+    - run: node ./workflow_scripts/dist/index.js
 
 

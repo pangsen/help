@@ -9,9 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "front-matter": "^4.0.2",
-    "ncc": "^0.3.6",
-    "remark-frontmatter": "^4.0.1",
-    "to-vfile": "^7.2.2"
+    "@vercel/ncc": "^0.32.0",
+    "front-matter": "^4.0.2"
   }
 }
