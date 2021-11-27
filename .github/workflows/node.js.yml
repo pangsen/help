@@ -30,6 +30,6 @@ jobs:
       with:
         ref: main
     - run: ls
-    - run: node ./workflow_scripts/test.js
+    - run: node ./workflow_scripts/test.js ${{ steps.files.outputs.all }}
 
 
