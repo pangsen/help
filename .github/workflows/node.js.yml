@@ -27,6 +27,7 @@ jobs:
         done
     - run: echo ${{github.actor}}
     - run: node -v
+    - run: ls
     - run: node ./workflow_scripts/test.js
 
 
