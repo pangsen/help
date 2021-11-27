@@ -24,7 +24,7 @@ jobs:
       id: changes
     - run: |
         for changed_file in ${{ steps.changes.outputs.all }}; do
-          echo  ${{changed_file}}
+          echo  '${changed_file}'
         done
     - run: echo ${{steps.changes.outputs.all}}
     - run: echo ${{github.actor}}
