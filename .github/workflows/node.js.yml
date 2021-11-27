@@ -23,7 +23,7 @@ jobs:
     - uses: jitterbit/get-changed-files@v1
     - run: |
         for changed_file in ${{ steps.files.outputs.all }}; do
-          echo  ${{changed_file}}
+          echo  ${changed_file}
         done
     - run: echo ${{github.actor}}
     - uses: actions/checkout@v2  
