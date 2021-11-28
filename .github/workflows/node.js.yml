@@ -28,7 +28,7 @@ jobs:
       with:
         ref: main
     - run: ls
-    - run: node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
+    - run: node ./workflow_scripts/onlyCanModifyFilesInAllowPath.js ${{ steps.changes.outputs.all }}
     - name: test
       id: test
       run: node ./workflow_scripts/updateDate/index.js
