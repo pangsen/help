@@ -5934,26 +5934,26 @@ var fs = __nccwpck_require__(7147)
     , fm = __nccwpck_require__(5137)
     , path = __nccwpck_require__(1017)
     , core = __nccwpck_require__(3045);
-var state = core.getState("samTest");
-console.log(state);
 
-// const rootFolder = process.argv[1].endsWith("workflow_scripts\\checkMetadata.js") ? "..\\" : "..\\..\\";
-// for (let index = 2; index < process.argv.length; index++) {
-//     var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))
-//     if (path.extname(filePath) == ".md") {
-//         fs.readFile(filePath, 'utf8', function (err, data) {
-//             if (err) throw err
-//             var content = fm(data)
-//             var checkAttributes = ["title", "metaTitle", "metaDescription", "date", "author"]
-//             checkAttributes.forEach(attribute => {
-//                 if (!content.attributes[attribute]) {
-//                     console.log(attribute + " is required!")
-//                 }
-//             });
+const rootFolder = process.argv[1].endsWith("workflow_scripts\\checkMetadata.js") ? "../" : "../../";
+for (let index = 2; index < process.argv.length; index++) {
+    var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))
+    console.log(filePath);
+    if (path.extname(filePath) == ".md") {
+        fs.readFile(filePath, 'utf8', function (err, data) {
+            if (err) throw err
+            var content = fm(data)
+            var checkAttributes = ["title", "metaTitle", "metaDescription", "date", "author"]
+            checkAttributes.forEach(attribute => {
+                if (!content.attributes[attribute]) {
+                    core.info(attribute + " is required!");
+                    core.setOutput("checkMetadata", "true");
+                }
+            });
 
-//         })
-//     }
-// }
+        })
+    }
+}
 
 })();
 
