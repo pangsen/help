@@ -2,9 +2,8 @@ var fs = require('fs')
     , fm = require('front-matter')
     , path = require('path')
     , core = require('@actions/core')
-core.saveState("samTest", { id: "xxx", value: "xxxxx" });
-var state = core.getState("samTest");
-console.log(state);
+core.info(`samTest: ddd`);
+core.setOutput("samTest", { id: "xxx", value: "xxxxx" });
 // const rootFolder = process.argv[1].endsWith("workflow_scripts\\updateDate.js") ? "..\\" : "..\\..\\";
 // for (let index = 2; index < process.argv.length; index++) {
 //     var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))
