@@ -3,7 +3,6 @@ title: "Media系プロダクトサービス"
 metaTitle: "Media系プロダクトサービスについて"
 metaDescription: "Alibaba Cloud のMediaプロダクトサービス についてを説明します"
 date: "2021-11-28"
-author: "Hironobu Ohara"
 ---
 
 import Titlelist from '../src/Titlelist.js';
