@@ -9,8 +9,8 @@ for (let index = 2; index < process.argv.length; index++) {
     if (path.extname(filePath) == ".md") {
         var fileInPRBranch = fs.readFileSync(filePath, "utf8");
         var fileInMainBranch = fs.readFileSync(filePath.replace("\\pr\\","\\main\\"), "utf8");
-        pr = fileInPRBranch.split("\r\n");
-        main = fileInMainBranch.split("\r\n");
+        pr = fileInPRBranch.split("\n");
+        main = fileInMainBranch.split("\n");
         main.forEach((value, index) => {
             console.log(value);
             console.log(pr[index]);
