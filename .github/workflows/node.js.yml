@@ -34,7 +34,7 @@ jobs:
       run: node ./workflow_scripts/updateDate/index.js
     - run: echo 'sam test'
     - run: echo ${{steps.test.outputs}}
-    - run: echo ${{steps.test.outputs.samTest}}
+    - run: echo ${{steps.test.outputs.sam_test}}
     - run: node ./workflow_scripts/checkMetadata/index.js
 
 

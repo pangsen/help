@@ -3,7 +3,7 @@ var fs = require('fs')
     , path = require('path')
     , core = require('@actions/core')
 core.info(`samTest: ddd`);
-core.setOutput("samTest","xxxxxx");
+core.setOutput("sam_test","xxxxxx");
 // const rootFolder = process.argv[1].endsWith("workflow_scripts\\updateDate.js") ? "..\\" : "..\\..\\";
 // for (let index = 2; index < process.argv.length; index++) {
 //     var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))
