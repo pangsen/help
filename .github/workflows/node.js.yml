@@ -20,21 +20,27 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - run: mkdir pr
+    - run: mkdir main
     - uses: jitterbit/get-changed-files@v1
       id: changes
-    - run: echo ${{steps.changes.outputs.all}}
-    - run: echo ${{github.actor}}
+    - uses: actions/checkout@v2
+      with:
+        path: pr
+    - name: OnlyCanModifyFilesInAllowPath
+      id: OnlyCanModifyFilesInAllowPath
+      run: node ./pr/workflow_scripts/onlyCanModifyFilesInAllowPath.js ${{ steps.changes.outputs.all }}
+    - name: CheckMetadata
+      id: CheckMetadata
+      run: node ./pr/workflow_scripts/checkMetadata/index.js ${{ steps.changes.outputs.all }}
     - uses: actions/checkout@v2  
       with:
         ref: main
-    - run: ls
-    - run: node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
-    - name: test
-      id: test
-      run: node ./workflow_scripts/updateDate/index.js
-    - run: echo 'sam test'
-    - run: echo ${{steps.test.outputs}}
-    - run: echo ${{steps.test.outputs.sam_test}}
-    - run: node ./workflow_scripts/checkMetadata/index.js
-
+        path: main  
+    - name: MotAllowDeleteHalfWidthSpace
+      id: MotAllowDeleteHalfWidthSpace
+      run: node ./pr/workflow_scripts/notAllowDeleteHalfWidthSpace.js ${{ steps.changes.outputs.all }}
+    - name: UpdateDate
+      id: UpdateDate
+      run: node ./pr/workflow_scripts/updateDate/index.js ${{ steps.changes.outputs.all }}
 
