@@ -24,6 +24,11 @@ jobs:
       id: changes
     - run: echo ${{steps.changes.outputs.all}}
     - run: echo ${{github.actor}}
+    - uses: actions/checkout@v2  
+      with:
+        ref: main
+    - run: ls
+    - run: node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
     - run: node ./workflow_scripts/updateDate/index.js
     - run: node ./workflow_scripts/checkMetadata/index.js
 
