@@ -30,7 +30,7 @@ jobs:
     - run: ls
     - run: |
         node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
-        echo ${{steps.test.outputs.sam_test}}
+        Write-Output "::set-output name=sam_test::test"
            
     - name: test
       id: test
