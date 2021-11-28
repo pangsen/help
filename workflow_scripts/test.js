@@ -2,9 +2,7 @@
 console.log(process.argv)
 var fs = require('fs');
 var path = require('path');
-async function test() {
-    console.log("hello world!");
-}
+
 async function testEditfile() {
    
     var filepath = path.normalize(path.join(__dirname, "../package.json"));
