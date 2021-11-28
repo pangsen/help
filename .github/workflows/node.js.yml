@@ -29,8 +29,10 @@ jobs:
         ref: main
     - run: ls
     - run: node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
-    - run: node ./workflow_scripts/updateDate/index.js
-    - run: echo ${{steps.samTest}}
+    - name: test
+      id: test
+      run: node ./workflow_scripts/updateDate/index.js
+    - run: echo ${{steps.test.outputs.samTest}}
     - run: node ./workflow_scripts/checkMetadata/index.js
 
 
