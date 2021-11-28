@@ -3,7 +3,10 @@ var fs = require('fs')
     , path = require('path')
     , core = require('@actions/core');
 var state = core.getState("samTest");
+
+console.log("start log state");
 console.log(state);
+console.log(core.state);
 
 // const rootFolder = process.argv[1].endsWith("workflow_scripts\\checkMetadata.js") ? "..\\" : "..\\..\\";
 // for (let index = 2; index < process.argv.length; index++) {
