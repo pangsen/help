@@ -5934,7 +5934,8 @@ var fs = __nccwpck_require__(7147)
     , fm = __nccwpck_require__(5137)
     , path = __nccwpck_require__(1017)
     , core = __nccwpck_require__(3045)
-    core.saveState("samTest",{id:"xxx",value:"xxxxx"});
+core.info(`samTest: ddd`);
+core.setOutput("sam_test","xxxxxx");
 // const rootFolder = process.argv[1].endsWith("workflow_scripts\\updateDate.js") ? "..\\" : "..\\..\\";
 // for (let index = 2; index < process.argv.length; index++) {
 //     var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))

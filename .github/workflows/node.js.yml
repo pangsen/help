@@ -31,9 +31,7 @@ jobs:
     - run: node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
     - name: test
       id: test
-      run: |
-        node ./workflow_scripts/updateDate/index.js
-        echo '::set-output name=sam_test::samTest123'
+      run: node ./workflow_scripts/updateDate/index.js'
     - run: echo 'sam test'
     - run: echo ${{steps.test.outputs}}
     - run: echo ${{steps.test.outputs.sam_test}}
