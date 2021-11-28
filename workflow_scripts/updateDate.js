@@ -4,7 +4,7 @@ var fs = require('fs')
     , core = require('@actions/core')
 
 
-const rootFolder = process.argv[1].endsWith("workflow_scripts\\updateDate.js") ? "..\\" : "..\\..\\";
+const rootFolder = process.argv[1].endsWith("workflow_scripts/updateDate.js") ? "../" : "../../";
 for (let index = 2; index < process.argv.length; index++) {
     var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))
     const { mtime } = fs.statSync(filePath)
