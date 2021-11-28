@@ -28,13 +28,12 @@ jobs:
       with:
         ref: main
     - run: ls
-    - run: |
-        node ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
-        echo '::set-output name=sam_test::samTest123'
-           
+    - run: ./workflow_scripts/test.js ${{ steps.changes.outputs.all }}
     - name: test
       id: test
-      run: node ./workflow_scripts/updateDate/index.js
+      run: |
+        node ./workflow_scripts/updateDate/index.js
+        echo '::set-output name=sam_test::samTest123'
     - run: echo 'sam test'
     - run: echo ${{steps.test.outputs}}
     - run: echo ${{steps.test.outputs.sam_test}}
