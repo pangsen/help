@@ -32,7 +32,7 @@ jobs:
     - name: test
       id: test
       run: node ./workflow_scripts/updateDate/index.js
-    - run: echo ${{steps.test.samTest}}
+    - run: echo ${{steps.test.outputs.samTest}}
     - run: node ./workflow_scripts/checkMetadata/index.js
 
 
