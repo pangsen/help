@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require("fs");
 
-const rootFolder = process.argv[1].endsWith("workflow_scripts\\notAllowDeleteHalfWidthSpace.js") ? "..\\" : "..\\..\\";
+const rootFolder = process.argv[1].endsWith("workflow_scripts/notAllowDeleteHalfWidthSpace.js") ? "..\\" : "..\\..\\";
 for (let index = 2; index < process.argv.length; index++) {
     var filePath = path.normalize(path.join(__dirname, rootFolder + process.argv[index]))
     if (path.extname(filePath) == ".md") {

@@ -2,8 +2,6 @@ var fs = require('fs')
     , fm = require('front-matter')
     , path = require('path')
     , core = require('@actions/core');
-var state = core.getState("samTest");
-
 
 const rootFolder = process.argv[1].endsWith("workflow_scripts\\checkMetadata.js") ? "..\\" : "..\\..\\";
 for (let index = 2; index < process.argv.length; index++) {
