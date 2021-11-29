@@ -1,6 +1,5 @@
 ---
 title: "Media系プロダクトサービス"
-metaTitle: "Media系プロダクトサービスについて"
 metaDescription: "Alibaba Cloud のMediaプロダクトサービス についてを説明します"
 date: "2021-11-22"
 ---
@@ -34,6 +33,7 @@ query MyQuery {
 
 この記事では Alibaba Cloud Media系プロダクトサービスによる活用パターンをいくつか紹介いたします。  
 この記事では Alibaba Cloud Media系プロダクトサービスによる活用パターンをいくつか紹介いたします。
+test
 # Alibab Cloud Media系プロダクトサービスによる構成例
 
 
