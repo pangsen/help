@@ -33,9 +33,6 @@ query MyQuery {
 
 この記事では Alibaba Cloud Media系プロダクトサービスによる活用パターンをいくつか紹介いたします。  
 この記事では Alibaba Cloud Media系プロダクトサービスによる活用パターンをいくつか紹介いたします。
-
-
-
 test
 # Alibab Cloud Media系プロダクトサービスによる構成例
 
