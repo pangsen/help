@@ -14,10 +14,11 @@ for (let index = 2; index < process.argv.length; index++) {
             var checkAttributes = ["title", "metaTitle", "metaDescription", "date", "author"]
             checkAttributes.forEach(attribute => {
                 if (!content.attributes[attribute]) {
-                    core.info(attribute + " is required!");
+                    core.info(attribute + " is required! "+process.argv[index]);
                     core.setOutput("checkMetadata", "true");
                 }
             });
+
 
         })
     }
